@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55dd6b9414a21413eb1a4776d1397a93, type: 3}
+  m_Name: knight
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterDefinition
+  id: knight
+  displayName: Knight
+  controller: {fileID: 9100000, guid: 379de44a5f5f64e63aba505daf599947, type: 2}
+  thumbnail: {fileID: 1258698328, guid: db265ce0c422a4e3eb0aee1a541727d4, type: 3}
+  actionNames:
+  - attack
+  - defend
+  - hurt

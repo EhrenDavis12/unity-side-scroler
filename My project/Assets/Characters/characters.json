@@ -1,0 +1,424 @@
+{
+  "characters": [
+    {
+      "id": "knight",
+      "name": "Knight",
+      "animations": {
+        "idle": {
+          "sheet": "assets/characters/knight/idle.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": true
+        },
+        "attack": {
+          "sheet": "assets/characters/knight/attack.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": false
+        },
+        "defend": {
+          "sheet": "assets/characters/knight/defend.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": false
+        },
+        "hurt": {
+          "sheet": "assets/characters/knight/hurt.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": false
+        }
+      },
+      "skill": {
+        "name": "Sword Wave",
+        "spin": false,
+        "animation": {
+          "sheet": "assets/characters/knight/skill.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": true
+        },
+        "impact": {
+          "sheet": "assets/characters/knight/burst.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 32,
+          "loop": false
+        }
+      }
+    },
+    {
+      "id": "archer",
+      "name": "Archer",
+      "animations": {
+        "idle": {
+          "sheet": "assets/characters/archer/idle.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": true
+        },
+        "attack": {
+          "sheet": "assets/characters/archer/attack.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": false
+        },
+        "defend": {
+          "sheet": "assets/characters/archer/defend.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": false
+        },
+        "hurt": {
+          "sheet": "assets/characters/archer/hurt.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": false
+        }
+      },
+      "skill": {
+        "name": "Arrow Shot",
+        "spin": false,
+        "animation": {
+          "sheet": "assets/characters/archer/skill.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": true
+        },
+        "impact": {
+          "sheet": "assets/characters/archer/burst.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 32,
+          "loop": false
+        }
+      }
+    },
+    {
+      "id": "mage",
+      "name": "Mage",
+      "animations": {
+        "idle": {
+          "sheet": "assets/characters/mage/idle.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": true
+        },
+        "attack": {
+          "sheet": "assets/characters/mage/attack.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": false
+        },
+        "defend": {
+          "sheet": "assets/characters/mage/defend.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": false
+        },
+        "hurt": {
+          "sheet": "assets/characters/mage/hurt.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": false
+        }
+      },
+      "skill": {
+        "name": "Fireball",
+        "spin": false,
+        "animation": {
+          "sheet": "assets/characters/mage/skill.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": true
+        },
+        "impact": {
+          "sheet": "assets/characters/mage/burst.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 32,
+          "loop": false
+        }
+      }
+    },
+    {
+      "id": "rogue",
+      "name": "Rogue",
+      "animations": {
+        "idle": {
+          "sheet": "assets/characters/rogue/idle.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": true
+        },
+        "attack": {
+          "sheet": "assets/characters/rogue/attack.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": false
+        },
+        "defend": {
+          "sheet": "assets/characters/rogue/defend.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": false
+        },
+        "hurt": {
+          "sheet": "assets/characters/rogue/hurt.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": false
+        }
+      },
+      "skill": {
+        "name": "Dagger Throw",
+        "spin": true,
+        "animation": {
+          "sheet": "assets/characters/rogue/skill.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": true
+        },
+        "impact": {
+          "sheet": "assets/characters/rogue/burst.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 32,
+          "loop": false
+        }
+      }
+    },
+    {
+      "id": "healer",
+      "name": "Healer",
+      "animations": {
+        "idle": {
+          "sheet": "assets/characters/healer/idle.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": true
+        },
+        "attack": {
+          "sheet": "assets/characters/healer/attack.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": false
+        },
+        "defend": {
+          "sheet": "assets/characters/healer/defend.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": false
+        },
+        "hurt": {
+          "sheet": "assets/characters/healer/hurt.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": false
+        }
+      },
+      "skill": {
+        "name": "Holy Light",
+        "spin": false,
+        "animation": {
+          "sheet": "assets/characters/healer/skill.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": true
+        },
+        "impact": {
+          "sheet": "assets/characters/healer/burst.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 32,
+          "loop": false
+        }
+      }
+    },
+    {
+      "id": "barbarian",
+      "name": "Barbarian",
+      "animations": {
+        "idle": {
+          "sheet": "assets/characters/barbarian/idle.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": true
+        },
+        "attack": {
+          "sheet": "assets/characters/barbarian/attack.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": false
+        },
+        "defend": {
+          "sheet": "assets/characters/barbarian/defend.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": false
+        },
+        "hurt": {
+          "sheet": "assets/characters/barbarian/hurt.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": false
+        }
+      },
+      "skill": {
+        "name": "Axe Throw",
+        "spin": true,
+        "animation": {
+          "sheet": "assets/characters/barbarian/skill.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 16,
+          "loop": true
+        },
+        "impact": {
+          "sheet": "assets/characters/barbarian/burst.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "columns": 7,
+          "rows": 6,
+          "frameCount": 38,
+          "fps": 32,
+          "loop": false
+        }
+      }
+    }
+  ]
+}
