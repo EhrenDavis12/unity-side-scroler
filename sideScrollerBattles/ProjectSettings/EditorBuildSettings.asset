@@ -9,4 +9,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Showcase.unity
     guid: e06babefb96f8464ea9d1b8e0f3e505b
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: a0fc326aef3e64ec3b1a857d5c05eb1f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="tile" class="tile">
+        <ui:VisualElement name="inner" class="tile-inner">
+            <ui:Image name="thumbnail" class="tile-thumbnail" />
+            <ui:Label name="name-label" class="tile-label" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

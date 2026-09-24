@@ -1,117 +1,209 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.U2D;
+using UnityEngine.UIElements;
 
 /// <summary>
-/// Builds the Showcase screen's bottom-half UI (character carousel + action buttons) from the
-/// CharacterCatalog at runtime, and drives which character/action plays in the top half via
-/// ShowcaseCharacter. The Canvas, ScrollRect, viewport and layout containers themselves are
-/// built once by the editor (Characters/Build Showcase Scene); this component only populates
-/// their content, so nothing here hand-edits scene YAML.
+/// Drives the Showcase screen's bottom-half UI Toolkit carousel + action buttons, and which
+/// character/action plays in the top half via ShowcaseCharacter. The UIDocument (its
+/// PanelSettings, Showcase.uxml and Showcase.uss) is built once by the editor
+/// (Characters/Build Showcase Scene); this component only queries and populates it, so nothing
+/// here hand-edits scene YAML.
+///
+/// Every catalog entry's <see cref="CharacterDefinition"/> is Addressable, so its thumbnail and
+/// controller aren't available until loaded: this component kicks off a load for every entry's
+/// atlas *and* definition as soon as the screen opens, atlas first — the definition's thumbnail
+/// sprite is a page of that atlas, and in a packed build the atlas can still be in flight when
+/// the thumbnail is assigned, which UI Toolkit never repaints on its own once it resolves late.
+/// Loading the atlas up front, plus repainting again whenever AddressableSpriteAtlasBinder binds
+/// one late, covers both orderings. Reuses the already-loaded definition the instant a tile is
+/// selected rather than loading again. All handles are released on teardown.
 /// </summary>
 public class ShowcaseScreen : MonoBehaviour
 {
     private const int VisibleTiles = 5;
 
     // Bigger than the Flutter reference's 96 reference px: this is a desktop-sized view, and
-    // the cap is in the CanvasScaler's reference px, not raw screen px.
+    // the cap is in the PanelSettings' reference px, not raw screen px.
     private const float MaxTileWidth = 160f;
     private const float LabelHeight = 24f;
 
-    private static readonly Color SelectedOutline = new Color(0x58 / 255f, 0xC4 / 255f, 0xFF / 255f);
-    private static readonly Color UnselectedOutline = new Color(0.6f, 0.6f, 0.6f);
-    private const float SelectedBorderWidth = 2f;
-    private const float UnselectedBorderWidth = 1f;
+    // Must match the "margin-right" on the ".tile" rule in Showcase.uss — USS can't reference a
+    // C# constant, so this is the one place that value is kept in sync by hand.
+    private const float TileSpacing = 8f;
 
     [SerializeField] private CharacterCatalog catalog;
     [SerializeField] private ShowcaseCharacter showcaseCharacter;
-    [SerializeField] private ScrollRect carouselScrollRect;
-    [SerializeField] private RectTransform carouselViewport;
-    [SerializeField] private RectTransform carouselContent;
-    [SerializeField] private RectTransform actionButtonRow;
+    [SerializeField] private UIDocument uiDocument;
+    [SerializeField] private VisualTreeAsset carouselTileTemplate;
 
-    private readonly List<CarouselTile> _tiles = new List<CarouselTile>();
+    private ScrollView _carousel;
+    private VisualElement _actionButtonRow;
+
+    private readonly List<VisualElement> _tiles = new List<VisualElement>();
+    private readonly List<AsyncOperationHandle<CharacterDefinition>> _handles =
+        new List<AsyncOperationHandle<CharacterDefinition>>();
+    private readonly List<AsyncOperationHandle<SpriteAtlas>> _atlasHandles =
+        new List<AsyncOperationHandle<SpriteAtlas>>();
+    private CharacterDefinition[] _loadedDefinitions;
+
     private int _selectedIndex = -1;
+    // The tile a click is waiting on while its definition is still loading (or just failed) —
+    // never a tile whose definition has already resolved. -1 when nothing is pending.
+    private int _pendingSelection = -1;
     private float _lastViewportWidth = -1f;
 
     private void Start()
     {
         if (catalog == null || catalog.Characters.Count == 0) return;
-        // The viewport's RectTransform hasn't been through a layout pass yet at Start (it still
-        // holds its unlaid-out default rect), so TileWidth() would read a stale size. Force the
-        // pending Canvas/layout-group rebuilds through before measuring it.
-        Canvas.ForceUpdateCanvases();
-        _lastViewportWidth = carouselViewport != null ? carouselViewport.rect.width : -1f;
-        BuildCarousel();
-        SelectCharacter(0);
+
+        VisualElement root = uiDocument.rootVisualElement;
+        _carousel = root.Q<ScrollView>("carousel");
+        _actionButtonRow = root.Q<VisualElement>("action-button-row");
+        _carousel.mode = ScrollViewMode.Horizontal;
+        _carousel.horizontalScrollerVisibility = ScrollerVisibility.Hidden;
+        _carousel.verticalScrollerVisibility = ScrollerVisibility.Hidden;
+
+        _loadedDefinitions = new CharacterDefinition[catalog.Characters.Count];
+
+        // The very first GeometryChangedEvent, once the panel's initial layout pass completes,
+        // doubles as "build the carousel for the first time" — resolvedStyle sizes aren't valid
+        // any earlier than that, and every later resize/rotation needs the same rebuild anyway.
+        _carousel.RegisterCallback<GeometryChangedEvent>(OnCarouselGeometryChanged);
+
+        AddressableSpriteAtlasBinder.AtlasBound += OnAtlasBound;
+        LoadAllDefinitions();
+        SelectCharacter(0); // applied once tile 0's definition resolves — see SelectCharacter().
     }
 
-    private void Update()
+    private void OnDestroy()
     {
-        // The camera fit (ShowcaseCameraFit) already reacts to a resize/rotation; the carousel
-        // needs the same treatment, or it goes stale — tile size and centering were computed
-        // once in Start against whatever the viewport happened to be then. RectTransforms don't
-        // raise a C# event for this, so poll cheaply and only rebuild when the width actually
-        // moved.
-        if (carouselViewport == null) return;
-        float width = carouselViewport.rect.width;
+        AddressableSpriteAtlasBinder.AtlasBound -= OnAtlasBound;
+        foreach (AsyncOperationHandle<CharacterDefinition> handle in _handles)
+        {
+            if (handle.IsValid()) Addressables.Release(handle);
+        }
+        foreach (AsyncOperationHandle<SpriteAtlas> handle in _atlasHandles)
+        {
+            if (handle.IsValid()) Addressables.Release(handle);
+        }
+    }
+
+    private void OnCarouselGeometryChanged(GeometryChangedEvent evt)
+    {
+        float width = _carousel.contentViewport.resolvedStyle.width;
         if (Mathf.Approximately(width, _lastViewportWidth)) return;
         _lastViewportWidth = width;
         RebuildCarousel();
     }
 
-    private float ContentSpacing()
+    private void LoadAllDefinitions()
     {
-        var layout = carouselContent != null ? carouselContent.GetComponent<HorizontalLayoutGroup>() : null;
-        return layout != null ? layout.spacing : 0f;
+        for (int i = 0; i < catalog.Characters.Count; i++)
+        {
+            int index = i;
+            CharacterCatalogEntry entry = catalog.Characters[i];
+
+            // Atlas first: its tag equals the character id (CharacterAddressablesSetup), and the
+            // definition's thumbnail sprite is one of its pages.
+            AsyncOperationHandle<SpriteAtlas> atlasHandle = Addressables.LoadAssetAsync<SpriteAtlas>(entry.id);
+            _atlasHandles.Add(atlasHandle);
+            atlasHandle.Completed += op => OnAtlasLoaded(index, op);
+
+            AsyncOperationHandle<CharacterDefinition> handle = entry.definition.LoadAssetAsync();
+            _handles.Add(handle);
+            handle.Completed += op => OnDefinitionLoaded(index, op);
+        }
     }
 
-    /// <summary>
-    /// Tile width so exactly <see cref="VisibleTiles"/> tiles plus their gaps fill the viewport
-    /// width — the sixth tile then peeks at the edge rather than being invisibly clipped flush.
-    /// </summary>
+    private void OnAtlasLoaded(int index, AsyncOperationHandle<SpriteAtlas> op)
+    {
+        if (op.Status != AsyncOperationStatus.Succeeded)
+        {
+            Debug.LogError(
+                $"ShowcaseScreen: failed to load the atlas for \"{catalog.Characters[index].id}\": {op.OperationException}");
+            return;
+        }
+        RepaintThumbnail(index);
+    }
+
+    /// <summary>AddressableSpriteAtlasBinder's late-bound hook can also resolve a character's
+    /// atlas after its thumbnail sprite was already assigned (with no atlas page yet resident);
+    /// repaint that tile too so it doesn't stay blank.</summary>
+    private void OnAtlasBound(string tag)
+    {
+        for (int i = 0; i < catalog.Characters.Count; i++)
+        {
+            if (catalog.Characters[i].id == tag) RepaintThumbnail(i);
+        }
+    }
+
+    private void RepaintThumbnail(int index)
+    {
+        if (index < 0 || index >= _tiles.Count) return;
+        _tiles[index].Q<Image>("thumbnail").MarkDirtyRepaint();
+    }
+
+    private void OnDefinitionLoaded(int index, AsyncOperationHandle<CharacterDefinition> op)
+    {
+        if (op.Status != AsyncOperationStatus.Succeeded)
+        {
+            Debug.LogError(
+                $"ShowcaseScreen: failed to load the definition for \"{catalog.Characters[index].id}\": {op.OperationException}");
+            // Leave the previous selection and content exactly as they were — never move the
+            // highlight or action buttons onto a character that isn't actually on screen.
+            if (_pendingSelection == index) _pendingSelection = -1;
+            return;
+        }
+
+        CharacterDefinition definition = op.Result;
+        _loadedDefinitions[index] = definition;
+        SetTileThumbnail(index, definition.Thumbnail);
+        if (_pendingSelection == index) ApplySelection(index);
+    }
+
     private float TileWidth()
     {
-        float panelWidth = carouselViewport != null ? carouselViewport.rect.width : MaxTileWidth * VisibleTiles;
-        float available = panelWidth - (VisibleTiles - 1) * ContentSpacing();
+        float viewportWidth = _carousel.contentViewport.resolvedStyle.width;
+        if (float.IsNaN(viewportWidth) || viewportWidth <= 0f) viewportWidth = MaxTileWidth * VisibleTiles;
+        float available = viewportWidth - (VisibleTiles - 1) * TileSpacing;
         return Mathf.Min(available / VisibleTiles, MaxTileWidth);
     }
 
     private void RebuildCarousel()
     {
-        foreach (CarouselTile tile in _tiles)
-        {
-            if (tile != null) Destroy(tile.gameObject);
-        }
-        _tiles.Clear();
         BuildCarousel();
         // BuildCarousel() doesn't know which character was already selected; SelectCharacter()
         // itself early-returns on an unchanged index, so reapply just the visual highlight.
-        if (_selectedIndex >= 0 && _selectedIndex < _tiles.Count) _tiles[_selectedIndex].SetSelected(true);
+        if (_selectedIndex >= 0 && _selectedIndex < _tiles.Count) SetTileSelected(_selectedIndex, true);
     }
 
     private void BuildCarousel()
     {
+        _carousel.contentContainer.Clear();
+        _tiles.Clear();
+
         float tileWidth = TileWidth();
         for (int i = 0; i < catalog.Characters.Count; i++)
         {
-            CharacterDefinition character = catalog.Characters[i];
-            CarouselTile tile = CarouselTile.Create(
-                carouselContent,
-                character,
-                tileWidth,
-                tileWidth + LabelHeight,
-                tileWidth,
-                LabelHeight,
-                SelectedOutline,
-                UnselectedOutline,
-                SelectedBorderWidth,
-                UnselectedBorderWidth);
+            CharacterCatalogEntry entry = catalog.Characters[i];
+            TemplateContainer instance = carouselTileTemplate.Instantiate();
+            VisualElement tile = instance.Q<VisualElement>("tile");
+            tile.style.width = tileWidth;
+            tile.style.height = tileWidth + LabelHeight;
+            tile.Q<Label>("name-label").text = entry.displayName;
+
             int index = i;
-            tile.Button.onClick.AddListener(() => SelectCharacter(index));
+            tile.RegisterCallback<ClickEvent>(_ => SelectCharacter(index));
+
+            _carousel.contentContainer.Add(instance);
             _tiles.Add(tile);
+
+            if (_loadedDefinitions[i] != null) SetTileThumbnail(i, _loadedDefinitions[i].Thumbnail);
         }
-        CenterOrScrollContent(tileWidth);
+        UpdateContentAlignment(tileWidth);
     }
 
     /// <summary>
@@ -119,50 +211,65 @@ public class ShowcaseScreen : MonoBehaviour
     /// to the left with dead space on the right; when it overflows, leaves it left-aligned and
     /// scrollable (the normal carousel behaviour).
     /// </summary>
-    private void CenterOrScrollContent(float tileWidth)
+    private void UpdateContentAlignment(float tileWidth)
     {
-        Canvas.ForceUpdateCanvases();
-        float spacing = ContentSpacing();
         int count = catalog.Characters.Count;
-        float contentWidth = count * tileWidth + Mathf.Max(0, count - 1) * spacing;
-        float viewportWidth = carouselViewport.rect.width;
+        float contentWidth = count * tileWidth + Mathf.Max(0, count - 1) * TileSpacing;
+        float viewportWidth = _carousel.contentViewport.resolvedStyle.width;
 
-        if (contentWidth < viewportWidth)
+        _carousel.contentContainer.EnableInClassList("carousel-content-centered", contentWidth < viewportWidth);
+    }
+
+    /// <summary>Picking a character moves the highlight and swaps the on-screen character only
+    /// once its definition has actually resolved (immediately, if it already has) — never
+    /// preemptively, so a failed load can't leave the highlight on a tile whose character never
+    /// replaced what's on screen (see OnDefinitionLoaded).</summary>
+    public void SelectCharacter(int index)
+    {
+        if (index == _selectedIndex || index == _pendingSelection) return;
+
+        if (_loadedDefinitions[index] != null)
         {
-            if (carouselScrollRect != null) carouselScrollRect.horizontal = false;
-            carouselContent.anchoredPosition = new Vector2((viewportWidth - contentWidth) / 2f, carouselContent.anchoredPosition.y);
+            ApplySelection(index);
         }
         else
         {
-            if (carouselScrollRect != null) carouselScrollRect.horizontal = true;
-            carouselContent.anchoredPosition = new Vector2(0f, carouselContent.anchoredPosition.y);
+            _pendingSelection = index;
         }
     }
 
-    /// <summary>Picking a character shows its idle immediately and rebuilds its action row.</summary>
-    public void SelectCharacter(int index)
+    private void ApplySelection(int index)
     {
-        if (index == _selectedIndex) return;
-        if (_selectedIndex >= 0 && _selectedIndex < _tiles.Count) _tiles[_selectedIndex].SetSelected(false);
+        _pendingSelection = -1;
+        if (_selectedIndex >= 0 && _selectedIndex < _tiles.Count) SetTileSelected(_selectedIndex, false);
         _selectedIndex = index;
-        _tiles[index].SetSelected(true);
+        SetTileSelected(index, true);
+        showcaseCharacter.Show(_loadedDefinitions[index]);
+        BuildActionButtons(_loadedDefinitions[index]);
+    }
 
-        CharacterDefinition character = catalog.Characters[index];
-        showcaseCharacter.Show(character);
-        BuildActionButtons(character);
+    private void SetTileSelected(int index, bool selected)
+    {
+        if (index < 0 || index >= _tiles.Count) return;
+        _tiles[index].EnableInClassList("selected", selected);
+    }
+
+    private void SetTileThumbnail(int index, Sprite thumbnail)
+    {
+        if (index < 0 || index >= _tiles.Count) return;
+        _tiles[index].Q<Image>("thumbnail").sprite = thumbnail;
     }
 
     private void BuildActionButtons(CharacterDefinition character)
     {
-        for (int i = actionButtonRow.childCount - 1; i >= 0; i--)
-        {
-            Destroy(actionButtonRow.GetChild(i).gameObject);
-        }
+        _actionButtonRow.Clear();
         foreach (string actionName in character.ActionNames)
         {
-            Button button = CreateActionButton(actionButtonRow, Label(actionName));
+            var button = new Button { text = Label(actionName) };
+            button.AddToClassList("action-button");
             string capturedAction = actionName;
-            button.onClick.AddListener(() => showcaseCharacter.PlayAction(capturedAction));
+            button.clicked += () => showcaseCharacter.PlayAction(capturedAction);
+            _actionButtonRow.Add(button);
         }
     }
 
@@ -170,35 +277,5 @@ public class ShowcaseScreen : MonoBehaviour
     {
         if (string.IsNullOrEmpty(key)) return key;
         return char.ToUpperInvariant(key[0]) + key.Substring(1);
-    }
-
-    private static Button CreateActionButton(Transform parent, string label)
-    {
-        var go = new GameObject(label + "Button", typeof(RectTransform), typeof(Image), typeof(Button), typeof(LayoutElement));
-        go.transform.SetParent(parent, false);
-        var image = go.GetComponent<Image>();
-        image.color = new Color(0.25f, 0.28f, 0.4f);
-
-        var layout = go.GetComponent<LayoutElement>();
-        layout.minWidth = 140;
-        layout.minHeight = 44;
-        layout.preferredWidth = 140;
-        layout.preferredHeight = 44;
-
-        var textGo = new GameObject("Label", typeof(RectTransform), typeof(Text));
-        textGo.transform.SetParent(go.transform, false);
-        var text = textGo.GetComponent<Text>();
-        text.text = label;
-        text.alignment = TextAnchor.MiddleCenter;
-        text.color = Color.white;
-        text.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
-        text.fontSize = 16;
-        var textRect = (RectTransform)textGo.transform;
-        textRect.anchorMin = Vector2.zero;
-        textRect.anchorMax = Vector2.one;
-        textRect.offsetMin = Vector2.zero;
-        textRect.offsetMax = Vector2.zero;
-
-        return go.GetComponent<Button>();
     }
 }

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Character_archer
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Character_archer
+  m_GUID: a3a89abc01ba64e238311bfd38f2ae44
+  m_SerializeEntries:
+  - m_GUID: 00f8188840c454318b41aea905b02b3d
+    m_Address: archer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11eb9944423634faebd7ae33d5d0f2e1
+    m_Address: character/archer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - character
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4f751191832f641ec83e2a472612561d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 90df69175659e49388f40ab6e82ada4a, type: 2}
+    - {fileID: 11400000, guid: ef497617f3ce94623a332da197f22235, type: 2}
+    m_SchemaDisplayOrder:
+    - Character_archer_BundledAssetGroupSchema
+    - Character_archer_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

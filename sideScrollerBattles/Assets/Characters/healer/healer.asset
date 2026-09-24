@@ -11,7 +11,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55dd6b9414a21413eb1a4776d1397a93, type: 3}
   m_Name: healer
-  m_EditorClassIdentifier: Assembly-CSharp::CharacterDefinition
+  m_EditorClassIdentifier: Game.Runtime::CharacterDefinition
   id: healer
   displayName: Healer
   controller: {fileID: 9100000, guid: a264a98b80d1f44eebfb2473e33b0cde, type: 2}

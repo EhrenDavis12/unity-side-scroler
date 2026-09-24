@@ -2,61 +2,101 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Newtonsoft.Json.Linq;
 using UnityEditor;
 using UnityEditor.Animations;
-using UnityEditor.U2D.Sprites;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 /// <summary>
-/// Imports the showcase character sheets under Assets/Characters into sliced sprites, per-action
-/// AnimationClips, one AnimatorController per character, and a CharacterDefinition +
-/// CharacterCatalog pair — all driven from Assets/Characters/characters.json, the same contract
-/// the Flutter demo reads. Re-running replaces each generated asset's contents in place (reusing
-/// existing sprite IDs and clip names), so a re-run with unchanged input touches nothing on disk.
+/// Imports the showcase character sheets under Assets/Characters into per-action AnimationClips,
+/// one AnimatorController per character, and a CharacterDefinition + CharacterCatalog pair — all
+/// driven from Assets/Characters/characters.json, the same contract the Flutter demo reads.
+/// Sprite slicing and per-texture import settings are handled automatically on import by
+/// <see cref="CharacterSheetPostprocessor"/>, which declares a dependency on characters.json so
+/// editing the JSON alone (without touching a PNG) still reimports every sheet it describes.
+/// This menu item regenerates clips, controllers, definitions and the catalog from whatever the
+/// sheets were sliced into, and prunes any character no longer present in the JSON. Re-running
+/// with unchanged input touches nothing on disk.
 /// </summary>
 public static class CharacterImporter
 {
     private const string CharactersRoot = "Assets/Characters";
     private const string CatalogJsonPath = CharactersRoot + "/characters.json";
     private const string CatalogAssetPath = CharactersRoot + "/CharacterCatalog.asset";
-    private const int PixelsPerUnit = 256;
-    private const int MaxTextureSize = 2048;
 
     [MenuItem("Characters/Import Sheets")]
     public static void ImportSheets()
     {
         string json = File.ReadAllText(CatalogJsonPath);
-        var root = (JsonObject)MiniJson.Deserialize(json);
-        if (!root.TryGetValue("characters", out object charactersRaw) || !(charactersRaw is List<object> charactersList))
+        var root = JObject.Parse(json);
+        if (!(root["characters"] is JArray charactersArray))
         {
             Debug.LogError("CharacterImporter: characters.json has no \"characters\" array — aborting, no assets touched.");
             return;
         }
-        var characters = charactersList.Cast<JsonObject>().ToList();
+        List<JObject> characters = charactersArray.OfType<JObject>().ToList();
 
         // Validate everything before mutating anything: a bad entry partway through the JSON
         // must never leave some characters imported and others silently skipped.
         if (!ValidateCatalog(characters)) return;
 
-        var definitions = new List<CharacterDefinition>();
-        foreach (JsonObject characterJson in characters)
+        // Ids the previous run knew about — anything here that's missing from the current JSON
+        // has been removed and needs its generated assets and Addressables entries pruned.
+        CharacterCatalog existingCatalog = AssetDatabase.LoadAssetAtPath<CharacterCatalog>(CatalogAssetPath);
+        List<string> previousIds = existingCatalog != null
+            ? existingCatalog.Characters.Select(e => e.id).ToList()
+            : new List<string>();
+
+        var entries = new List<CharacterCatalogEntry>();
+        foreach (JObject characterJson in characters)
         {
             CharacterDefinition definition = ImportCharacter(characterJson);
-            if (definition != null) definitions.Add(definition);
+            if (definition == null) continue;
+
+            string id = (string)characterJson["id"];
+            string displayName = (string)characterJson["name"];
+            string definitionPath = AssetDatabase.GetAssetPath(definition);
+            string folder = $"{CharactersRoot}/{id}";
+            AssetReferenceT<CharacterDefinition> reference =
+                CharacterAddressablesSetup.MakeCharacterAddressable(id, definitionPath, folder);
+            entries.Add(new CharacterCatalogEntry { id = id, displayName = displayName, definition = reference });
         }
 
-        CharacterCatalog catalog = AssetDatabase.LoadAssetAtPath<CharacterCatalog>(CatalogAssetPath);
-        if (catalog == null)
+        var currentIds = new HashSet<string>(characters.Select(c => (string)c["id"]));
+        foreach (string previousId in previousIds)
         {
-            catalog = ScriptableObject.CreateInstance<CharacterCatalog>();
-            AssetDatabase.CreateAsset(catalog, CatalogAssetPath);
+            if (!currentIds.Contains(previousId)) PruneRemovedCharacter(previousId);
         }
-        catalog.EditorInit(definitions);
+
+        CharacterCatalog catalog = existingCatalog != null ? existingCatalog : ScriptableObject.CreateInstance<CharacterCatalog>();
+        if (existingCatalog == null) AssetDatabase.CreateAsset(catalog, CatalogAssetPath);
+        catalog.EditorInit(entries);
         EditorUtility.SetDirty(catalog);
 
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
-        Debug.Log($"Characters/Import Sheets: imported {definitions.Count} character(s).");
+        Debug.Log($"Characters/Import Sheets: imported {entries.Count} character(s).");
+    }
+
+    /// <summary>Removes a character's generated definition, clips, controller and atlas (never
+    /// its source sheet PNGs) plus its Addressables entries, for an id that was in the catalog
+    /// before this run but is no longer in characters.json.</summary>
+    private static void PruneRemovedCharacter(string id)
+    {
+        string folder = $"{CharactersRoot}/{id}";
+        AssetDatabase.DeleteAsset($"{folder}/{id}.asset");
+        AssetDatabase.DeleteAsset($"{folder}/{id}.controller");
+        AssetDatabase.DeleteAsset($"{folder}/{id}.spriteatlasv2");
+        foreach (string clipPath in AssetDatabase.FindAssets("t:AnimationClip", new[] { folder })
+                     .Select(AssetDatabase.GUIDToAssetPath))
+        {
+            AssetDatabase.DeleteAsset(clipPath);
+        }
+        CharacterAddressablesSetup.RemoveCharacterGroup(id);
+        Debug.LogWarning(
+            $"CharacterImporter: character \"{id}\" is no longer in characters.json — " +
+            "removed its definition, clips, controller, atlas, and Addressables entries.");
     }
 
     /// <summary>
@@ -64,32 +104,32 @@ public static class CharacterImporter
     /// and its frameCount must fit the declared grid. Stops and logs at the first problem found
     /// — the importer never touches an asset until the whole catalog has passed this check.
     /// </summary>
-    private static bool ValidateCatalog(List<JsonObject> characters)
+    private static bool ValidateCatalog(List<JObject> characters)
     {
-        foreach (JsonObject characterJson in characters)
+        foreach (JObject characterJson in characters)
         {
-            string id = characterJson.TryGetValue("id", out object idObj) ? idObj as string : null;
+            string id = (string)characterJson["id"];
             if (string.IsNullOrEmpty(id))
             {
                 Debug.LogError("CharacterImporter: a character entry has no \"id\" — aborting import, no assets touched.");
                 return false;
             }
-            if (!characterJson.TryGetValue("animations", out object animsObj) || !(animsObj is JsonObject animations))
+            if (!(characterJson["animations"] is JObject animations))
             {
                 Debug.LogError($"CharacterImporter: character \"{id}\" has no \"animations\" object — aborting import, no assets touched.");
                 return false;
             }
-            if (!animations.ContainsKey("idle"))
+            if (animations["idle"] == null)
             {
                 Debug.LogError($"CharacterImporter: character \"{id}\" has no \"idle\" animation — aborting import, no assets touched.");
                 return false;
             }
 
             string folder = $"{CharactersRoot}/{id}";
-            foreach (KeyValuePair<string, object> entry in animations)
+            foreach (JProperty entry in animations.Properties())
             {
-                string key = entry.Key;
-                if (!(entry.Value is JsonObject animJson))
+                string key = entry.Name;
+                if (!(entry.Value is JObject animJson))
                 {
                     Debug.LogError($"CharacterImporter: character \"{id}\" animation \"{key}\" is not an object — aborting import, no assets touched.");
                     return false;
@@ -103,6 +143,8 @@ public static class CharacterImporter
                     return false;
                 }
 
+                int frameWidth = ReadInt(animJson, "frameWidth");
+                int frameHeight = ReadInt(animJson, "frameHeight");
                 int columns = ReadInt(animJson, "columns");
                 int rows = ReadInt(animJson, "rows");
                 int frameCount = ReadInt(animJson, "frameCount");
@@ -113,25 +155,39 @@ public static class CharacterImporter
                         $"> 0 and <= columns*rows ({columns}*{rows}) — aborting import, no assets touched.");
                     return false;
                 }
+
+                if (AssetImporter.GetAtPath(texturePath) is TextureImporter textureImporter)
+                {
+                    textureImporter.GetSourceTextureWidthAndHeight(out int textureWidth, out int textureHeight);
+                    int gridWidth = columns * frameWidth;
+                    int gridHeight = rows * frameHeight;
+                    if (gridWidth > textureWidth || gridHeight > textureHeight)
+                    {
+                        Debug.LogError(
+                            $"CharacterImporter: character \"{id}\" animation \"{key}\": grid {columns}x{rows} at " +
+                            $"{frameWidth}x{frameHeight} ({gridWidth}x{gridHeight}) exceeds the sheet's " +
+                            $"{textureWidth}x{textureHeight} texture — aborting import, no assets touched.");
+                        return false;
+                    }
+                }
             }
         }
         return true;
     }
 
-    private static int ReadInt(JsonObject obj, string field) =>
-        obj.TryGetValue(field, out object value) && value is double d ? (int)d : 0;
+    private static int ReadInt(JObject obj, string field) => (int?)obj[field] ?? 0;
 
-    private static CharacterDefinition ImportCharacter(JsonObject characterJson)
+    private static CharacterDefinition ImportCharacter(JObject characterJson)
     {
         string id = (string)characterJson["id"];
         string displayName = (string)characterJson["name"];
-        var animations = (JsonObject)characterJson["animations"];
+        var animations = (JObject)characterJson["animations"];
         string folder = $"{CharactersRoot}/{id}";
 
         // JSON key order, "idle" first regardless of where it sits in the source file, since
         // it must exist and become the controller's default state.
         var orderedKeys = new List<string> { "idle" };
-        orderedKeys.AddRange(animations.Keys.Where(k => k != "idle"));
+        orderedKeys.AddRange(animations.Properties().Select(p => p.Name).Where(k => k != "idle"));
 
         var clipsByKey = new Dictionary<string, AnimationClip>();
         var builtKeys = new List<string>();
@@ -139,17 +195,12 @@ public static class CharacterImporter
 
         foreach (string key in orderedKeys)
         {
-            var animJson = (JsonObject)animations[key];
-            int frameWidth = ReadInt(animJson, "frameWidth");
-            int frameHeight = ReadInt(animJson, "frameHeight");
-            int columns = ReadInt(animJson, "columns");
-            int rows = ReadInt(animJson, "rows");
-            int frameCount = ReadInt(animJson, "frameCount");
+            var animJson = (JObject)animations[key];
             int fps = ReadInt(animJson, "fps");
-            bool loop = animJson.TryGetValue("loop", out object loopObj) && loopObj is bool b && b;
+            int frameCount = ReadInt(animJson, "frameCount");
+            bool loop = (bool?)animJson["loop"] ?? false;
 
             string texturePath = $"{folder}/{key}.png";
-            SliceSheet(texturePath, key, frameWidth, frameHeight, columns, rows, frameCount);
             Sprite[] sprites = LoadOrderedSprites(texturePath, key, frameCount);
 
             int missing = sprites.Count(s => s == null);
@@ -175,77 +226,6 @@ public static class CharacterImporter
         List<string> actionNames = builtKeys.Where(k => k != "idle").ToList();
 
         return CreateOrUpdateDefinition(folder, id, displayName, controller, idleFrame0, actionNames);
-    }
-
-    private static void SliceSheet(
-        string texturePath,
-        string action,
-        int frameWidth,
-        int frameHeight,
-        int columns,
-        int rows,
-        int frameCount)
-    {
-        var importer = (TextureImporter)AssetImporter.GetAtPath(texturePath);
-        if (importer == null)
-        {
-            Debug.LogError($"CharacterImporter: no texture importer at {texturePath}");
-            return;
-        }
-
-        importer.textureType = TextureImporterType.Sprite;
-        importer.spriteImportMode = SpriteImportMode.Multiple;
-        importer.spritePixelsPerUnit = PixelsPerUnit;
-        importer.filterMode = FilterMode.Bilinear;
-        importer.mipmapEnabled = false;
-        importer.alphaIsTransparency = true;
-        importer.maxTextureSize = MaxTextureSize;
-
-        var settings = new TextureImporterSettings();
-        importer.ReadTextureSettings(settings);
-        settings.spriteMeshType = SpriteMeshType.FullRect;
-        importer.SetTextureSettings(settings);
-        importer.SaveAndReimport();
-
-        var factory = new SpriteDataProviderFactories();
-        factory.Init();
-        ISpriteEditorDataProvider dataProvider = factory.GetSpriteEditorDataProviderFromObject(importer);
-        dataProvider.InitSpriteEditorDataProvider();
-
-        // Reuse each existing rect's spriteID by name, so a re-run with unchanged geometry keeps
-        // the same sprite GUIDs (and so touches no .meta bytes) instead of rewriting all of them.
-        Dictionary<string, GUID> existingIdsByName = dataProvider.GetSpriteRects()
-            .ToDictionary(r => r.name, r => r.spriteID);
-
-        var spriteRects = new List<SpriteRect>(frameCount);
-        for (int i = 0; i < frameCount; i++)
-        {
-            int col = i % columns;
-            int row = i / columns;
-            // Row-major, top row first in the sheet; texture space has y=0 at the bottom, so
-            // the top sheet row (row 0) sits at the highest y.
-            float x = col * frameWidth;
-            float y = (rows - 1 - row) * frameHeight;
-            string name = $"{action}_{i:D2}";
-
-            var spriteRect = new SpriteRect
-            {
-                name = name,
-                spriteID = existingIdsByName.TryGetValue(name, out GUID existingId) ? existingId : GUID.Generate(),
-                rect = new Rect(x, y, frameWidth, frameHeight),
-                alignment = SpriteAlignment.Custom,
-                pivot = new Vector2(0.5f, 0f), // bottom-centre: feet anchoring
-            };
-            spriteRects.Add(spriteRect);
-        }
-        dataProvider.SetSpriteRects(spriteRects.ToArray());
-
-        var nameFileIdDataProvider = dataProvider.GetDataProvider<ISpriteNameFileIdDataProvider>();
-        var nameFileIdPairs = spriteRects.Select(r => new SpriteNameFileIdPair(r.name, r.spriteID)).ToList();
-        nameFileIdDataProvider.SetNameFileIdPairs(nameFileIdPairs);
-
-        dataProvider.Apply();
-        importer.SaveAndReimport();
     }
 
     private static Sprite[] LoadOrderedSprites(string texturePath, string action, int frameCount)
@@ -316,17 +296,23 @@ public static class CharacterImporter
         AnimatorControllerLayer layer = controller.layers[0];
         AnimatorStateMachine stateMachine = layer.stateMachine;
 
-        // Rebuild the state machine from scratch each run so re-imports stay idempotent even
-        // when an action was renamed or removed.
+        // Reuse each existing state by name instead of clearing and rebuilding from scratch, so
+        // a re-run with unchanged actions keeps the same state/transition fileIDs (and so
+        // touches no bytes in the .controller) instead of only keeping behaviour the same.
+        Dictionary<string, AnimatorState> existingStatesByKey = stateMachine.states
+            .ToDictionary(child => child.state.name, child => child.state);
+
         foreach (ChildAnimatorState child in stateMachine.states.ToArray())
         {
-            stateMachine.RemoveState(child.state);
+            if (!orderedKeys.Contains(child.state.name)) stateMachine.RemoveState(child.state);
         }
 
         var statesByKey = new Dictionary<string, AnimatorState>();
         foreach (string key in orderedKeys)
         {
-            AnimatorState state = stateMachine.AddState(key);
+            AnimatorState state = existingStatesByKey.TryGetValue(key, out AnimatorState existing)
+                ? existing
+                : stateMachine.AddState(key);
             state.motion = clipsByKey[key];
             statesByKey[key] = state;
         }
@@ -335,7 +321,18 @@ public static class CharacterImporter
         foreach (string key in orderedKeys)
         {
             if (key == "idle") continue;
-            AnimatorStateTransition transition = statesByKey[key].AddTransition(statesByKey["idle"]);
+            AnimatorState state = statesByKey[key];
+
+            // Remove any transition that no longer points at idle (e.g. idle itself was
+            // recreated), and reuse the existing idle transition when there already is one.
+            AnimatorStateTransition[] stale = state.transitions
+                .Where(t => t.destinationState != statesByKey["idle"])
+                .ToArray();
+            foreach (AnimatorStateTransition t in stale) state.RemoveTransition(t);
+
+            AnimatorStateTransition transition = state.transitions
+                .FirstOrDefault(t => t.destinationState == statesByKey["idle"]);
+            if (transition == null) transition = state.AddTransition(statesByKey["idle"]);
             transition.hasExitTime = true;
             transition.exitTime = 1.0f;
             transition.hasFixedDuration = false;

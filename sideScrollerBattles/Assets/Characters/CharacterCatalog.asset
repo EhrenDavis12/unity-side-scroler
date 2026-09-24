@@ -13,9 +13,51 @@ MonoBehaviour:
   m_Name: CharacterCatalog
   m_EditorClassIdentifier: Assembly-CSharp::CharacterCatalog
   characters:
-  - {fileID: 11400000, guid: 33f1b7a2c0c064a26bb3e0db44f8470c, type: 2}
-  - {fileID: 11400000, guid: 11eb9944423634faebd7ae33d5d0f2e1, type: 2}
-  - {fileID: 11400000, guid: 61f737b5057ee43cb94c445f65b05959, type: 2}
-  - {fileID: 11400000, guid: 8806e233d5fe142878066fa158b40a1d, type: 2}
-  - {fileID: 11400000, guid: 670e23cf2e04a4de2ba8f4c5a186af06, type: 2}
-  - {fileID: 11400000, guid: 8ccdf0e6955a3429d8b4f1ab3d67500d, type: 2}
+  - id: knight
+    displayName: Knight
+    definition:
+      m_AssetGUID: 33f1b7a2c0c064a26bb3e0db44f8470c
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - id: archer
+    displayName: Archer
+    definition:
+      m_AssetGUID: 11eb9944423634faebd7ae33d5d0f2e1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - id: mage
+    displayName: Mage
+    definition:
+      m_AssetGUID: 61f737b5057ee43cb94c445f65b05959
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - id: rogue
+    displayName: Rogue
+    definition:
+      m_AssetGUID: 8806e233d5fe142878066fa158b40a1d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - id: healer
+    displayName: Healer
+    definition:
+      m_AssetGUID: 670e23cf2e04a4de2ba8f4c5a186af06
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - id: barbarian
+    displayName: Barbarian
+    definition:
+      m_AssetGUID: 8ccdf0e6955a3429d8b4f1ab3d67500d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0

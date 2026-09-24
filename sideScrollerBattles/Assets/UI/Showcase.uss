@@ -1,0 +1,89 @@
+.root {
+    flex-grow: 1;
+}
+
+/* Bottom half of the screen: carousel above a centred row of action buttons. The top half is
+   the world-space character (SpriteRenderer + Animator), not UI. */
+.bottom-panel {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 16px;
+}
+
+.carousel {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.carousel > #unity-content-and-vertical-scroll-container > #unity-content-viewport > #unity-content-container {
+    flex-direction: row;
+    align-items: center;
+}
+
+.carousel-content-centered {
+    justify-content: center;
+}
+
+.action-button-row {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 44px;
+    margin-top: 16px;
+}
+
+.tile {
+    flex-direction: column;
+    margin-right: 8px;
+    border-width: 1px;
+    border-color: rgb(153, 153, 153);
+}
+
+.tile.selected {
+    border-width: 2px;
+    border-color: rgb(88, 196, 255);
+}
+
+.tile-inner {
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(27, 29, 42);
+}
+
+.tile-thumbnail {
+    flex-grow: 1;
+    width: 100%;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.tile-label {
+    height: 24px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    -unity-text-align: middle-center;
+    overflow: hidden;
+}
+
+.tile.selected .tile-label {
+    color: rgb(88, 196, 255);
+}
+
+.action-button {
+    width: 140px;
+    height: 44px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-width: 0;
+    background-color: rgb(64, 71, 102);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    -unity-text-align: middle-center;
+}

@@ -188,7 +188,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -219,6 +219,19 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -1055,8 +1068,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fc32e905b7d8437f957229136f0a5a7
-      internalID: 3643064520243004215
+      spriteID: 6ae6ebf89500e4a80936d1f845e8d70d
+      internalID: 1069339851
       vertices: []
       indices: 
       edges: []
@@ -1112,7 +1125,7 @@ TextureImporter:
       hurt_34: 6242363285860493490
       hurt_35: -895488645926964592
       hurt_36: 7662398055704797999
-      hurt_37: 3643064520243004215
+      hurt_37: 1069339851
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

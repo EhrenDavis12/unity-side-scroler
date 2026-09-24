@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="Showcase.uss" />
+    <ui:VisualElement name="root" class="root">
+        <ui:VisualElement name="bottom-panel" class="bottom-panel">
+            <ui:ScrollView name="carousel" class="carousel" />
+            <ui:VisualElement name="action-button-row" class="action-button-row" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
