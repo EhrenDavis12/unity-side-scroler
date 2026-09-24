@@ -1,4 +1,4 @@
-# This .gitignore is for Unity projects nested under this repo (e.g. `My project/`).
+# This .gitignore is for Unity projects nested under this repo (e.g. `sideScrollerBattles/`).
 # Patterns are anchored one level below the repo root (/*/...), matching only the generated
 # folders at the project's own top level — not a same-named folder under Assets/ (an
 # Assets/Build/ or Assets/Logs/ folder is real project content, not Unity's generated output).
