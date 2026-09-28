@@ -11,12 +11,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55dd6b9414a21413eb1a4776d1397a93, type: 3}
   m_Name: knight
-  m_EditorClassIdentifier: Assembly-CSharp::CharacterDefinition
+  m_EditorClassIdentifier: Game.Runtime::CharacterDefinition
   id: knight
   displayName: Knight
   controller: {fileID: 9100000, guid: 379de44a5f5f64e63aba505daf599947, type: 2}
-  thumbnail: {fileID: 1258698328, guid: db265ce0c422a4e3eb0aee1a541727d4, type: 3}
-  actionNames:
-  - attack
-  - defend
-  - hurt
+  thumbnail: {fileID: -1072086216, guid: db265ce0c422a4e3eb0aee1a541727d4, type: 3}
+  actionNames: []

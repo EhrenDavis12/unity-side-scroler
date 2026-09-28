@@ -22,8 +22,9 @@ public static class CharacterAddressablesSetup
     private const string GroupNamePrefix = "Character_";
     private const string CharacterLabel = "character";
     private const string IosPlatform = "iPhone";
+    private const string DefaultPlatform = "DefaultTexturePlatform";
     private const int AtlasPadding = 4;
-    private const int AtlasMaxTextureSize = 2048;
+    private const int AtlasMaxTextureSize = 4096;
 
     /// <summary>Makes one character's definition and its per-character atlas addressable,
     /// together in that character's own group so they always ship (and load) in one bundle —
@@ -88,8 +89,8 @@ public static class CharacterAddressablesSetup
         };
         importer.textureSettings = new SpriteAtlasTextureSettings
         {
-            // maxTextureSize here is read-only (the effective cap for the default platform);
-            // the real cap for the platforms that matter is set per-platform below.
+            // maxTextureSize here is read-only; the atlas's actual size cap is set per platform
+            // below instead, on both the default platform and the iOS override.
             anisoLevel = 1,
             filterMode = FilterMode.Bilinear,
             generateMipMaps = false,
@@ -97,10 +98,23 @@ public static class CharacterAddressablesSetup
             sRGB = true,
         };
 
+        // Edges must survive compression: default-quality block compression lightens the
+        // antialiased edge pixels of a painted outline, which reads on screen as a grey fringe.
+        // The default platform (inherited by Standalone and Android, neither of which
+        // overrides) and the iOS override both compress at maximum quality and cap at the same
+        // atlas size, so no platform's page picks up that fringe.
+        TextureImporterPlatformSettings defaultSettings = importer.GetPlatformSettings(DefaultPlatform)
+            ?? new TextureImporterPlatformSettings { name = DefaultPlatform };
+        defaultSettings.textureCompression = TextureImporterCompression.CompressedHQ;
+        defaultSettings.compressionQuality = 100;
+        defaultSettings.maxTextureSize = AtlasMaxTextureSize;
+        importer.SetPlatformSettings(defaultSettings);
+
         TextureImporterPlatformSettings iosSettings = importer.GetPlatformSettings(IosPlatform)
             ?? new TextureImporterPlatformSettings { name = IosPlatform };
         iosSettings.overridden = true;
-        iosSettings.format = TextureImporterFormat.ASTC_6x6;
+        iosSettings.format = TextureImporterFormat.ASTC_4x4;
+        iosSettings.compressionQuality = 100;
         iosSettings.maxTextureSize = AtlasMaxTextureSize;
         importer.SetPlatformSettings(iosSettings);
 

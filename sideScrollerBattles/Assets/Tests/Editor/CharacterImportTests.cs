@@ -1,4 +1,6 @@
+using System.IO;
 using System.Linq;
+using Newtonsoft.Json.Linq;
 using NUnit.Framework;
 using UnityEditor;
 using UnityEditor.Animations;
@@ -12,9 +14,8 @@ using UnityEngine;
 public class CharacterImportTests
 {
     private const string CatalogAssetPath = "Assets/Characters/CharacterCatalog.asset";
-    private const int ExpectedCharacterCount = 6;
+    private const string CharactersJsonPath = "Assets/Characters/characters.json";
     private const int ExpectedStateCount = 4; // idle, attack, defend, hurt
-    private const int ExpectedFrameCount = 38;
 
     [OneTimeSetUp]
     public void ImportSheets()
@@ -41,10 +42,16 @@ public class CharacterImportTests
     }
 
     [Test]
-    public void CatalogHasSixEntriesWithValidAssetReferences()
+    public void CatalogEntryCountMatchesCharactersJsonWithValidAssetReferences()
     {
+        var charactersJson = JObject.Parse(File.ReadAllText(CharactersJsonPath));
+        var characters = charactersJson["characters"] as JArray;
+        Assert.IsNotNull(characters, "characters.json has no \"characters\" array.");
+
         CharacterCatalog catalog = LoadCatalog();
-        Assert.AreEqual(ExpectedCharacterCount, catalog.Characters.Count);
+        Assert.AreEqual(characters.Count, catalog.Characters.Count,
+            "CharacterCatalog's entry count should match characters.json's character count, " +
+            "not a fixed roster size.");
         foreach (CharacterCatalogEntry entry in catalog.Characters) LoadDefinition(entry);
     }
 
@@ -65,8 +72,9 @@ public class CharacterImportTests
     }
 
     [Test]
-    public void EveryClipHas38SpriteKeysAndOnlyIdleLoops()
+    public void EveryClipsSpriteKeyCountMatchesCharactersJsonFrameCountAndOnlyIdleLoops()
     {
+        var charactersJson = JObject.Parse(File.ReadAllText(CharactersJsonPath));
         CharacterCatalog catalog = LoadCatalog();
         foreach (CharacterCatalogEntry entry in catalog.Characters)
         {
@@ -78,9 +86,13 @@ public class CharacterImportTests
                 var clip = child.state.motion as AnimationClip;
                 Assert.IsNotNull(clip, $"\"{entry.id}\"'s state \"{child.state.name}\" has no AnimationClip.");
 
+                int expectedFrameCount = ReadFrameCountFromJson(charactersJson, entry.id, child.state.name);
+
                 EditorCurveBinding binding = AnimationUtility.GetObjectReferenceCurveBindings(clip).First();
                 ObjectReferenceKeyframe[] keys = AnimationUtility.GetObjectReferenceCurve(clip, binding);
-                Assert.AreEqual(ExpectedFrameCount, keys.Length, $"\"{entry.id}\"'s \"{child.state.name}\" clip should have {ExpectedFrameCount} sprite keys.");
+                Assert.AreEqual(expectedFrameCount, keys.Length,
+                    $"\"{entry.id}\"'s \"{child.state.name}\" clip should have {expectedFrameCount} sprite keys " +
+                    "— characters.json's per-action frameCount, not a fixed count shared by every action.");
 
                 if (child.state.name == "idle")
                 {
@@ -92,5 +104,24 @@ public class CharacterImportTests
                 }
             }
         }
+    }
+
+    // Mirrors CharacterSheetPostprocessor.TryReadFrameGrid's lookup, but reads only frameCount:
+    // the PRD-level spec is that each action's sprite-key count comes from characters.json, not
+    // from a single grid shared by every action (idle is 75 frames in a 9x9 grid; other actions
+    // may have fewer), so this test must not assume a uniform frame grid the way the importer's
+    // own fallback does.
+    private static int ReadFrameCountFromJson(JObject charactersJson, string id, string action)
+    {
+        var characters = charactersJson["characters"] as JArray;
+        Assert.IsNotNull(characters, "characters.json has no \"characters\" array.");
+        JObject characterJson = characters.OfType<JObject>().FirstOrDefault(c => (string)c["id"] == id);
+        Assert.IsNotNull(characterJson, $"characters.json has no entry for \"{id}\".");
+        var animation = characterJson["animations"]?[action] as JObject;
+        Assert.IsNotNull(animation, $"characters.json's \"{id}\" has no \"{action}\" animation entry.");
+        int? frameCount = (int?)animation["frameCount"];
+        Assert.IsTrue(frameCount.HasValue && frameCount.Value > 0,
+            $"characters.json's \"{id}\"/\"{action}\" frameCount should be a positive integer.");
+        return frameCount.Value;
     }
 }
