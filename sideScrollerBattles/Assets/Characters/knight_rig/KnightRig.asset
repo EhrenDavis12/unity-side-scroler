@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75564113a3bbf4531b51cf687c9d5def, type: 3}
+  m_Name: KnightRig
+  m_EditorClassIdentifier: Game.Runtime::RigDefinition
+  slots:
+  - slot: plume
+    parentSlot: head
+    sprite: {fileID: 21300000, guid: ffd6fe13d80c949388ff92cd87b1c98f, type: 3}
+    localPosition: {x: -0.09765625, y: 1.0546875}
+    sortingOrder: 0
+    swingSortingOrder: 0
+  - slot: pelvis
+    parentSlot: 
+    sprite: {fileID: 21300000, guid: 9cf2064125deb4f86a4ad2de6ebba0fe, type: 3}
+    localPosition: {x: -0.01171875, y: 0.84765625}
+    sortingOrder: 1
+    swingSortingOrder: 1
+  - slot: forearm_shield
+    parentSlot: upper_arm_shield
+    sprite: {fileID: 21300000, guid: 5072023c656f44ad395a66094e36b834, type: 3}
+    localPosition: {x: 0.08984375, y: -0.17578125}
+    sortingOrder: 2
+    swingSortingOrder: 2
+  - slot: upper_arm_shield
+    parentSlot: torso
+    sprite: {fileID: 21300000, guid: 9b62e50a2628241e09a525c180626015, type: 3}
+    localPosition: {x: 0.40234375, y: 0.75}
+    sortingOrder: 3
+    swingSortingOrder: 3
+  - slot: pauldron_shield
+    parentSlot: torso
+    sprite: {fileID: 21300000, guid: 21cd0da967481476bbe4c51072428ca6, type: 3}
+    localPosition: {x: 0.40234375, y: 0.75}
+    sortingOrder: 4
+    swingSortingOrder: 4
+  - slot: shin_right
+    parentSlot: thigh_right
+    sprite: {fileID: 21300000, guid: 2fbf7cff9a39449aea40992acf9bbb14, type: 3}
+    localPosition: {x: 0.1171875, y: -0.25}
+    sortingOrder: 5
+    swingSortingOrder: 5
+  - slot: thigh_right
+    parentSlot: pelvis
+    sprite: {fileID: 21300000, guid: 16f02c82f2d64404195c7992762a68ca, type: 3}
+    localPosition: {x: 0.2265625, y: -0}
+    sortingOrder: 6
+    swingSortingOrder: 6
+  - slot: shin_left
+    parentSlot: thigh_left
+    sprite: {fileID: 21300000, guid: 0ba8a3c8fbba74474bfb3f1e6c7f43d6, type: 3}
+    localPosition: {x: -0.1171875, y: -0.25}
+    sortingOrder: 7
+    swingSortingOrder: 7
+  - slot: thigh_left
+    parentSlot: pelvis
+    sprite: {fileID: 21300000, guid: 19416681b01c84d8d986a6250c51a3c3, type: 3}
+    localPosition: {x: -0.22265625, y: -0}
+    sortingOrder: 8
+    swingSortingOrder: 8
+  - slot: torso
+    parentSlot: pelvis
+    sprite: {fileID: 21300000, guid: 69953eb95c68940dab5dc343b8d501b4, type: 3}
+    localPosition: {x: -0.0078125, y: 0.109375}
+    sortingOrder: 9
+    swingSortingOrder: 9
+  - slot: head
+    parentSlot: torso
+    sprite: {fileID: 21300000, guid: dd200a8afa2f44ed397068361af06733, type: 3}
+    localPosition: {x: -0.01953125, y: 0.9375}
+    sortingOrder: 10
+    swingSortingOrder: 10
+  - slot: sword
+    parentSlot: hand_sword
+    sprite: {fileID: 21300000, guid: 2b9a1afd63fb1445597a92d03e81ff3c, type: 3}
+    localPosition: {x: -0.0390625, y: -0.09765625}
+    sortingOrder: 11
+    swingSortingOrder: 12
+  - slot: hand_sword
+    parentSlot: forearm_sword
+    sprite: {fileID: 21300000, guid: 76fcdf85681a1496fae383833309265f, type: 3}
+    localPosition: {x: -0.09375, y: -0.26953125}
+    sortingOrder: 12
+    swingSortingOrder: 13
+  - slot: forearm_sword
+    parentSlot: upper_arm_sword
+    sprite: {fileID: 21300000, guid: 2188b462f23fb4bff83e7737bc08d5e5, type: 3}
+    localPosition: {x: -0.16796875, y: -0.2265625}
+    sortingOrder: 13
+    swingSortingOrder: 14
+  - slot: upper_arm_sword
+    parentSlot: torso
+    sprite: {fileID: 21300000, guid: 506ef1abe396d48b88e2b374aefeff0d, type: 3}
+    localPosition: {x: -0.41015625, y: 0.75}
+    sortingOrder: 14
+    swingSortingOrder: 15
+  - slot: pauldron_sword
+    parentSlot: torso
+    sprite: {fileID: 21300000, guid: d1fce1ae6499d4ce7854a974ffc81002, type: 3}
+    localPosition: {x: -0.41015625, y: 0.75}
+    sortingOrder: 15
+    swingSortingOrder: 16
+  - slot: shield
+    parentSlot: forearm_shield
+    sprite: {fileID: 21300000, guid: 769336e84c768469ab6efe617631eafc, type: 3}
+    localPosition: {x: 0.11328125, y: -0.10546875}
+    sortingOrder: 16
+    swingSortingOrder: 11

@@ -3,7 +3,10 @@
     "rootNamespace": "",
     "references": [
         "Unity.Addressables",
-        "Unity.ResourceManager"
+        "Unity.ResourceManager",
+        "Unity.InputSystem",
+        "Unity.2D.Animation.Runtime",
+        "Unity.2D.IK.Runtime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

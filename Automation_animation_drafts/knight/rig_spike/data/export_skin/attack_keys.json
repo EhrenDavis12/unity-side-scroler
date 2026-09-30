@@ -1,0 +1,188 @@
+{
+ "length": 1.32,
+ "interp": "monotone_cubic",
+ "ik": {
+  "legs": "feet planted, knees out; solve thigh/shin with a 2-bone limb solver targeting the rest ankle positions, boot keeps its rest world angle"
+ },
+ "lag": {
+  "hips": -0.03,
+  "chest": -0.02,
+  "upper_arm_sword": 0.0,
+  "forearm_sword": 0.025,
+  "hand_sword": 0.05,
+  "upper_arm_shield": 0.02,
+  "forearm_shield": 0.04,
+  "head": 0.035,
+  "plume": 0.08
+ },
+ "keys": [
+  {
+   "t": 0.0,
+   "name": "rest",
+   "angles": {
+    "upper_arm_sword": 0.0,
+    "forearm_sword": 0.0,
+    "hand_sword": 0.0,
+    "chest": 0,
+    "head": 0,
+    "plume": 0,
+    "upper_arm_shield": 0,
+    "forearm_shield": 0,
+    "hips": 0
+   },
+   "offset": {
+    "hips": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "t": 0.16,
+   "name": "lift",
+   "angles": {
+    "upper_arm_sword": 53.55,
+    "forearm_sword": 112.63,
+    "hand_sword": 63.75,
+    "chest": 3,
+    "head": -1,
+    "plume": -4,
+    "upper_arm_shield": -6,
+    "forearm_shield": 6,
+    "hips": 1
+   },
+   "offset": {
+    "hips": [
+     -2,
+     1
+    ]
+   }
+  },
+  {
+   "t": 0.3,
+   "name": "windup",
+   "angles": {
+    "upper_arm_sword": 199.55,
+    "forearm_sword": 42.63,
+    "hand_sword": 53.75,
+    "chest": 7,
+    "head": -3,
+    "plume": -9,
+    "upper_arm_shield": -12,
+    "forearm_shield": 12,
+    "hips": 3
+   },
+   "offset": {
+    "hips": [
+     -3,
+     1
+    ]
+   }
+  },
+  {
+   "t": 0.38,
+   "name": "hold",
+   "angles": {
+    "upper_arm_sword": 203.55,
+    "forearm_sword": 47.63,
+    "hand_sword": 58.75,
+    "chest": 8,
+    "head": -3,
+    "plume": -11,
+    "upper_arm_shield": -13,
+    "forearm_shield": 13,
+    "hips": 3
+   },
+   "offset": {
+    "hips": [
+     -3,
+     1
+    ]
+   }
+  },
+  {
+   "t": 0.51,
+   "name": "strike",
+   "angles": {
+    "upper_arm_sword": 126.55,
+    "forearm_sword": -15.37,
+    "hand_sword": 11.75,
+    "chest": -10,
+    "head": 5,
+    "plume": 12,
+    "upper_arm_shield": 18,
+    "forearm_shield": -20,
+    "hips": -5
+   },
+   "offset": {
+    "hips": [
+     5,
+     6
+    ]
+   }
+  },
+  {
+   "t": 0.62,
+   "name": "follow",
+   "angles": {
+    "upper_arm_sword": 79.55,
+    "forearm_sword": -19.37,
+    "hand_sword": 5.75,
+    "chest": -13,
+    "head": 7,
+    "plume": 17,
+    "upper_arm_shield": 20,
+    "forearm_shield": -22,
+    "hips": -6
+   },
+   "offset": {
+    "hips": [
+     6,
+     7
+    ]
+   }
+  },
+  {
+   "t": 1.02,
+   "name": "recover",
+   "angles": {
+    "upper_arm_sword": 2.0,
+    "forearm_sword": 0.0,
+    "hand_sword": 0.0,
+    "chest": -2,
+    "head": 1,
+    "plume": -4,
+    "upper_arm_shield": 2,
+    "forearm_shield": -3,
+    "hips": -1
+   },
+   "offset": {
+    "hips": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "t": 1.32,
+   "name": "rest",
+   "angles": {
+    "upper_arm_sword": 0.0,
+    "forearm_sword": 0.0,
+    "hand_sword": 0.0,
+    "chest": 0,
+    "head": 0,
+    "plume": 0,
+    "upper_arm_shield": 0,
+    "forearm_shield": 0,
+    "hips": 0
+   },
+   "offset": {
+    "hips": [
+     0,
+     0
+    ]
+   }
+  }
+ ]
+}

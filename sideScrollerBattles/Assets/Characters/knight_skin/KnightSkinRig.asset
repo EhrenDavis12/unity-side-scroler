@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34925725a72894acaab4cad3f95b25d9, type: 3}
+  m_Name: KnightSkinRig
+  m_EditorClassIdentifier: Game.Runtime::SkinRigDefinition
+  bones:
+  - name: hips
+    parentIndex: -1
+    localPosition: {x: -0.0390625, y: -0.609375}
+    localRotationDeg: -90
+    length: 0.203125
+    canvasHead: {x: 502, y: 668}
+  - name: chest
+    parentIndex: 0
+    localPosition: {x: -0.10937499, y: -0.007812493}
+    localRotationDeg: 181.19348
+    length: 0.93770343
+    canvasHead: {x: 500, y: 640}
+  - name: head
+    parentIndex: 1
+    localPosition: {x: 0.9377035, y: -0.000000026775524}
+    localRotationDeg: -1.1934891
+    length: 0.390625
+    canvasHead: {x: 495, y: 400}
+  - name: plume
+    parentIndex: 2
+    localPosition: {x: 1.0546874, y: 0.09765631}
+    localRotationDeg: 79.99202
+    length: 0.6743233
+    canvasHead: {x: 470, y: 130}
+  - name: upper_arm_sword
+    parentIndex: 1
+    localPosition: {x: 0.7583804, y: 0.39444566}
+    localRotationDeg: -217.74597
+    length: 0.2820356
+    canvasHead: {x: 395, y: 448}
+  - name: forearm_sword
+    parentIndex: 4
+    localPosition: {x: 0.28203556, y: 0.000000019092113}
+    localRotationDeg: 17.373466
+    length: 0.2853702
+    canvasHead: {x: 352, y: 506}
+  - name: hand_sword
+    parentIndex: 5
+    localPosition: {x: 0.28537023, y: 0.000000039115548}
+    localRotationDeg: -2.6223984
+    length: 0.105179
+    canvasHead: {x: 328, y: 575}
+  - name: upper_arm_shield
+    parentIndex: 1
+    localPosition: {x: 0.741457, y: -0.41787812}
+    localRotationDeg: -154.12141
+    length: 0.1974106
+    canvasHead: {x: 603, y: 448}
+  - name: forearm_shield
+    parentIndex: 7
+    localPosition: {x: 0.1974106, y: -0.000000020489097}
+    localRotationDeg: 19.973328
+    length: 0.15477823
+    canvasHead: {x: 626, y: 493}
+  - name: thigh_left
+    parentIndex: 0
+    localPosition: {x: -0.000000013271347, y: -0.22265624}
+    localRotationDeg: -25.114838
+    length: 0.27610308
+    canvasHead: {x: 445, y: 668}
+  - name: shin_left
+    parentIndex: 9
+    localPosition: {x: 0.27610308, y: 0.000000018626451}
+    localRotationDeg: 22.07006
+    length: 0.36770657
+    canvasHead: {x: 415, y: 732}
+  - name: boot_left
+    parentIndex: 10
+    localPosition: {x: 0.36770657, y: -0.000000028871}
+    localRotationDeg: -39.22892
+    length: 0.23228233
+    canvasHead: {x: 410, y: 826}
+  - name: thigh_right
+    parentIndex: 0
+    localPosition: {x: 0.000000013504177, y: 0.22656249}
+    localRotationDeg: 25.114838
+    length: 0.27610308
+    canvasHead: {x: 560, y: 668}
+  - name: shin_right
+    parentIndex: 12
+    localPosition: {x: 0.27610308, y: -0.0000000037252903}
+    localRotationDeg: -19.515503
+    length: 0.40034774
+    canvasHead: {x: 590, y: 732}
+  - name: boot_right
+    parentIndex: 13
+    localPosition: {x: 0.40034774, y: -0.000000003259629}
+    localRotationDeg: 42.063667
+    length: 0.2378005
+    canvasHead: {x: 600, y: 834}
+  skinnedLayers:
+  - name: body
+    sprite: {fileID: 21300000, guid: 92a457adf95ae4e80a539dde604f1f7e, type: 3}
+    localPosition: {x: -0.72265625, y: -1.4765625}
+    sortingOrder: 2
+  - name: arm_sword
+    sprite: {fileID: 21300000, guid: 0724668ec0b514adcaf7d412d484cc7d, type: 3}
+    localPosition: {x: -0.9296875, y: -0.5390625}
+    sortingOrder: 6
+  - name: arm_shield
+    sprite: {fileID: 21300000, guid: 2a84077b40ce74835b955fad753c0a25, type: 3}
+    localPosition: {x: 0.1796875, y: -0.234375}
+    sortingOrder: 1
+  props:
+  - slot: head
+    sprite: {fileID: 21300000, guid: 341091b0f0d344a069ed1361cba9123a, type: 3}
+    altSprite: {fileID: 21300000, guid: 773376334ed654a6e96b9d45f2c63743, type: 3}
+    boneIndex: 2
+    sortingOrder: 3
+  - slot: plume
+    sprite: {fileID: 21300000, guid: 596dd4a96c25047f2a6c425183e162f0, type: 3}
+    altSprite: {fileID: 0}
+    boneIndex: 3
+    sortingOrder: 0
+  - slot: sword
+    sprite: {fileID: 21300000, guid: f4ae940b8a5e5439296c60032d0235ec, type: 3}
+    altSprite: {fileID: 0}
+    boneIndex: 6
+    sortingOrder: 5
+  - slot: shield
+    sprite: {fileID: 21300000, guid: 7aa9e86e8b1a948d9aefdf468707f194, type: 3}
+    altSprite: {fileID: 0}
+    boneIndex: 8
+    sortingOrder: 4
+  legs:
+  - side: left
+    thighBoneIndex: 9
+    shinBoneIndex: 10
+    bootBoneIndex: 11
+    flip: 0
+  - side: right
+    thighBoneIndex: 12
+    shinBoneIndex: 13
+    bootBoneIndex: 14
+    flip: 1

@@ -1,0 +1,336 @@
+{
+ "canvas": [
+  1024,
+  1024
+ ],
+ "root_pivot": [
+  505,
+  885
+ ],
+ "note": "canvas px, origin top-left, y down. `order` back-to-front (0 = back). A variant fills the slot named by `slot`. Every joint is covered: a pauldron (separate slot, turned less than its arm) over each shoulder, and a dark undersuit ball baked into the top of each upper arm, thigh and shin sprite, hidden at rest. `swing_order` is the order to use while the sword arm must draw over the shield.",
+ "order": [
+  "plume",
+  "pelvis",
+  "forearm_shield",
+  "upper_arm_shield",
+  "pauldron_shield",
+  "shin_right",
+  "thigh_right",
+  "shin_left",
+  "thigh_left",
+  "torso",
+  "head",
+  "sword",
+  "hand_sword",
+  "forearm_sword",
+  "upper_arm_sword",
+  "pauldron_sword",
+  "shield"
+ ],
+ "swing_order": [
+  "plume",
+  "pelvis",
+  "forearm_shield",
+  "upper_arm_shield",
+  "pauldron_shield",
+  "shin_right",
+  "thigh_right",
+  "shin_left",
+  "thigh_left",
+  "torso",
+  "head",
+  "shield",
+  "sword",
+  "hand_sword",
+  "forearm_sword",
+  "upper_arm_sword",
+  "pauldron_sword"
+ ],
+ "parts": {
+  "plume": {
+   "file": "plume.png",
+   "slot": "plume",
+   "rect": [
+    186,
+    22,
+    320,
+    212
+   ],
+   "joint": [
+    470,
+    130
+   ],
+   "parent": "head"
+  },
+  "pelvis": {
+   "file": "pelvis.png",
+   "slot": "pelvis",
+   "rect": [
+    435,
+    643,
+    135,
+    62
+   ],
+   "joint": [
+    502,
+    668
+   ],
+   "parent": null
+  },
+  "forearm_shield": {
+   "file": "forearm_shield.png",
+   "slot": "forearm_shield",
+   "rect": [
+    593,
+    480,
+    80,
+    90
+   ],
+   "joint": [
+    626,
+    493
+   ],
+   "parent": "upper_arm_shield"
+  },
+  "upper_arm_shield": {
+   "file": "upper_arm_shield.png",
+   "slot": "upper_arm_shield",
+   "rect": [
+    564,
+    409,
+    80,
+    103
+   ],
+   "joint": [
+    603,
+    448
+   ],
+   "parent": "torso"
+  },
+  "pauldron_shield": {
+   "file": "pauldron_shield.png",
+   "slot": "pauldron_shield",
+   "rect": [
+    558,
+    392,
+    92,
+    97
+   ],
+   "joint": [
+    603,
+    448
+   ],
+   "parent": "torso"
+  },
+  "shin_right": {
+   "file": "shin_right.png",
+   "slot": "shin_right",
+   "rect": [
+    558,
+    700,
+    128,
+    190
+   ],
+   "joint": [
+    590,
+    732
+   ],
+   "parent": "thigh_right"
+  },
+  "thigh_right": {
+   "file": "thigh_right.png",
+   "slot": "thigh_right",
+   "rect": [
+    520,
+    633,
+    124,
+    130
+   ],
+   "joint": [
+    560,
+    668
+   ],
+   "parent": "pelvis"
+  },
+  "shin_left": {
+   "file": "shin_left.png",
+   "slot": "shin_left",
+   "rect": [
+    327,
+    700,
+    139,
+    182
+   ],
+   "joint": [
+    415,
+    732
+   ],
+   "parent": "thigh_left"
+  },
+  "thigh_left": {
+   "file": "thigh_left.png",
+   "slot": "thigh_left",
+   "rect": [
+    376,
+    633,
+    122,
+    129
+   ],
+   "joint": [
+    445,
+    668
+   ],
+   "parent": "pelvis"
+  },
+  "torso": {
+   "file": "torso.png",
+   "slot": "torso",
+   "rect": [
+    374,
+    391,
+    260,
+    306
+   ],
+   "joint": [
+    500,
+    640
+   ],
+   "parent": "pelvis"
+  },
+  "head": {
+   "file": "head.png",
+   "slot": "head",
+   "rect": [
+    334,
+    110,
+    316,
+    297
+   ],
+   "joint": [
+    495,
+    400
+   ],
+   "parent": "torso"
+  },
+  "sword": {
+   "file": "sword.png",
+   "slot": "sword",
+   "rect": [
+    80,
+    595,
+    246,
+    223
+   ],
+   "joint": [
+    318,
+    600
+   ],
+   "parent": "hand_sword"
+  },
+  "hand_sword": {
+   "file": "hand_sword.png",
+   "slot": "hand_sword",
+   "rect": [
+    275,
+    543,
+    103,
+    107
+   ],
+   "joint": [
+    328,
+    575
+   ],
+   "parent": "forearm_sword"
+  },
+  "forearm_sword": {
+   "file": "forearm_sword.png",
+   "slot": "forearm_sword",
+   "rect": [
+    303,
+    491,
+    93,
+    73
+   ],
+   "joint": [
+    352,
+    506
+   ],
+   "parent": "upper_arm_sword"
+  },
+  "upper_arm_sword": {
+   "file": "upper_arm_sword.png",
+   "slot": "upper_arm_sword",
+   "rect": [
+    332,
+    407,
+    104,
+    129
+   ],
+   "joint": [
+    395,
+    448
+   ],
+   "parent": "torso"
+  },
+  "pauldron_sword": {
+   "file": "pauldron_sword.png",
+   "slot": "pauldron_sword",
+   "rect": [
+    342,
+    393,
+    89,
+    100
+   ],
+   "joint": [
+    395,
+    448
+   ],
+   "parent": "torso"
+  },
+  "shield": {
+   "file": "shield.png",
+   "slot": "shield",
+   "rect": [
+    644,
+    358,
+    230,
+    338
+   ],
+   "joint": [
+    655,
+    520
+   ],
+   "parent": "forearm_shield"
+  },
+  "head_blink": {
+   "file": "head_blink.png",
+   "slot": "head",
+   "rect": [
+    334,
+    110,
+    316,
+    297
+   ],
+   "joint": [
+    495,
+    400
+   ],
+   "parent": "torso"
+  },
+  "torso_gold": {
+   "file": "torso_gold.png",
+   "slot": "torso",
+   "rect": [
+    384,
+    396,
+    259,
+    303
+   ],
+   "joint": [
+    500,
+    640
+   ],
+   "parent": "pelvis"
+  }
+ }
+}

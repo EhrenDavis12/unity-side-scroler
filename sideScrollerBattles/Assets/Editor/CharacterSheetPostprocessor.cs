@@ -39,6 +39,16 @@ public class CharacterSheetPostprocessor : AssetPostprocessor
     {
         if (!TryParseSheetPath(assetPath, out string id, out string action)) return;
 
+        // Any Assets/Characters/<id>/<file>.png matches the pattern above, including a standalone
+        // rig's part sprites — recognized by a rig.json sibling in the same folder, which is that
+        // rig's own postprocessor's territory (e.g. KnightRigTexturePostprocessor), not this one's.
+        // Excluding by path, rather than by id membership in characters.json, means a brand-new
+        // character's first-ever import (before it's even added to the JSON) still registers the
+        // DependsOnSourceAsset below and gets the normal "unknown action" fallback, instead of
+        // being skipped outright and silently missing that dependency forever after.
+        string folder = Path.GetDirectoryName(assetPath)?.Replace('\\', '/');
+        if (folder != null && File.Exists($"{folder}/rig.json")) return;
+
         // Any sheet's slicing is driven by characters.json, not just its own PNG — so an edit
         // to the JSON alone must reimport every sheet it describes.
         context.DependsOnSourceAsset(CatalogJsonPath);
