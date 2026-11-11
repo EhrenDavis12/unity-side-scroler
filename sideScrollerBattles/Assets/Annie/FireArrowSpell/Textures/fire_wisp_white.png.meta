@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: 28f74a729d6b642eca79c2d2c6aee80e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7203536822919903427
+    second: fire_wisp_white_0
+  - first:
+      213: 3599804917944509251
+    second: fire_wisp_white_1
+  - first:
+      213: 3711494511138357607
+    second: fire_wisp_white_2
+  - first:
+      213: -598913348118605211
+    second: fire_wisp_white_3
+  - first:
+      213: -4577522645771197948
+    second: fire_wisp_white_4
+  - first:
+      213: -5090811321734009554
+    second: fire_wisp_white_5
+  - first:
+      213: 2594589163013361685
+    second: fire_wisp_white_6
+  - first:
+      213: 2134993047926179230
+    second: fire_wisp_white_7
+  - first:
+      213: -5570493321933616066
+    second: fire_wisp_white_8
+  - first:
+      213: -1594639329476277876
+    second: fire_wisp_white_9
+  - first:
+      213: 4563793163663167372
+    second: fire_wisp_white_10
+  - first:
+      213: 6124755493282161886
+    second: fire_wisp_white_11
+  - first:
+      213: 1865329969220023131
+    second: fire_wisp_white_12
+  - first:
+      213: 8039685904056683566
+    second: fire_wisp_white_13
+  - first:
+      213: -7458441064653922126
+    second: fire_wisp_white_14
+  - first:
+      213: -8464034755515227356
+    second: fire_wisp_white_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fire_wisp_white_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 409
+        width: 68
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c83690139a18f360800000000000000
+      internalID: 7203536822919903427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_wisp_white_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 409
+        width: 67
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34369c2108315f130800000000000000
+      internalID: 3599804917944509251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_wisp_white_2
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 409
+        width: 65
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761c632f790e18330800000000000000
+      internalID: 3711494511138357607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_wisp_white_3
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 409
+        width: 62
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562962aab7b30b7f0800000000000000
+      internalID: -598913348118605211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_wisp_white_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 282
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402608b086f5970c0800000000000000
+      internalID: -4577522645771197948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_wisp_white_5
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 283
+        width: 61
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2de18d331ec959b0800000000000000
+      internalID: -5090811321734009554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_wisp_white_6
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 283
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5105d77d815d10420800000000000000
+      internalID: 2594589163013361685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_wisp_white_7
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 284
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95819b8dd401ad10800000000000000
+      internalID: 2134993047926179230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_wisp_white_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 157
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c067266d1a1b2b0800000000000000
+      internalID: -5570493321933616066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_wisp_white_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 157
+        width: 67
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8903b58af3bed9e0800000000000000
+      internalID: -1594639329476277876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_wisp_white_10
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 157
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fcf7cc3b9d55f30800000000000000
+      internalID: 4563793163663167372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_wisp_white_11
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 157
+        width: 62
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4a439bba08ff450800000000000000
+      internalID: 6124755493282161886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_wisp_white_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 28
+        width: 61
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53ff3c59bbf2e910800000000000000
+      internalID: 1865329969220023131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_wisp_white_13
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 27
+        width: 61
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c8301dbb3b29f60800000000000000
+      internalID: 8039685904056683566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_wisp_white_14
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 27
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0ed134e5b4e7890800000000000000
+      internalID: -7458441064653922126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_wisp_white_15
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 26
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42364f6fb35b98a80800000000000000
+      internalID: -8464034755515227356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fire_wisp_white_0: 7203536822919903427
+      fire_wisp_white_1: 3599804917944509251
+      fire_wisp_white_10: 4563793163663167372
+      fire_wisp_white_11: 6124755493282161886
+      fire_wisp_white_12: 1865329969220023131
+      fire_wisp_white_13: 8039685904056683566
+      fire_wisp_white_14: -7458441064653922126
+      fire_wisp_white_15: -8464034755515227356
+      fire_wisp_white_2: 3711494511138357607
+      fire_wisp_white_3: -598913348118605211
+      fire_wisp_white_4: -4577522645771197948
+      fire_wisp_white_5: -5090811321734009554
+      fire_wisp_white_6: 2594589163013361685
+      fire_wisp_white_7: 2134993047926179230
+      fire_wisp_white_8: -5570493321933616066
+      fire_wisp_white_9: -1594639329476277876
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3473 @@
+fileFormatVersion: 2
+guid: 61ca4aa2ce534498c839aa1629705cf9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5625144680266014484
+    second: idle_headturn_body_forest_0
+  - first:
+      213: -4170500796173589101
+    second: idle_headturn_body_forest_1
+  - first:
+      213: 5215330729526584073
+    second: idle_headturn_body_forest_2
+  - first:
+      213: 1308521878372108054
+    second: idle_headturn_body_forest_3
+  - first:
+      213: 1083348394814248670
+    second: idle_headturn_body_forest_4
+  - first:
+      213: 4123652835553423551
+    second: idle_headturn_body_forest_5
+  - first:
+      213: 1396387736351952153
+    second: idle_headturn_body_forest_6
+  - first:
+      213: -1514197638785456931
+    second: idle_headturn_body_forest_7
+  - first:
+      213: -1867005101538889144
+    second: idle_headturn_body_forest_8
+  - first:
+      213: 9141422010325526922
+    second: idle_headturn_body_forest_9
+  - first:
+      213: -1616974565314801490
+    second: idle_headturn_body_forest_10
+  - first:
+      213: 3573413879614034235
+    second: idle_headturn_body_forest_11
+  - first:
+      213: -8232882144307984212
+    second: idle_headturn_body_forest_12
+  - first:
+      213: -866168229433027254
+    second: idle_headturn_body_forest_13
+  - first:
+      213: -7286845679579712511
+    second: idle_headturn_body_forest_14
+  - first:
+      213: -4701406715474278701
+    second: idle_headturn_body_forest_15
+  - first:
+      213: -3747884938690047890
+    second: idle_headturn_body_forest_16
+  - first:
+      213: 2262251511910090749
+    second: idle_headturn_body_forest_17
+  - first:
+      213: 7400044388376934005
+    second: idle_headturn_body_forest_18
+  - first:
+      213: -2605730452315986661
+    second: idle_headturn_body_forest_19
+  - first:
+      213: -2808705674884571074
+    second: idle_headturn_body_forest_20
+  - first:
+      213: -4982546254153425132
+    second: idle_headturn_body_forest_21
+  - first:
+      213: 2849893634273048741
+    second: idle_headturn_body_forest_22
+  - first:
+      213: 3329934275419353156
+    second: idle_headturn_body_forest_23
+  - first:
+      213: 686121015597557313
+    second: idle_headturn_body_forest_24
+  - first:
+      213: 4979308015098242705
+    second: idle_headturn_body_forest_25
+  - first:
+      213: 5263759521614965608
+    second: idle_headturn_body_forest_26
+  - first:
+      213: 8908910669573127274
+    second: idle_headturn_body_forest_27
+  - first:
+      213: 6926257812700718495
+    second: idle_headturn_body_forest_28
+  - first:
+      213: 5935730378720368968
+    second: idle_headturn_body_forest_29
+  - first:
+      213: -4650211100298201491
+    second: idle_headturn_body_forest_30
+  - first:
+      213: 8923220053158113237
+    second: idle_headturn_body_forest_31
+  - first:
+      213: 3659393277323369581
+    second: idle_headturn_body_forest_32
+  - first:
+      213: -6605528863779418055
+    second: idle_headturn_body_forest_33
+  - first:
+      213: -7671694201024685330
+    second: idle_headturn_body_forest_34
+  - first:
+      213: -1965039512342859708
+    second: idle_headturn_body_forest_35
+  - first:
+      213: 5373124998645905602
+    second: idle_headturn_body_forest_36
+  - first:
+      213: 8104935558265414367
+    second: idle_headturn_body_forest_37
+  - first:
+      213: 5345524081170526614
+    second: idle_headturn_body_forest_38
+  - first:
+      213: 6104846173268175911
+    second: idle_headturn_body_forest_39
+  - first:
+      213: 3099475320896335143
+    second: idle_headturn_body_forest_40
+  - first:
+      213: 1196878488851630806
+    second: idle_headturn_body_forest_41
+  - first:
+      213: 584525676259001307
+    second: idle_headturn_body_forest_42
+  - first:
+      213: -3319155815871773872
+    second: idle_headturn_body_forest_43
+  - first:
+      213: 581709412225636193
+    second: idle_headturn_body_forest_44
+  - first:
+      213: 569996638771028636
+    second: idle_headturn_body_forest_45
+  - first:
+      213: 8009109538718053009
+    second: idle_headturn_body_forest_46
+  - first:
+      213: 1277521505879633187
+    second: idle_headturn_body_forest_47
+  - first:
+      213: 5871549180975285510
+    second: idle_headturn_body_forest_48
+  - first:
+      213: 7202602314458967808
+    second: idle_headturn_body_forest_49
+  - first:
+      213: 6641797739034547914
+    second: idle_headturn_body_forest_50
+  - first:
+      213: -6337620677690441441
+    second: idle_headturn_body_forest_51
+  - first:
+      213: 7979252654820726116
+    second: idle_headturn_body_forest_52
+  - first:
+      213: 8301940924135335139
+    second: idle_headturn_body_forest_53
+  - first:
+      213: 4256649368896432249
+    second: idle_headturn_body_forest_54
+  - first:
+      213: -2021874023085456782
+    second: idle_headturn_body_forest_55
+  - first:
+      213: 714712289691295649
+    second: idle_headturn_body_forest_56
+  - first:
+      213: -7551013875137116684
+    second: idle_headturn_body_forest_57
+  - first:
+      213: -7498694284417586444
+    second: idle_headturn_body_forest_58
+  - first:
+      213: -314796784044232522
+    second: idle_headturn_body_forest_59
+  - first:
+      213: 5010667186136807943
+    second: idle_headturn_body_forest_60
+  - first:
+      213: -1366029071630897566
+    second: idle_headturn_body_forest_61
+  - first:
+      213: 8666063954850094736
+    second: idle_headturn_body_forest_62
+  - first:
+      213: 7921098420768303025
+    second: idle_headturn_body_forest_63
+  - first:
+      213: -7891498404605354231
+    second: idle_headturn_body_forest_64
+  - first:
+      213: -8889542514638851080
+    second: idle_headturn_body_forest_65
+  - first:
+      213: -6021311726931075731
+    second: idle_headturn_body_forest_66
+  - first:
+      213: -8466645267138720440
+    second: idle_headturn_body_forest_67
+  - first:
+      213: 4564440199796354439
+    second: idle_headturn_body_forest_68
+  - first:
+      213: 3241167856836785912
+    second: idle_headturn_body_forest_69
+  - first:
+      213: -8793222236801716863
+    second: idle_headturn_body_forest_70
+  - first:
+      213: -5093470472898453003
+    second: idle_headturn_body_forest_71
+  - first:
+      213: -7234912438801296021
+    second: idle_headturn_body_forest_72
+  - first:
+      213: 1762997633531137331
+    second: idle_headturn_body_forest_73
+  - first:
+      213: -3426839300988128379
+    second: idle_headturn_body_forest_74
+  - first:
+      213: -806771385681172925
+    second: idle_headturn_body_forest_75
+  - first:
+      213: -8315748966684819522
+    second: idle_headturn_body_forest_76
+  - first:
+      213: 8237109623238087730
+    second: idle_headturn_body_forest_77
+  - first:
+      213: 2366672121277222571
+    second: idle_headturn_body_forest_78
+  - first:
+      213: -6184270478273343664
+    second: idle_headturn_body_forest_79
+  - first:
+      213: 4021028974201420560
+    second: idle_headturn_body_forest_80
+  - first:
+      213: 4333181172677372990
+    second: idle_headturn_body_forest_81
+  - first:
+      213: -9008643514198945442
+    second: idle_headturn_body_forest_82
+  - first:
+      213: 3056252672351254292
+    second: idle_headturn_body_forest_83
+  - first:
+      213: -2100010376986974033
+    second: idle_headturn_body_forest_84
+  - first:
+      213: 8035945352032155189
+    second: idle_headturn_body_forest_85
+  - first:
+      213: -2041088545052862120
+    second: idle_headturn_body_forest_86
+  - first:
+      213: 993731382947185537
+    second: idle_headturn_body_forest_87
+  - first:
+      213: -2284782087993751063
+    second: idle_headturn_body_forest_88
+  - first:
+      213: 895124723958269305
+    second: idle_headturn_body_forest_89
+  - first:
+      213: -401383372045317165
+    second: idle_headturn_body_forest_90
+  - first:
+      213: -9048306903298561180
+    second: idle_headturn_body_forest_91
+  - first:
+      213: 8341351750819376228
+    second: idle_headturn_body_forest_92
+  - first:
+      213: -8952308834984743665
+    second: idle_headturn_body_forest_93
+  - first:
+      213: 2308594533158700046
+    second: idle_headturn_body_forest_94
+  - first:
+      213: -8037434554227382032
+    second: idle_headturn_body_forest_95
+  - first:
+      213: 7398310917001430072
+    second: idle_headturn_body_forest_96
+  - first:
+      213: -2493124163992861406
+    second: idle_headturn_body_forest_97
+  - first:
+      213: 2427278409639993871
+    second: idle_headturn_body_forest_98
+  - first:
+      213: -7776834392549216208
+    second: idle_headturn_body_forest_99
+  - first:
+      213: -1371335207403184309
+    second: idle_headturn_body_forest_100
+  - first:
+      213: 7032265239187701814
+    second: idle_headturn_body_forest_101
+  - first:
+      213: -610647086205597834
+    second: idle_headturn_body_forest_102
+  - first:
+      213: -4333378444431356492
+    second: idle_headturn_body_forest_103
+  - first:
+      213: 8120531233823834901
+    second: idle_headturn_body_forest_104
+  - first:
+      213: -5138855042754450879
+    second: idle_headturn_body_forest_105
+  - first:
+      213: 9123891427413296244
+    second: idle_headturn_body_forest_106
+  - first:
+      213: 7080139745682440313
+    second: idle_headturn_body_forest_107
+  - first:
+      213: 582840673826738641
+    second: idle_headturn_body_forest_108
+  - first:
+      213: -3325307000079806718
+    second: idle_headturn_body_forest_109
+  - first:
+      213: -8867204134775738568
+    second: idle_headturn_body_forest_110
+  - first:
+      213: -6847728685255014375
+    second: idle_headturn_body_forest_111
+  - first:
+      213: -876691009305254208
+    second: idle_headturn_body_forest_112
+  - first:
+      213: 7270131923499114087
+    second: idle_headturn_body_forest_113
+  - first:
+      213: -3884354486892286786
+    second: idle_headturn_body_forest_114
+  - first:
+      213: -1751158549299588907
+    second: idle_headturn_body_forest_115
+  - first:
+      213: -9174965576367415849
+    second: idle_headturn_body_forest_116
+  - first:
+      213: 2284975086657667708
+    second: idle_headturn_body_forest_117
+  - first:
+      213: -2655256640358545054
+    second: idle_headturn_body_forest_118
+  - first:
+      213: -4095598422326596830
+    second: idle_headturn_body_forest_119
+  - first:
+      213: -3964912205249249462
+    second: idle_headturn_body_forest_120
+  - first:
+      213: 814711951058999319
+    second: idle_headturn_body_forest_121
+  - first:
+      213: 6339771600724493425
+    second: idle_headturn_body_forest_122
+  - first:
+      213: -6084060086581491331
+    second: idle_headturn_body_forest_123
+  - first:
+      213: 2270467098539312951
+    second: idle_headturn_body_forest_124
+  - first:
+      213: 1094577545903552282
+    second: idle_headturn_body_forest_125
+  - first:
+      213: 4208353205138867706
+    second: idle_headturn_body_forest_126
+  - first:
+      213: 5131496860239445006
+    second: idle_headturn_body_forest_127
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 5199
+        width: 289
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f1f6d8847801e40800000000000000
+      internalID: 5625144680266014484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_1
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 5200
+        width: 289
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395e6944f976f16c0800000000000000
+      internalID: -4170500796173589101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_2
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 5199
+        width: 289
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9036c9f9aa3906840800000000000000
+      internalID: 5215330729526584073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_3
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 5199
+        width: 289
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617423d27bdc82210800000000000000
+      internalID: 1308521878372108054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_4
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 5199
+        width: 289
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed694e010a3d80f00800000000000000
+      internalID: 1083348394814248670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_5
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 5199
+        width: 291
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0b138e7682a3930800000000000000
+      internalID: 4123652835553423551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_6
+      rect:
+        serializedVersion: 2
+        x: 3172
+        y: 5199
+        width: 292
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d48f17f37f06310800000000000000
+      internalID: 1396387736351952153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_7
+      rect:
+        serializedVersion: 2
+        x: 3683
+        y: 5199
+        width: 293
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd42574254d7cfae0800000000000000
+      internalID: -1514197638785456931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_8
+      rect:
+        serializedVersion: 2
+        x: 4195
+        y: 5199
+        width: 293
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842bee080c01716e0800000000000000
+      internalID: -1867005101538889144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_9
+      rect:
+        serializedVersion: 2
+        x: 4707
+        y: 5199
+        width: 293
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89e36392eadcde70800000000000000
+      internalID: 9141422010325526922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_10
+      rect:
+        serializedVersion: 2
+        x: 5219
+        y: 5200
+        width: 292
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0d19f233a5f89e0800000000000000
+      internalID: -1616974565314801490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_11
+      rect:
+        serializedVersion: 2
+        x: 5732
+        y: 5200
+        width: 292
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3158d1adf0579130800000000000000
+      internalID: 3573413879614034235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 4688
+        width: 292
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8cdd63f4deebd80800000000000000
+      internalID: -8232882144307984212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_13
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 4688
+        width: 291
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a455ae0a590caf3f0800000000000000
+      internalID: -866168229433027254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_14
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 4688
+        width: 291
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104bf87367cefda90800000000000000
+      internalID: -7286845679579712511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_15
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 4688
+        width: 290
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6058b508f31ceb0800000000000000
+      internalID: -4701406715474278701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_16
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 4688
+        width: 288
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60d7526186dcfbc0800000000000000
+      internalID: -3747884938690047890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_17
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 4688
+        width: 287
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7cdff93c1256f10800000000000000
+      internalID: 2262251511910090749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_18
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 4688
+        width: 288
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57674530a2d32b660800000000000000
+      internalID: 7400044388376934005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_19
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 4688
+        width: 288
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15a94995f596dbd0800000000000000
+      internalID: -2605730452315986661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_20
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 4688
+        width: 289
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30a1e1e1197509d0800000000000000
+      internalID: -2808705674884571074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_21
+      rect:
+        serializedVersion: 2
+        x: 4710
+        y: 4688
+        width: 291
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f5b3c94907adab0800000000000000
+      internalID: -4982546254153425132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_22
+      rect:
+        serializedVersion: 2
+        x: 5221
+        y: 4688
+        width: 292
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8fd76392bdc8720800000000000000
+      internalID: 2849893634273048741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_23
+      rect:
+        serializedVersion: 2
+        x: 5730
+        y: 4688
+        width: 294
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440b4cba49d463e20800000000000000
+      internalID: 3329934275419353156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_24
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 4176
+        width: 295
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1466f9fad67958900800000000000000
+      internalID: 686121015597557313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_25
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 4176
+        width: 294
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196af2b124e0a1540800000000000000
+      internalID: 4979308015098242705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_26
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 4176
+        width: 294
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ba0f47561ac0940800000000000000
+      internalID: 5263759521614965608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_27
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 4176
+        width: 294
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cf7937d0fc2ab70800000000000000
+      internalID: 8908910669573127274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_28
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 4176
+        width: 294
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95ecc4a8c20f1060800000000000000
+      internalID: 6926257812700718495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_29
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 4176
+        width: 291
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8495f12a453ff5250800000000000000
+      internalID: 5935730378720368968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_30
+      rect:
+        serializedVersion: 2
+        x: 3173
+        y: 4176
+        width: 291
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66b52464a1277fb0800000000000000
+      internalID: -4650211100298201491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_31
+      rect:
+        serializedVersion: 2
+        x: 3686
+        y: 4176
+        width: 289
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfa1217c55a5db70800000000000000
+      internalID: 8923220053158113237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_32
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 4176
+        width: 289
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6cdf442cc6c8c230800000000000000
+      internalID: 3659393277323369581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_33
+      rect:
+        serializedVersion: 2
+        x: 4711
+        y: 4176
+        width: 289
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93096d8fe727454a0800000000000000
+      internalID: -6605528863779418055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_34
+      rect:
+        serializedVersion: 2
+        x: 5223
+        y: 4176
+        width: 289
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeadf7245caa88590800000000000000
+      internalID: -7671694201024685330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_35
+      rect:
+        serializedVersion: 2
+        x: 5735
+        y: 4176
+        width: 289
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440723989f6cab4e0800000000000000
+      internalID: -1965039512342859708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_36
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 3664
+        width: 289
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c87f0ed7bc219a40800000000000000
+      internalID: 5373124998645905602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_37
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 3664
+        width: 289
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2a7ddc2f38a7070800000000000000
+      internalID: 8104935558265414367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_38
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 3663
+        width: 289
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691377c74dd1f2a40800000000000000
+      internalID: 5345524081170526614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_39
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 3663
+        width: 291
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c6d0eef35c8b450800000000000000
+      internalID: 6104846173268175911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_40
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 3663
+        width: 293
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72dad14f16c830b20800000000000000
+      internalID: 3099475320896335143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_41
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 3663
+        width: 293
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dace4fe4aa2c9010800000000000000
+      internalID: 1196878488851630806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_42
+      rect:
+        serializedVersion: 2
+        x: 3171
+        y: 3663
+        width: 293
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3438f6107ac1800800000000000000
+      internalID: 584525676259001307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_43
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 3663
+        width: 292
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0538ac00f5dffe1d0800000000000000
+      internalID: -3319155815871773872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_44
+      rect:
+        serializedVersion: 2
+        x: 4196
+        y: 3663
+        width: 292
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167d53ed0a5a21800800000000000000
+      internalID: 581709412225636193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_45
+      rect:
+        serializedVersion: 2
+        x: 4708
+        y: 3663
+        width: 292
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c922d194ce809e700800000000000000
+      internalID: 569996638771028636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_46
+      rect:
+        serializedVersion: 2
+        x: 5221
+        y: 3664
+        width: 291
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1927b7ef0b2162f60800000000000000
+      internalID: 8009109538718053009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_47
+      rect:
+        serializedVersion: 2
+        x: 5733
+        y: 3664
+        width: 291
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32da0ee7a0baab110800000000000000
+      internalID: 1277521505879633187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_48
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3152
+        width: 290
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605844d0fdeeb7150800000000000000
+      internalID: 5871549180975285510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_49
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 3152
+        width: 290
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fabbbd4a8c4f360800000000000000
+      internalID: 7202602314458967808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_50
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 3152
+        width: 290
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac695299ad76c2c50800000000000000
+      internalID: 6641797739034547914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_51
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 3152
+        width: 290
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f114711629f3c08a0800000000000000
+      internalID: -6337620677690441441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_52
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 3152
+        width: 291
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4659eaf73000cbe60800000000000000
+      internalID: 7979252654820726116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_53
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 3152
+        width: 290
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e46d51f84b663370800000000000000
+      internalID: 8301940924135335139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_54
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 3152
+        width: 290
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978667e5c08a21b30800000000000000
+      internalID: 4256649368896432249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_55
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 3152
+        width: 289
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272c661d94cd0f3e0800000000000000
+      internalID: -2021874023085456782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_56
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 3152
+        width: 289
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afd7af6a0b2be900800000000000000
+      internalID: 714712289691295649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_57
+      rect:
+        serializedVersion: 2
+        x: 4711
+        y: 3152
+        width: 289
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5086633e8653790800000000000000
+      internalID: -7551013875137116684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_58
+      rect:
+        serializedVersion: 2
+        x: 5223
+        y: 3152
+        width: 289
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4faa90237494fe790800000000000000
+      internalID: -7498694284417586444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_59
+      rect:
+        serializedVersion: 2
+        x: 5735
+        y: 3152
+        width: 289
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0bb962efd91abf0800000000000000
+      internalID: -314796784044232522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_60
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 2640
+        width: 289
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70af3651247798540800000000000000
+      internalID: 5010667186136807943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_61
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 2640
+        width: 288
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e65900cc3ea0de0800000000000000
+      internalID: -1366029071630897566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_62
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 2640
+        width: 289
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e18ad804b044870800000000000000
+      internalID: 8666063954850094736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_63
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 2640
+        width: 289
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b76dc0cb056ded60800000000000000
+      internalID: 7921098420768303025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_64
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 2640
+        width: 289
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f9fef0304cb7290800000000000000
+      internalID: -7891498404605354231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_65
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 2640
+        width: 289
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3f7378e2002a480800000000000000
+      internalID: -8889542514638851080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_66
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 2639
+        width: 290
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d116af2e0007ca0800000000000000
+      internalID: -6021311726931075731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_67
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 2639
+        width: 289
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d44fcdcfe608a80800000000000000
+      internalID: -8466645267138720440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_68
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 2639
+        width: 289
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78def53ad26285f30800000000000000
+      internalID: 4564440199796354439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_69
+      rect:
+        serializedVersion: 2
+        x: 4709
+        y: 2639
+        width: 291
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6bb2c4ef0fafc20800000000000000
+      internalID: 3241167856836785912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_70
+      rect:
+        serializedVersion: 2
+        x: 5220
+        y: 2639
+        width: 292
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d2e50d6f238f580800000000000000
+      internalID: -8793222236801716863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_71
+      rect:
+        serializedVersion: 2
+        x: 5731
+        y: 2639
+        width: 293
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f162fc579b5059b0800000000000000
+      internalID: -5093470472898453003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_72
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2127
+        width: 293
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b659138187d689b90800000000000000
+      internalID: -7234912438801296021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_73
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 2127
+        width: 293
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d4a76c10d677810800000000000000
+      internalID: 1762997633531137331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_74
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 2128
+        width: 292
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583314adfcb6170d0800000000000000
+      internalID: -3426839300988128379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_75
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 2128
+        width: 293
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346268df2b5cdc4f0800000000000000
+      internalID: -806771385681172925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_76
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 2128
+        width: 292
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebffd6f9f56889c80800000000000000
+      internalID: -8315748966684819522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_77
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 2128
+        width: 291
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234de0d6f87105270800000000000000
+      internalID: 8237109623238087730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_78
+      rect:
+        serializedVersion: 2
+        x: 3173
+        y: 2128
+        width: 291
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae8c8051cb18d020800000000000000
+      internalID: 2366672121277222571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_79
+      rect:
+        serializedVersion: 2
+        x: 3686
+        y: 2128
+        width: 290
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f059304ce0d2aa0800000000000000
+      internalID: -6184270478273343664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_80
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2128
+        width: 288
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b34d63c809dc730800000000000000
+      internalID: 4021028974201420560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_81
+      rect:
+        serializedVersion: 2
+        x: 4712
+        y: 2128
+        width: 289
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c68d0815d822c30800000000000000
+      internalID: 4333181172677372990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_82
+      rect:
+        serializedVersion: 2
+        x: 5224
+        y: 2128
+        width: 288
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e519b04247edaf280800000000000000
+      internalID: -9008643514198945442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_83
+      rect:
+        serializedVersion: 2
+        x: 5736
+        y: 2128
+        width: 288
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417b55fdc9df96a20800000000000000
+      internalID: 3056252672351254292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_84
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1616
+        width: 289
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8ae0f30b34bd2e0800000000000000
+      internalID: -2100010376986974033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_85
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1616
+        width: 291
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536f35ea8b9658f60800000000000000
+      internalID: 8035945352032155189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_86
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1616
+        width: 292
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859510d48c89ca3e0800000000000000
+      internalID: -2041088545052862120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_87
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1616
+        width: 295
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18389b28d617acd00800000000000000
+      internalID: 993731382947185537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_88
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 1616
+        width: 295
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e905f7dbc2da40e0800000000000000
+      internalID: -2284782087993751063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_89
+      rect:
+        serializedVersion: 2
+        x: 2658
+        y: 1616
+        width: 294
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975c331a13f1c6c00800000000000000
+      internalID: 895124723958269305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_90
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 1616
+        width: 294
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db8d7223fffd6af0800000000000000
+      internalID: -401383372045317165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_91
+      rect:
+        serializedVersion: 2
+        x: 3682
+        y: 1616
+        width: 294
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bac2abfc4fd6280800000000000000
+      internalID: -9048306903298561180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_92
+      rect:
+        serializedVersion: 2
+        x: 4194
+        y: 1616
+        width: 294
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ceb26193f62c370800000000000000
+      internalID: 8341351750819376228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_93
+      rect:
+        serializedVersion: 2
+        x: 4709
+        y: 1616
+        width: 291
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0da423cb8203c380800000000000000
+      internalID: -8952308834984743665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_94
+      rect:
+        serializedVersion: 2
+        x: 5221
+        y: 1616
+        width: 291
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0445571f76c90020800000000000000
+      internalID: 2308594533158700046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_95
+      rect:
+        serializedVersion: 2
+        x: 5734
+        y: 1616
+        width: 289
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8a3d96bdb457090800000000000000
+      internalID: -8037434554227382032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_96
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1104
+        width: 289
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834c3c1c4941ca660800000000000000
+      internalID: 7398310917001430072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_97
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1104
+        width: 289
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225434038c4a66dd0800000000000000
+      internalID: -2493124163992861406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_98
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1104
+        width: 289
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0221917adc6fa120800000000000000
+      internalID: 2427278409639993871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_99
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1104
+        width: 289
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030301bc252231490800000000000000
+      internalID: -7776834392549216208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_100
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1104
+        width: 289
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f1fbef4e908fce0800000000000000
+      internalID: -1371335207403184309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_101
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 1104
+        width: 289
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6304c1cf9ff979160800000000000000
+      internalID: 7032265239187701814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_102
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 1104
+        width: 289
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677869fd5bb8687f0800000000000000
+      internalID: -610647086205597834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_103
+      rect:
+        serializedVersion: 2
+        x: 3685
+        y: 1103
+        width: 291
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd8556934fbcd3c0800000000000000
+      internalID: -4333378444431356492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_104
+      rect:
+        serializedVersion: 2
+        x: 4195
+        y: 1103
+        width: 293
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513c88bf12ce1b070800000000000000
+      internalID: 8120531233823834901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_105
+      rect:
+        serializedVersion: 2
+        x: 4707
+        y: 1103
+        width: 293
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a6560c09e1fa8b0800000000000000
+      internalID: -5138855042754450879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_106
+      rect:
+        serializedVersion: 2
+        x: 5219
+        y: 1103
+        width: 293
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474833ca9e29e9e70800000000000000
+      internalID: 9123891427413296244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_107
+      rect:
+        serializedVersion: 2
+        x: 5732
+        y: 1103
+        width: 292
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970c6852695b14260800000000000000
+      internalID: 7080139745682440313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_108
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 591
+        width: 292
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1971c318aa61800800000000000000
+      internalID: 582840673826738641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_109
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 592
+        width: 292
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f8f13d6e22ad1d0800000000000000
+      internalID: -3325307000079806718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_110
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 592
+        width: 291
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f21d3e1dc51f480800000000000000
+      internalID: -8867204134775738568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_111
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 592
+        width: 291
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9184f15aa0bf7f0a0800000000000000
+      internalID: -6847728685255014375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_112
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 592
+        width: 290
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6e4940c2e55d3f0800000000000000
+      internalID: -876691009305254208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_113
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 592
+        width: 290
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e54623772b4e460800000000000000
+      internalID: 7270131923499114087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_114
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 592
+        width: 290
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc2713ac20081ac0800000000000000
+      internalID: -3884354486892286786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_115
+      rect:
+        serializedVersion: 2
+        x: 3686
+        y: 592
+        width: 290
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d01c93d392a2b7e0800000000000000
+      internalID: -1751158549299588907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_116
+      rect:
+        serializedVersion: 2
+        x: 4197
+        y: 592
+        width: 290
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ddde2a5b69fba080800000000000000
+      internalID: -9174965576367415849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_117
+      rect:
+        serializedVersion: 2
+        x: 4710
+        y: 592
+        width: 290
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7209d82cbcd5bf10800000000000000
+      internalID: 2284975086657667708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_118
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 592
+        width: 290
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2698eeb5722a62bd0800000000000000
+      internalID: -2655256640358545054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_119
+      rect:
+        serializedVersion: 2
+        x: 5735
+        y: 592
+        width: 289
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ba29e2fe28927c0800000000000000
+      internalID: -4095598422326596830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_120
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 80
+        width: 289
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ff1883b5dc9f8c0800000000000000
+      internalID: -3964912205249249462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_121
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 80
+        width: 289
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7181325f3307e4b00800000000000000
+      internalID: 814711951058999319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_122
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 80
+        width: 289
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1740b4a6ea46bf750800000000000000
+      internalID: 6339771600724493425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_123
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 80
+        width: 289
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d798d230693119ba0800000000000000
+      internalID: -6084060086581491331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_124
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 80
+        width: 288
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737c5a2fbc1528f10800000000000000
+      internalID: 2270467098539312951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_125
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 80
+        width: 288
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1733ba8a78b03f00800000000000000
+      internalID: 1094577545903552282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_126
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 80
+        width: 289
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5cda971f2176a30800000000000000
+      internalID: 4208353205138867706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_headturn_body_forest_127
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 80
+        width: 289
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cba90e43db63740800000000000000
+      internalID: 5131496860239445006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      idle_headturn_body_forest_0: 5625144680266014484
+      idle_headturn_body_forest_1: -4170500796173589101
+      idle_headturn_body_forest_10: -1616974565314801490
+      idle_headturn_body_forest_100: -1371335207403184309
+      idle_headturn_body_forest_101: 7032265239187701814
+      idle_headturn_body_forest_102: -610647086205597834
+      idle_headturn_body_forest_103: -4333378444431356492
+      idle_headturn_body_forest_104: 8120531233823834901
+      idle_headturn_body_forest_105: -5138855042754450879
+      idle_headturn_body_forest_106: 9123891427413296244
+      idle_headturn_body_forest_107: 7080139745682440313
+      idle_headturn_body_forest_108: 582840673826738641
+      idle_headturn_body_forest_109: -3325307000079806718
+      idle_headturn_body_forest_11: 3573413879614034235
+      idle_headturn_body_forest_110: -8867204134775738568
+      idle_headturn_body_forest_111: -6847728685255014375
+      idle_headturn_body_forest_112: -876691009305254208
+      idle_headturn_body_forest_113: 7270131923499114087
+      idle_headturn_body_forest_114: -3884354486892286786
+      idle_headturn_body_forest_115: -1751158549299588907
+      idle_headturn_body_forest_116: -9174965576367415849
+      idle_headturn_body_forest_117: 2284975086657667708
+      idle_headturn_body_forest_118: -2655256640358545054
+      idle_headturn_body_forest_119: -4095598422326596830
+      idle_headturn_body_forest_12: -8232882144307984212
+      idle_headturn_body_forest_120: -3964912205249249462
+      idle_headturn_body_forest_121: 814711951058999319
+      idle_headturn_body_forest_122: 6339771600724493425
+      idle_headturn_body_forest_123: -6084060086581491331
+      idle_headturn_body_forest_124: 2270467098539312951
+      idle_headturn_body_forest_125: 1094577545903552282
+      idle_headturn_body_forest_126: 4208353205138867706
+      idle_headturn_body_forest_127: 5131496860239445006
+      idle_headturn_body_forest_13: -866168229433027254
+      idle_headturn_body_forest_14: -7286845679579712511
+      idle_headturn_body_forest_15: -4701406715474278701
+      idle_headturn_body_forest_16: -3747884938690047890
+      idle_headturn_body_forest_17: 2262251511910090749
+      idle_headturn_body_forest_18: 7400044388376934005
+      idle_headturn_body_forest_19: -2605730452315986661
+      idle_headturn_body_forest_2: 5215330729526584073
+      idle_headturn_body_forest_20: -2808705674884571074
+      idle_headturn_body_forest_21: -4982546254153425132
+      idle_headturn_body_forest_22: 2849893634273048741
+      idle_headturn_body_forest_23: 3329934275419353156
+      idle_headturn_body_forest_24: 686121015597557313
+      idle_headturn_body_forest_25: 4979308015098242705
+      idle_headturn_body_forest_26: 5263759521614965608
+      idle_headturn_body_forest_27: 8908910669573127274
+      idle_headturn_body_forest_28: 6926257812700718495
+      idle_headturn_body_forest_29: 5935730378720368968
+      idle_headturn_body_forest_3: 1308521878372108054
+      idle_headturn_body_forest_30: -4650211100298201491
+      idle_headturn_body_forest_31: 8923220053158113237
+      idle_headturn_body_forest_32: 3659393277323369581
+      idle_headturn_body_forest_33: -6605528863779418055
+      idle_headturn_body_forest_34: -7671694201024685330
+      idle_headturn_body_forest_35: -1965039512342859708
+      idle_headturn_body_forest_36: 5373124998645905602
+      idle_headturn_body_forest_37: 8104935558265414367
+      idle_headturn_body_forest_38: 5345524081170526614
+      idle_headturn_body_forest_39: 6104846173268175911
+      idle_headturn_body_forest_4: 1083348394814248670
+      idle_headturn_body_forest_40: 3099475320896335143
+      idle_headturn_body_forest_41: 1196878488851630806
+      idle_headturn_body_forest_42: 584525676259001307
+      idle_headturn_body_forest_43: -3319155815871773872
+      idle_headturn_body_forest_44: 581709412225636193
+      idle_headturn_body_forest_45: 569996638771028636
+      idle_headturn_body_forest_46: 8009109538718053009
+      idle_headturn_body_forest_47: 1277521505879633187
+      idle_headturn_body_forest_48: 5871549180975285510
+      idle_headturn_body_forest_49: 7202602314458967808
+      idle_headturn_body_forest_5: 4123652835553423551
+      idle_headturn_body_forest_50: 6641797739034547914
+      idle_headturn_body_forest_51: -6337620677690441441
+      idle_headturn_body_forest_52: 7979252654820726116
+      idle_headturn_body_forest_53: 8301940924135335139
+      idle_headturn_body_forest_54: 4256649368896432249
+      idle_headturn_body_forest_55: -2021874023085456782
+      idle_headturn_body_forest_56: 714712289691295649
+      idle_headturn_body_forest_57: -7551013875137116684
+      idle_headturn_body_forest_58: -7498694284417586444
+      idle_headturn_body_forest_59: -314796784044232522
+      idle_headturn_body_forest_6: 1396387736351952153
+      idle_headturn_body_forest_60: 5010667186136807943
+      idle_headturn_body_forest_61: -1366029071630897566
+      idle_headturn_body_forest_62: 8666063954850094736
+      idle_headturn_body_forest_63: 7921098420768303025
+      idle_headturn_body_forest_64: -7891498404605354231
+      idle_headturn_body_forest_65: -8889542514638851080
+      idle_headturn_body_forest_66: -6021311726931075731
+      idle_headturn_body_forest_67: -8466645267138720440
+      idle_headturn_body_forest_68: 4564440199796354439
+      idle_headturn_body_forest_69: 3241167856836785912
+      idle_headturn_body_forest_7: -1514197638785456931
+      idle_headturn_body_forest_70: -8793222236801716863
+      idle_headturn_body_forest_71: -5093470472898453003
+      idle_headturn_body_forest_72: -7234912438801296021
+      idle_headturn_body_forest_73: 1762997633531137331
+      idle_headturn_body_forest_74: -3426839300988128379
+      idle_headturn_body_forest_75: -806771385681172925
+      idle_headturn_body_forest_76: -8315748966684819522
+      idle_headturn_body_forest_77: 8237109623238087730
+      idle_headturn_body_forest_78: 2366672121277222571
+      idle_headturn_body_forest_79: -6184270478273343664
+      idle_headturn_body_forest_8: -1867005101538889144
+      idle_headturn_body_forest_80: 4021028974201420560
+      idle_headturn_body_forest_81: 4333181172677372990
+      idle_headturn_body_forest_82: -9008643514198945442
+      idle_headturn_body_forest_83: 3056252672351254292
+      idle_headturn_body_forest_84: -2100010376986974033
+      idle_headturn_body_forest_85: 8035945352032155189
+      idle_headturn_body_forest_86: -2041088545052862120
+      idle_headturn_body_forest_87: 993731382947185537
+      idle_headturn_body_forest_88: -2284782087993751063
+      idle_headturn_body_forest_89: 895124723958269305
+      idle_headturn_body_forest_9: 9141422010325526922
+      idle_headturn_body_forest_90: -401383372045317165
+      idle_headturn_body_forest_91: -9048306903298561180
+      idle_headturn_body_forest_92: 8341351750819376228
+      idle_headturn_body_forest_93: -8952308834984743665
+      idle_headturn_body_forest_94: 2308594533158700046
+      idle_headturn_body_forest_95: -8037434554227382032
+      idle_headturn_body_forest_96: 7398310917001430072
+      idle_headturn_body_forest_97: -2493124163992861406
+      idle_headturn_body_forest_98: 2427278409639993871
+      idle_headturn_body_forest_99: -7776834392549216208
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

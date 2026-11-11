@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: dd08edcebdc004daf9d65ee91321871a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1236792793011434682
+    second: hit_body_forest_0
+  - first:
+      213: -7655613011484859847
+    second: hit_body_forest_1
+  - first:
+      213: -2043661342537218818
+    second: hit_body_forest_2
+  - first:
+      213: 4140369530758026434
+    second: hit_body_forest_3
+  - first:
+      213: 3100451331185790541
+    second: hit_body_forest_4
+  - first:
+      213: -2609828034708277646
+    second: hit_body_forest_5
+  - first:
+      213: 6376400575841067142
+    second: hit_body_forest_6
+  - first:
+      213: 1794984945390725012
+    second: hit_body_forest_7
+  - first:
+      213: 5165361940515126534
+    second: hit_body_forest_8
+  - first:
+      213: -2133139588801798056
+    second: hit_body_forest_9
+  - first:
+      213: 1844805984182851977
+    second: hit_body_forest_10
+  - first:
+      213: 3688335464161739250
+    second: hit_body_forest_11
+  - first:
+      213: 3766862300893553480
+    second: hit_body_forest_12
+  - first:
+      213: 6107675116743111245
+    second: hit_body_forest_13
+  - first:
+      213: -4906245849437376209
+    second: hit_body_forest_14
+  - first:
+      213: 5068870191630884115
+    second: hit_body_forest_15
+  - first:
+      213: -7585598481381520996
+    second: hit_body_forest_16
+  - first:
+      213: 6019034985115901500
+    second: hit_body_forest_17
+  - first:
+      213: 8503130088026808816
+    second: hit_body_forest_18
+  - first:
+      213: -1588665549306068842
+    second: hit_body_forest_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hit_body_forest_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1615
+        width: 288
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4b5301e78f92110800000000000000
+      internalID: 1236792793011434682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_1
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1615
+        width: 321
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9322698f68cc1c590800000000000000
+      internalID: -7655613011484859847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_2
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1616
+        width: 322
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef40fd436d473a3e0800000000000000
+      internalID: -2043661342537218818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_3
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 1617
+        width: 356
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4deafc62c857930800000000000000
+      internalID: 4140369530758026434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_4
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 1617
+        width: 362
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e47be0f04070b20800000000000000
+      internalID: 3100451331185790541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1104
+        width: 374
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2767b5ada3708cbd0800000000000000
+      internalID: -2609828034708277646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_6
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1104
+        width: 376
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6806a944a868d7850800000000000000
+      internalID: 6376400575841067142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_7
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 1104
+        width: 377
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497203f2c4119e810800000000000000
+      internalID: 1794984945390725012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_8
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1104
+        width: 365
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60df9b0515d0fa740800000000000000
+      internalID: 5165361940515126534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_9
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 1104
+        width: 338
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850652988d09562e0800000000000000
+      internalID: -2133139588801798056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_10
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 593
+        width: 322
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989dbb6b4411a9910800000000000000
+      internalID: 1844805984182851977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_11
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 593
+        width: 322
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f106d120999f2330800000000000000
+      internalID: 3688335464161739250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_12
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 592
+        width: 317
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84322921e45964430800000000000000
+      internalID: 3766862300893553480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_13
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 592
+        width: 312
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4237f8a822d2c450800000000000000
+      internalID: 6107675116743111245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_14
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 591
+        width: 310
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21fc83f46389ebb0800000000000000
+      internalID: -4906245849437376209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 79
+        width: 309
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d99b0559e385640800000000000000
+      internalID: 5068870191630884115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_16
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 79
+        width: 298
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9903841f5a8ab690800000000000000
+      internalID: -7585598481381520996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_17
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 79
+        width: 288
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e5b72cd68e78350800000000000000
+      internalID: 6019034985115901500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_18
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 79
+        width: 268
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f126c773cf210670800000000000000
+      internalID: 8503130088026808816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_body_forest_19
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 79
+        width: 288
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69006ba991de3f9e0800000000000000
+      internalID: -1588665549306068842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hit_body_forest_0: 1236792793011434682
+      hit_body_forest_1: -7655613011484859847
+      hit_body_forest_10: 1844805984182851977
+      hit_body_forest_11: 3688335464161739250
+      hit_body_forest_12: 3766862300893553480
+      hit_body_forest_13: 6107675116743111245
+      hit_body_forest_14: -4906245849437376209
+      hit_body_forest_15: 5068870191630884115
+      hit_body_forest_16: -7585598481381520996
+      hit_body_forest_17: 6019034985115901500
+      hit_body_forest_18: 8503130088026808816
+      hit_body_forest_19: -1588665549306068842
+      hit_body_forest_2: -2043661342537218818
+      hit_body_forest_3: 4140369530758026434
+      hit_body_forest_4: 3100451331185790541
+      hit_body_forest_5: -2609828034708277646
+      hit_body_forest_6: 6376400575841067142
+      hit_body_forest_7: 1794984945390725012
+      hit_body_forest_8: 5165361940515126534
+      hit_body_forest_9: -2133139588801798056
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3473 @@
+fileFormatVersion: 2
+guid: 85081816e357f43c7aced69180c6ba56
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 388352773491717438
+    second: idle_shift_body_forest_0
+  - first:
+      213: -2842163217906171469
+    second: idle_shift_body_forest_1
+  - first:
+      213: 2872022530242770441
+    second: idle_shift_body_forest_2
+  - first:
+      213: -7091417811384804692
+    second: idle_shift_body_forest_3
+  - first:
+      213: 515529106775405031
+    second: idle_shift_body_forest_4
+  - first:
+      213: -7731050206522612047
+    second: idle_shift_body_forest_5
+  - first:
+      213: 1224973399130433246
+    second: idle_shift_body_forest_6
+  - first:
+      213: 8062734763314186272
+    second: idle_shift_body_forest_7
+  - first:
+      213: -4887255095565953317
+    second: idle_shift_body_forest_8
+  - first:
+      213: 1146677640573762685
+    second: idle_shift_body_forest_9
+  - first:
+      213: 854023229266027170
+    second: idle_shift_body_forest_10
+  - first:
+      213: 8168125859327436251
+    second: idle_shift_body_forest_11
+  - first:
+      213: 224348228521552251
+    second: idle_shift_body_forest_12
+  - first:
+      213: 5677426975117317641
+    second: idle_shift_body_forest_13
+  - first:
+      213: 5775162560118251405
+    second: idle_shift_body_forest_14
+  - first:
+      213: -5882052792767191244
+    second: idle_shift_body_forest_15
+  - first:
+      213: 3447788075640533540
+    second: idle_shift_body_forest_16
+  - first:
+      213: -1489491460688004772
+    second: idle_shift_body_forest_17
+  - first:
+      213: 6835048965440110861
+    second: idle_shift_body_forest_18
+  - first:
+      213: 683337386187778757
+    second: idle_shift_body_forest_19
+  - first:
+      213: -992818378646978045
+    second: idle_shift_body_forest_20
+  - first:
+      213: -4625444973085044528
+    second: idle_shift_body_forest_21
+  - first:
+      213: -7567962774119519735
+    second: idle_shift_body_forest_22
+  - first:
+      213: 8424910339852337422
+    second: idle_shift_body_forest_23
+  - first:
+      213: -5057244159708057695
+    second: idle_shift_body_forest_24
+  - first:
+      213: -1797797261774446359
+    second: idle_shift_body_forest_25
+  - first:
+      213: -4134088575965475177
+    second: idle_shift_body_forest_26
+  - first:
+      213: -1780543929734518485
+    second: idle_shift_body_forest_27
+  - first:
+      213: 2422244668343156508
+    second: idle_shift_body_forest_28
+  - first:
+      213: 594694481226529707
+    second: idle_shift_body_forest_29
+  - first:
+      213: -3146995169495555531
+    second: idle_shift_body_forest_30
+  - first:
+      213: -4490774449208694624
+    second: idle_shift_body_forest_31
+  - first:
+      213: -9152065796623070566
+    second: idle_shift_body_forest_32
+  - first:
+      213: 660892333415745803
+    second: idle_shift_body_forest_33
+  - first:
+      213: 3295518315751260381
+    second: idle_shift_body_forest_34
+  - first:
+      213: 3483500038105996270
+    second: idle_shift_body_forest_35
+  - first:
+      213: -6710745130951447981
+    second: idle_shift_body_forest_36
+  - first:
+      213: -1336277969012114718
+    second: idle_shift_body_forest_37
+  - first:
+      213: 6499968915290254400
+    second: idle_shift_body_forest_38
+  - first:
+      213: 7963096403327435716
+    second: idle_shift_body_forest_39
+  - first:
+      213: 523562624211434174
+    second: idle_shift_body_forest_40
+  - first:
+      213: -7930197464593365610
+    second: idle_shift_body_forest_41
+  - first:
+      213: -851574294001518161
+    second: idle_shift_body_forest_42
+  - first:
+      213: -1769289704638780063
+    second: idle_shift_body_forest_43
+  - first:
+      213: -4002350427337674640
+    second: idle_shift_body_forest_44
+  - first:
+      213: -6335594122422855321
+    second: idle_shift_body_forest_45
+  - first:
+      213: -5934251296697216574
+    second: idle_shift_body_forest_46
+  - first:
+      213: 8971041014577914925
+    second: idle_shift_body_forest_47
+  - first:
+      213: 2212519089914540776
+    second: idle_shift_body_forest_48
+  - first:
+      213: 2631195371912457969
+    second: idle_shift_body_forest_49
+  - first:
+      213: -8716947815295161555
+    second: idle_shift_body_forest_50
+  - first:
+      213: 139057187395299703
+    second: idle_shift_body_forest_51
+  - first:
+      213: 8408513179889850855
+    second: idle_shift_body_forest_52
+  - first:
+      213: 5908068565091883733
+    second: idle_shift_body_forest_53
+  - first:
+      213: -8825562044518664268
+    second: idle_shift_body_forest_54
+  - first:
+      213: 8564254371090787351
+    second: idle_shift_body_forest_55
+  - first:
+      213: 7039751544564148501
+    second: idle_shift_body_forest_56
+  - first:
+      213: -3322751972996807957
+    second: idle_shift_body_forest_57
+  - first:
+      213: 1360410106886186889
+    second: idle_shift_body_forest_58
+  - first:
+      213: -1627026504511654229
+    second: idle_shift_body_forest_59
+  - first:
+      213: 6804125992323257825
+    second: idle_shift_body_forest_60
+  - first:
+      213: -1262121055823079747
+    second: idle_shift_body_forest_61
+  - first:
+      213: -3844335472498625374
+    second: idle_shift_body_forest_62
+  - first:
+      213: -7873509651147942573
+    second: idle_shift_body_forest_63
+  - first:
+      213: -1235040195652772939
+    second: idle_shift_body_forest_64
+  - first:
+      213: 3818009768427797312
+    second: idle_shift_body_forest_65
+  - first:
+      213: 1084519800595843886
+    second: idle_shift_body_forest_66
+  - first:
+      213: 2300028308990100093
+    second: idle_shift_body_forest_67
+  - first:
+      213: -3395354140649578817
+    second: idle_shift_body_forest_68
+  - first:
+      213: -291337331844906108
+    second: idle_shift_body_forest_69
+  - first:
+      213: 872224369919076180
+    second: idle_shift_body_forest_70
+  - first:
+      213: 1602680766030086128
+    second: idle_shift_body_forest_71
+  - first:
+      213: -8965557507972792533
+    second: idle_shift_body_forest_72
+  - first:
+      213: -2609089346081588115
+    second: idle_shift_body_forest_73
+  - first:
+      213: 107627534038049357
+    second: idle_shift_body_forest_74
+  - first:
+      213: 1560604229704477980
+    second: idle_shift_body_forest_75
+  - first:
+      213: -3999933291626756653
+    second: idle_shift_body_forest_76
+  - first:
+      213: 4091537137570342871
+    second: idle_shift_body_forest_77
+  - first:
+      213: 1369473137123859317
+    second: idle_shift_body_forest_78
+  - first:
+      213: -5216526033105326606
+    second: idle_shift_body_forest_79
+  - first:
+      213: 7481295822433659270
+    second: idle_shift_body_forest_80
+  - first:
+      213: 5412871911675867902
+    second: idle_shift_body_forest_81
+  - first:
+      213: -5254821063946018805
+    second: idle_shift_body_forest_82
+  - first:
+      213: 554462409599222268
+    second: idle_shift_body_forest_83
+  - first:
+      213: 4179010145133373179
+    second: idle_shift_body_forest_84
+  - first:
+      213: -6499525370459297390
+    second: idle_shift_body_forest_85
+  - first:
+      213: -8200173705888194332
+    second: idle_shift_body_forest_86
+  - first:
+      213: 8696438014032149032
+    second: idle_shift_body_forest_87
+  - first:
+      213: 1631450537948905268
+    second: idle_shift_body_forest_88
+  - first:
+      213: -2826374484055390326
+    second: idle_shift_body_forest_89
+  - first:
+      213: -3451385701349993032
+    second: idle_shift_body_forest_90
+  - first:
+      213: 4539600389452083231
+    second: idle_shift_body_forest_91
+  - first:
+      213: -6958796141884952694
+    second: idle_shift_body_forest_92
+  - first:
+      213: 5372545830331120301
+    second: idle_shift_body_forest_93
+  - first:
+      213: -5127060058571650671
+    second: idle_shift_body_forest_94
+  - first:
+      213: -5932799523322285213
+    second: idle_shift_body_forest_95
+  - first:
+      213: 534341973341591647
+    second: idle_shift_body_forest_96
+  - first:
+      213: -187108186045718959
+    second: idle_shift_body_forest_97
+  - first:
+      213: -5596323748745874937
+    second: idle_shift_body_forest_98
+  - first:
+      213: 8036206559421108546
+    second: idle_shift_body_forest_99
+  - first:
+      213: 7841588171398004170
+    second: idle_shift_body_forest_100
+  - first:
+      213: -4621383369657562848
+    second: idle_shift_body_forest_101
+  - first:
+      213: 2390004159032546051
+    second: idle_shift_body_forest_102
+  - first:
+      213: 7794789776495072998
+    second: idle_shift_body_forest_103
+  - first:
+      213: 6822999011633080259
+    second: idle_shift_body_forest_104
+  - first:
+      213: 1679678283785589188
+    second: idle_shift_body_forest_105
+  - first:
+      213: 4890661813234423819
+    second: idle_shift_body_forest_106
+  - first:
+      213: -7008375420924223362
+    second: idle_shift_body_forest_107
+  - first:
+      213: -4520739758075297545
+    second: idle_shift_body_forest_108
+  - first:
+      213: -3559407148987095742
+    second: idle_shift_body_forest_109
+  - first:
+      213: 8927049626273085557
+    second: idle_shift_body_forest_110
+  - first:
+      213: 1080529193126143293
+    second: idle_shift_body_forest_111
+  - first:
+      213: 8492321513318598359
+    second: idle_shift_body_forest_112
+  - first:
+      213: 7723140387008304626
+    second: idle_shift_body_forest_113
+  - first:
+      213: 4476663695153826243
+    second: idle_shift_body_forest_114
+  - first:
+      213: -2303494063337124793
+    second: idle_shift_body_forest_115
+  - first:
+      213: 8272355767673672120
+    second: idle_shift_body_forest_116
+  - first:
+      213: -7180520736686394663
+    second: idle_shift_body_forest_117
+  - first:
+      213: -5163377992637669839
+    second: idle_shift_body_forest_118
+  - first:
+      213: 8112128177370826883
+    second: idle_shift_body_forest_119
+  - first:
+      213: 8638650065540373118
+    second: idle_shift_body_forest_120
+  - first:
+      213: -5888864369433166274
+    second: idle_shift_body_forest_121
+  - first:
+      213: -493831875832621009
+    second: idle_shift_body_forest_122
+  - first:
+      213: 3477503058794125995
+    second: idle_shift_body_forest_123
+  - first:
+      213: 4596544746528374203
+    second: idle_shift_body_forest_124
+  - first:
+      213: -7665855864063807485
+    second: idle_shift_body_forest_125
+  - first:
+      213: -3457656929169915726
+    second: idle_shift_body_forest_126
+  - first:
+      213: -6843321563768513718
+    second: idle_shift_body_forest_127
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle_shift_body_forest_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 5199
+        width: 289
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35f2873ac4b36500800000000000000
+      internalID: 388352773491717438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_1
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 5200
+        width: 289
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1850b9c9b9e88d0800000000000000
+      internalID: -2842163217906171469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_2
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 5199
+        width: 289
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906f90e46497bd720800000000000000
+      internalID: 2872022530242770441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_3
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 5199
+        width: 289
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caad78e8219369d90800000000000000
+      internalID: -7091417811384804692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_4
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 5199
+        width: 289
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1f8b0cdf6872700800000000000000
+      internalID: 515529106775405031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_5
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 5199
+        width: 291
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6628b4ccac5b490800000000000000
+      internalID: -7731050206522612047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_6
+      rect:
+        serializedVersion: 2
+        x: 3172
+        y: 5199
+        width: 292
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6e87af0dafff010800000000000000
+      internalID: 1224973399130433246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_7
+      rect:
+        serializedVersion: 2
+        x: 3683
+        y: 5199
+        width: 293
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028098d8c8694ef60800000000000000
+      internalID: 8062734763314186272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_8
+      rect:
+        serializedVersion: 2
+        x: 4195
+        y: 5199
+        width: 293
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6d216626bfc2cb0800000000000000
+      internalID: -4887255095565953317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_9
+      rect:
+        serializedVersion: 2
+        x: 4707
+        y: 5199
+        width: 293
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c384e1d31d9ef00800000000000000
+      internalID: 1146677640573762685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_10
+      rect:
+        serializedVersion: 2
+        x: 5219
+        y: 5200
+        width: 292
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2655a2a991adb00800000000000000
+      internalID: 854023229266027170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_11
+      rect:
+        serializedVersion: 2
+        x: 5731
+        y: 5200
+        width: 293
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5e4e541330b5170800000000000000
+      internalID: 8168125859327436251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 4688
+        width: 292
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79e303768b0d1300800000000000000
+      internalID: 224348228521552251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_13
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 4688
+        width: 291
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906961ae0c54ace40800000000000000
+      internalID: 5677426975117317641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_14
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 4688
+        width: 291
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fdbf310cf752050800000000000000
+      internalID: 5775162560118251405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_15
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 4688
+        width: 290
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43764014620ce5ea0800000000000000
+      internalID: -5882052792767191244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_16
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 4688
+        width: 289
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422b165dcf009df20800000000000000
+      internalID: 3447788075640533540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_17
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 4687
+        width: 288
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59b6bd7863445be0800000000000000
+      internalID: -1489491460688004772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_18
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 4687
+        width: 289
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01857702d8fade50800000000000000
+      internalID: 6835048965440110861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_19
+      rect:
+        serializedVersion: 2
+        x: 3686
+        y: 4687
+        width: 291
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca67757bb3bb7900800000000000000
+      internalID: 683337386187778757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_20
+      rect:
+        serializedVersion: 2
+        x: 4197
+        y: 4687
+        width: 292
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302844ed1fcc832f0800000000000000
+      internalID: -992818378646978045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_21
+      rect:
+        serializedVersion: 2
+        x: 4709
+        y: 4687
+        width: 291
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0562bbd4e1fcfb0800000000000000
+      internalID: -4625444973085044528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_22
+      rect:
+        serializedVersion: 2
+        x: 5220
+        y: 4687
+        width: 292
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ae93724f139f690800000000000000
+      internalID: -7567962774119519735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_23
+      rect:
+        serializedVersion: 2
+        x: 5731
+        y: 4687
+        width: 293
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e010a67215b4be470800000000000000
+      internalID: 8424910339852337422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_24
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 4175
+        width: 294
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afae2e2b3f01d9b0800000000000000
+      internalID: -5057244159708057695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_25
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 4176
+        width: 295
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0a3c16ae0fc07e0800000000000000
+      internalID: -1797797261774446359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_26
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 4176
+        width: 296
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ec39fe754c0a6c0800000000000000
+      internalID: -4134088575965475177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_27
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 4176
+        width: 297
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b292239cabc3a47e0800000000000000
+      internalID: -1780543929734518485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_28
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 4176
+        width: 299
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f7da731ba8d9120800000000000000
+      internalID: 2422244668343156508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_29
+      rect:
+        serializedVersion: 2
+        x: 2653
+        y: 4176
+        width: 299
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab7467da77c04800800000000000000
+      internalID: 594694481226529707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_30
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 4176
+        width: 300
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532e85c1190a354d0800000000000000
+      internalID: -3146995169495555531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_31
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 4176
+        width: 301
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8e38c7e609da1c0800000000000000
+      internalID: -4490774449208694624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_32
+      rect:
+        serializedVersion: 2
+        x: 4187
+        y: 4176
+        width: 301
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a874fc5a45df080800000000000000
+      internalID: -9152065796623070566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_33
+      rect:
+        serializedVersion: 2
+        x: 4699
+        y: 4176
+        width: 302
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0946006316fb2900800000000000000
+      internalID: 660892333415745803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_34
+      rect:
+        serializedVersion: 2
+        x: 5212
+        y: 4176
+        width: 300
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0c521a2780cbd20800000000000000
+      internalID: 3295518315751260381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_35
+      rect:
+        serializedVersion: 2
+        x: 5725
+        y: 4176
+        width: 300
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb1e5a04d0e75030800000000000000
+      internalID: 3483500038105996270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_36
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 3664
+        width: 300
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ae473cbd4aed2a0800000000000000
+      internalID: -6710745130951447981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_37
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 3664
+        width: 298
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea3adf5446947de0800000000000000
+      internalID: -1336277969012114718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_38
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 3664
+        width: 300
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ce4f64a47843a50800000000000000
+      internalID: 6499968915290254400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_39
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 3664
+        width: 297
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3c5801df9928e60800000000000000
+      internalID: 7963096403327435716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_40
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 3664
+        width: 298
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba3bc9ce61144700800000000000000
+      internalID: 523562624211434174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_41
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 3664
+        width: 299
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69585340c6742f190800000000000000
+      internalID: -7930197464593365610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_42
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 3664
+        width: 297
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa97f2201b99e24f0800000000000000
+      internalID: -851574294001518161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_43
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 3664
+        width: 298
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16def3243683277e0800000000000000
+      internalID: -1769289704638780063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_44
+      rect:
+        serializedVersion: 2
+        x: 4189
+        y: 3664
+        width: 299
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070b7efdd7bc478c0800000000000000
+      internalID: -4002350427337674640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_45
+      rect:
+        serializedVersion: 2
+        x: 4700
+        y: 3664
+        width: 300
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769deeb86b27318a0800000000000000
+      internalID: -6335594122422855321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_46
+      rect:
+        serializedVersion: 2
+        x: 5211
+        y: 3664
+        width: 301
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1167cf2ed45ada0800000000000000
+      internalID: -5934251296697216574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_47
+      rect:
+        serializedVersion: 2
+        x: 5723
+        y: 3664
+        width: 301
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24606ba54a8f7c70800000000000000
+      internalID: 8971041014577914925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_48
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 3152
+        width: 301
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2702dc36274be10800000000000000
+      internalID: 2212519089914540776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_49
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 3152
+        width: 301
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe6e750042e38420800000000000000
+      internalID: 2631195371912457969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_50
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 3152
+        width: 301
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2be6b7752e270780800000000000000
+      internalID: -8716947815295161555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_51
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 3152
+        width: 300
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779692276c70ee100800000000000000
+      internalID: 139057187395299703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_52
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 3152
+        width: 299
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e95688df2a01b470800000000000000
+      internalID: 8408513179889850855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_53
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 3152
+        width: 298
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da14f2ce0dadf150800000000000000
+      internalID: 5908068565091883733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_54
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 3152
+        width: 297
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b77b41941e458580800000000000000
+      internalID: -8825562044518664268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_55
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 3152
+        width: 299
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ce3f2a9f75ad670800000000000000
+      internalID: 8564254371090787351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_56
+      rect:
+        serializedVersion: 2
+        x: 4190
+        y: 3152
+        width: 298
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519e0c84bb832b160800000000000000
+      internalID: 7039751544564148501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_57
+      rect:
+        serializedVersion: 2
+        x: 4702
+        y: 3152
+        width: 297
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be20ccc6fa633e1d0800000000000000
+      internalID: -3322751972996807957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_58
+      rect:
+        serializedVersion: 2
+        x: 5213
+        y: 3152
+        width: 299
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9876dc1d8c521e210800000000000000
+      internalID: 1360410106886186889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_59
+      rect:
+        serializedVersion: 2
+        x: 5725
+        y: 3152
+        width: 298
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6ff66b304ab69e0800000000000000
+      internalID: -1627026504511654229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_60
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 2640
+        width: 299
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e51e6b4a8c1d6e50800000000000000
+      internalID: 6804125992323257825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_61
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 2640
+        width: 300
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6df14369b0c7ee0800000000000000
+      internalID: -1262121055823079747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_62
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 2640
+        width: 300
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a43944814d26aac0800000000000000
+      internalID: -3844335472498625374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_63
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 2640
+        width: 302
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35597bb10bcabb290800000000000000
+      internalID: -7873509651147942573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_64
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 2640
+        width: 301
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb99ce4c714cdee0800000000000000
+      internalID: -1235040195652772939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_65
+      rect:
+        serializedVersion: 2
+        x: 2649
+        y: 2640
+        width: 303
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b3c1cd7ab4cf430800000000000000
+      internalID: 3818009768427797312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_66
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 2640
+        width: 300
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b846a330dfc0f00800000000000000
+      internalID: 1084519800595843886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_67
+      rect:
+        serializedVersion: 2
+        x: 3677
+        y: 2640
+        width: 299
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7282ba9f875bef10800000000000000
+      internalID: 2300028308990100093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_68
+      rect:
+        serializedVersion: 2
+        x: 4189
+        y: 2640
+        width: 299
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe1eeff56741e0d0800000000000000
+      internalID: -3395354140649578817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_69
+      rect:
+        serializedVersion: 2
+        x: 4703
+        y: 2640
+        width: 297
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48303918d36f4fbf0800000000000000
+      internalID: -291337331844906108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_70
+      rect:
+        serializedVersion: 2
+        x: 5216
+        y: 2640
+        width: 296
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45727757173ca1c00800000000000000
+      internalID: 872224369919076180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_71
+      rect:
+        serializedVersion: 2
+        x: 5729
+        y: 2640
+        width: 295
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fff2935aaddd3610800000000000000
+      internalID: 1602680766030086128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_72
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2128
+        width: 294
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ff1f3b2f0f39380800000000000000
+      internalID: -8965557507972792533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_73
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 2127
+        width: 293
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6cfc833017aacbd0800000000000000
+      internalID: -2609089346081588115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_74
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 2127
+        width: 292
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42a3660cae5e7100800000000000000
+      internalID: 107627534038049357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_75
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 2127
+        width: 291
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1de18a474168a510800000000000000
+      internalID: 1560604229704477980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_76
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 2127
+        width: 292
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d504532dd16d78c0800000000000000
+      internalID: -3999933291626756653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_77
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 2127
+        width: 291
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7e236495f08c830800000000000000
+      internalID: 4091537137570342871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_78
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 2127
+        width: 289
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b15bbff88510310800000000000000
+      internalID: 1369473137123859317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_79
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 2127
+        width: 288
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fded23163d2b97b0800000000000000
+      internalID: -5216526033105326606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_80
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 2128
+        width: 289
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689a5c3b9e6e2d760800000000000000
+      internalID: 7481295822433659270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_81
+      rect:
+        serializedVersion: 2
+        x: 4712
+        y: 2128
+        width: 289
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2312633526e1b40800000000000000
+      internalID: 5412871911675867902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_82
+      rect:
+        serializedVersion: 2
+        x: 5224
+        y: 2128
+        width: 288
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00e14565102317b0800000000000000
+      internalID: -5254821063946018805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_83
+      rect:
+        serializedVersion: 2
+        x: 5736
+        y: 2128
+        width: 288
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf10875bf98d1b700800000000000000
+      internalID: 554462409599222268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_84
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1616
+        width: 289
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6ad6de593def930800000000000000
+      internalID: 4179010145133373179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_85
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1616
+        width: 291
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299622d8c1c0dc5a0800000000000000
+      internalID: -6499525370459297390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_86
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1616
+        width: 292
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0290cf571233e80800000000000000
+      internalID: -8200173705888194332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_87
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1616
+        width: 295
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82af69d4c44ffa870800000000000000
+      internalID: 8696438014032149032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_88
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 1616
+        width: 295
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f7017de9314a610800000000000000
+      internalID: 1631450537948905268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_89
+      rect:
+        serializedVersion: 2
+        x: 2658
+        y: 1616
+        width: 294
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8786aba163b6c8d0800000000000000
+      internalID: -2826374484055390326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_90
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 1616
+        width: 294
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5db28adf63a10d0800000000000000
+      internalID: -3451385701349993032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_91
+      rect:
+        serializedVersion: 2
+        x: 3682
+        y: 1616
+        width: 294
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10348b9086effe30800000000000000
+      internalID: 4539600389452083231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_92
+      rect:
+        serializedVersion: 2
+        x: 4194
+        y: 1616
+        width: 294
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fa69a37c36d6f90800000000000000
+      internalID: -6958796141884952694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_93
+      rect:
+        serializedVersion: 2
+        x: 4709
+        y: 1616
+        width: 291
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa746cb7fd1f8a40800000000000000
+      internalID: 5372545830331120301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_94
+      rect:
+        serializedVersion: 2
+        x: 5221
+        y: 1616
+        width: 291
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1994eb28a0609d8b0800000000000000
+      internalID: -5127060058571650671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_95
+      rect:
+        serializedVersion: 2
+        x: 5734
+        y: 1616
+        width: 290
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363b4c054467aada0800000000000000
+      internalID: -5932799523322285213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_96
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1104
+        width: 289
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f585b95913d5a6700800000000000000
+      internalID: 534341973341591647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_97
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1104
+        width: 289
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e5d2c9812476df0800000000000000
+      internalID: -187108186045718959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_98
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1104
+        width: 289
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7027beb733dd552b0800000000000000
+      internalID: -5596323748745874937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_99
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1104
+        width: 289
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24195f3c947568f60800000000000000
+      internalID: 8036206559421108546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_100
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1104
+        width: 289
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd351735eae2dc60800000000000000
+      internalID: 7841588171398004170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_101
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 1104
+        width: 289
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029c9a87f4c8ddfb0800000000000000
+      internalID: -4621383369657562848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_102
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 1103
+        width: 289
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30357deae100b2120800000000000000
+      internalID: 2390004159032546051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_103
+      rect:
+        serializedVersion: 2
+        x: 3685
+        y: 1103
+        width: 291
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6d5dec008ac2c60800000000000000
+      internalID: 7794789776495072998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_104
+      rect:
+        serializedVersion: 2
+        x: 4195
+        y: 1103
+        width: 293
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c72b37837920be50800000000000000
+      internalID: 6822999011633080259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_105
+      rect:
+        serializedVersion: 2
+        x: 4707
+        y: 1103
+        width: 293
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c15af1ff7a6f4710800000000000000
+      internalID: 1679678283785589188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_106
+      rect:
+        serializedVersion: 2
+        x: 5219
+        y: 1103
+        width: 293
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08d76ed10f1fd340800000000000000
+      internalID: 4890661813234423819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_107
+      rect:
+        serializedVersion: 2
+        x: 5732
+        y: 1103
+        width: 292
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70ab37cfaf3dbe90800000000000000
+      internalID: -7008375420924223362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_108
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 591
+        width: 292
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0cfe5542b1341c0800000000000000
+      internalID: -4520739758075297545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_109
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 591
+        width: 292
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24563a97e027a9ec0800000000000000
+      internalID: -3559407148987095742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_110
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 591
+        width: 291
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5787a4a665043eb70800000000000000
+      internalID: 8927049626273085557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_111
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 591
+        width: 291
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3529b5839fcefe00800000000000000
+      internalID: 1080529193126143293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_112
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 592
+        width: 290
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d643cf0c69cad570800000000000000
+      internalID: 8492321513318598359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_113
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 592
+        width: 290
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f55a16534b1e2b60800000000000000
+      internalID: 7723140387008304626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_114
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 592
+        width: 290
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9088099ed402e30800000000000000
+      internalID: 4476663695153826243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_115
+      rect:
+        serializedVersion: 2
+        x: 3686
+        y: 592
+        width: 290
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cc1949a585800e0800000000000000
+      internalID: -2303494063337124793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_116
+      rect:
+        serializedVersion: 2
+        x: 4197
+        y: 592
+        width: 290
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1d7dbedbf4dc270800000000000000
+      internalID: 8272355767673672120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_117
+      rect:
+        serializedVersion: 2
+        x: 4710
+        y: 592
+        width: 290
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d23b7b1f6aa95c90800000000000000
+      internalID: -7180520736686394663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_118
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 592
+        width: 290
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e13cb821ff758b0800000000000000
+      internalID: -5163377992637669839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_119
+      rect:
+        serializedVersion: 2
+        x: 5735
+        y: 592
+        width: 289
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38800a0f891149070800000000000000
+      internalID: 8112128177370826883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_120
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 80
+        width: 289
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a507f0776a2e770800000000000000
+      internalID: 8638650065540373118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_121
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 80
+        width: 289
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e3b797e0d864ea0800000000000000
+      internalID: -5888864369433166274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_122
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 80
+        width: 289
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f285b3e768e8529f0800000000000000
+      internalID: -493831875832621009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_123
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 80
+        width: 289
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa12cc7b92924030800000000000000
+      internalID: 3477503058794125995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_124
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 80
+        width: 289
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdf20be7153acf30800000000000000
+      internalID: 4596544746528374203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_125
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 80
+        width: 288
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300b12305b86d9590800000000000000
+      internalID: -7665855864063807485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_126
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 80
+        width: 289
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0c8a5a75fe300d0800000000000000
+      internalID: -3457656929169915726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_shift_body_forest_127
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 80
+        width: 289
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b9ec39b43a701a0800000000000000
+      internalID: -6843321563768513718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      idle_shift_body_forest_0: 388352773491717438
+      idle_shift_body_forest_1: -2842163217906171469
+      idle_shift_body_forest_10: 854023229266027170
+      idle_shift_body_forest_100: 7841588171398004170
+      idle_shift_body_forest_101: -4621383369657562848
+      idle_shift_body_forest_102: 2390004159032546051
+      idle_shift_body_forest_103: 7794789776495072998
+      idle_shift_body_forest_104: 6822999011633080259
+      idle_shift_body_forest_105: 1679678283785589188
+      idle_shift_body_forest_106: 4890661813234423819
+      idle_shift_body_forest_107: -7008375420924223362
+      idle_shift_body_forest_108: -4520739758075297545
+      idle_shift_body_forest_109: -3559407148987095742
+      idle_shift_body_forest_11: 8168125859327436251
+      idle_shift_body_forest_110: 8927049626273085557
+      idle_shift_body_forest_111: 1080529193126143293
+      idle_shift_body_forest_112: 8492321513318598359
+      idle_shift_body_forest_113: 7723140387008304626
+      idle_shift_body_forest_114: 4476663695153826243
+      idle_shift_body_forest_115: -2303494063337124793
+      idle_shift_body_forest_116: 8272355767673672120
+      idle_shift_body_forest_117: -7180520736686394663
+      idle_shift_body_forest_118: -5163377992637669839
+      idle_shift_body_forest_119: 8112128177370826883
+      idle_shift_body_forest_12: 224348228521552251
+      idle_shift_body_forest_120: 8638650065540373118
+      idle_shift_body_forest_121: -5888864369433166274
+      idle_shift_body_forest_122: -493831875832621009
+      idle_shift_body_forest_123: 3477503058794125995
+      idle_shift_body_forest_124: 4596544746528374203
+      idle_shift_body_forest_125: -7665855864063807485
+      idle_shift_body_forest_126: -3457656929169915726
+      idle_shift_body_forest_127: -6843321563768513718
+      idle_shift_body_forest_13: 5677426975117317641
+      idle_shift_body_forest_14: 5775162560118251405
+      idle_shift_body_forest_15: -5882052792767191244
+      idle_shift_body_forest_16: 3447788075640533540
+      idle_shift_body_forest_17: -1489491460688004772
+      idle_shift_body_forest_18: 6835048965440110861
+      idle_shift_body_forest_19: 683337386187778757
+      idle_shift_body_forest_2: 2872022530242770441
+      idle_shift_body_forest_20: -992818378646978045
+      idle_shift_body_forest_21: -4625444973085044528
+      idle_shift_body_forest_22: -7567962774119519735
+      idle_shift_body_forest_23: 8424910339852337422
+      idle_shift_body_forest_24: -5057244159708057695
+      idle_shift_body_forest_25: -1797797261774446359
+      idle_shift_body_forest_26: -4134088575965475177
+      idle_shift_body_forest_27: -1780543929734518485
+      idle_shift_body_forest_28: 2422244668343156508
+      idle_shift_body_forest_29: 594694481226529707
+      idle_shift_body_forest_3: -7091417811384804692
+      idle_shift_body_forest_30: -3146995169495555531
+      idle_shift_body_forest_31: -4490774449208694624
+      idle_shift_body_forest_32: -9152065796623070566
+      idle_shift_body_forest_33: 660892333415745803
+      idle_shift_body_forest_34: 3295518315751260381
+      idle_shift_body_forest_35: 3483500038105996270
+      idle_shift_body_forest_36: -6710745130951447981
+      idle_shift_body_forest_37: -1336277969012114718
+      idle_shift_body_forest_38: 6499968915290254400
+      idle_shift_body_forest_39: 7963096403327435716
+      idle_shift_body_forest_4: 515529106775405031
+      idle_shift_body_forest_40: 523562624211434174
+      idle_shift_body_forest_41: -7930197464593365610
+      idle_shift_body_forest_42: -851574294001518161
+      idle_shift_body_forest_43: -1769289704638780063
+      idle_shift_body_forest_44: -4002350427337674640
+      idle_shift_body_forest_45: -6335594122422855321
+      idle_shift_body_forest_46: -5934251296697216574
+      idle_shift_body_forest_47: 8971041014577914925
+      idle_shift_body_forest_48: 2212519089914540776
+      idle_shift_body_forest_49: 2631195371912457969
+      idle_shift_body_forest_5: -7731050206522612047
+      idle_shift_body_forest_50: -8716947815295161555
+      idle_shift_body_forest_51: 139057187395299703
+      idle_shift_body_forest_52: 8408513179889850855
+      idle_shift_body_forest_53: 5908068565091883733
+      idle_shift_body_forest_54: -8825562044518664268
+      idle_shift_body_forest_55: 8564254371090787351
+      idle_shift_body_forest_56: 7039751544564148501
+      idle_shift_body_forest_57: -3322751972996807957
+      idle_shift_body_forest_58: 1360410106886186889
+      idle_shift_body_forest_59: -1627026504511654229
+      idle_shift_body_forest_6: 1224973399130433246
+      idle_shift_body_forest_60: 6804125992323257825
+      idle_shift_body_forest_61: -1262121055823079747
+      idle_shift_body_forest_62: -3844335472498625374
+      idle_shift_body_forest_63: -7873509651147942573
+      idle_shift_body_forest_64: -1235040195652772939
+      idle_shift_body_forest_65: 3818009768427797312
+      idle_shift_body_forest_66: 1084519800595843886
+      idle_shift_body_forest_67: 2300028308990100093
+      idle_shift_body_forest_68: -3395354140649578817
+      idle_shift_body_forest_69: -291337331844906108
+      idle_shift_body_forest_7: 8062734763314186272
+      idle_shift_body_forest_70: 872224369919076180
+      idle_shift_body_forest_71: 1602680766030086128
+      idle_shift_body_forest_72: -8965557507972792533
+      idle_shift_body_forest_73: -2609089346081588115
+      idle_shift_body_forest_74: 107627534038049357
+      idle_shift_body_forest_75: 1560604229704477980
+      idle_shift_body_forest_76: -3999933291626756653
+      idle_shift_body_forest_77: 4091537137570342871
+      idle_shift_body_forest_78: 1369473137123859317
+      idle_shift_body_forest_79: -5216526033105326606
+      idle_shift_body_forest_8: -4887255095565953317
+      idle_shift_body_forest_80: 7481295822433659270
+      idle_shift_body_forest_81: 5412871911675867902
+      idle_shift_body_forest_82: -5254821063946018805
+      idle_shift_body_forest_83: 554462409599222268
+      idle_shift_body_forest_84: 4179010145133373179
+      idle_shift_body_forest_85: -6499525370459297390
+      idle_shift_body_forest_86: -8200173705888194332
+      idle_shift_body_forest_87: 8696438014032149032
+      idle_shift_body_forest_88: 1631450537948905268
+      idle_shift_body_forest_89: -2826374484055390326
+      idle_shift_body_forest_9: 1146677640573762685
+      idle_shift_body_forest_90: -3451385701349993032
+      idle_shift_body_forest_91: 4539600389452083231
+      idle_shift_body_forest_92: -6958796141884952694
+      idle_shift_body_forest_93: 5372545830331120301
+      idle_shift_body_forest_94: -5127060058571650671
+      idle_shift_body_forest_95: -5932799523322285213
+      idle_shift_body_forest_96: 534341973341591647
+      idle_shift_body_forest_97: -187108186045718959
+      idle_shift_body_forest_98: -5596323748745874937
+      idle_shift_body_forest_99: 8036206559421108546
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

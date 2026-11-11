@@ -1,0 +1,717 @@
+fileFormatVersion: 2
+guid: 9e9631cb5b2b74d0cad3f537566bd0ff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8333316404300130250
+    second: robes_attack_weapon_wood_0
+  - first:
+      213: -2697351208912169789
+    second: robes_attack_weapon_wood_1
+  - first:
+      213: -204721529928058193
+    second: robes_attack_weapon_wood_2
+  - first:
+      213: -5963613181311426117
+    second: robes_attack_weapon_wood_3
+  - first:
+      213: 2306237761756378253
+    second: robes_attack_weapon_wood_4
+  - first:
+      213: 4817924884084857039
+    second: robes_attack_weapon_wood_5
+  - first:
+      213: 7416706856446183800
+    second: robes_attack_weapon_wood_6
+  - first:
+      213: 3629042749580673189
+    second: robes_attack_weapon_wood_7
+  - first:
+      213: 4616491728694926209
+    second: robes_attack_weapon_wood_8
+  - first:
+      213: 2049057953322076125
+    second: robes_attack_weapon_wood_9
+  - first:
+      213: 31510811476730465
+    second: robes_attack_weapon_wood_10
+  - first:
+      213: 3832118075750601268
+    second: robes_attack_weapon_wood_11
+  - first:
+      213: 9018539772111855102
+    second: robes_attack_weapon_wood_12
+  - first:
+      213: 4454678168949786426
+    second: robes_attack_weapon_wood_13
+  - first:
+      213: -9141233621923611915
+    second: robes_attack_weapon_wood_14
+  - first:
+      213: 8039440057988852328
+    second: robes_attack_weapon_wood_15
+  - first:
+      213: -6788616975234260126
+    second: robes_attack_weapon_wood_16
+  - first:
+      213: -4446870514677470015
+    second: robes_attack_weapon_wood_17
+  - first:
+      213: 1361202848725965143
+    second: robes_attack_weapon_wood_18
+  - first:
+      213: 7719324195963873605
+    second: robes_attack_weapon_wood_19
+  - first:
+      213: 5196183784489595907
+    second: robes_attack_weapon_wood_20
+  - first:
+      213: -1387401527980579376
+    second: robes_attack_weapon_wood_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_0
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1720
+        width: 185
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63851c0d1ec1a5c80800000000000000
+      internalID: -8333316404300130250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_1
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1845
+        width: 191
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4d15edd55119ad0800000000000000
+      internalID: -2697351208912169789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_2
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1721
+        width: 185
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa73ca6adea82df0800000000000000
+      internalID: -204721529928058193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_3
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1848
+        width: 190
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1681e786dfc3da0800000000000000
+      internalID: -5963613181311426117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_4
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1714
+        width: 59
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84b41d7607610020800000000000000
+      internalID: 2306237761756378253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_5
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1716
+        width: 61
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc89466d725bcd240800000000000000
+      internalID: 4817924884084857039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_6
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 1716
+        width: 62
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879cdad279f6de660800000000000000
+      internalID: 7416706856446183800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_7
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1204
+        width: 62
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0867b3723fc5230800000000000000
+      internalID: 3629042749580673189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_8
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1202
+        width: 62
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bd36d94c2111040800000000000000
+      internalID: 4616491728694926209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_9
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1196
+        width: 61
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd783f72a57bf6c10800000000000000
+      internalID: 2049057953322076125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_10
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1184
+        width: 64
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162a7a48ae2ff6000800000000000000
+      internalID: 31510811476730465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_11
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 1168
+        width: 68
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432d772261b6e2530800000000000000
+      internalID: 3832118075750601268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_12
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 637
+        width: 74
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd9575f32a482d70800000000000000
+      internalID: 9018539772111855102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_13
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 623
+        width: 82
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3780f8513232dd30800000000000000
+      internalID: 4454678168949786426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_14
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 619
+        width: 91
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fab2640470d32180800000000000000
+      internalID: -9141233621923611915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_15
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 633
+        width: 101
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86aa8715324d19f60800000000000000
+      internalID: 8039440057988852328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_16
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 641
+        width: 115
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263a9f224dcf9c1a0800000000000000
+      internalID: -6788616975234260126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_17
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 136
+        width: 129
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccad72d3da8942c0800000000000000
+      internalID: -4446870514677470015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_18
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 140
+        width: 141
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7599f8967c6f3e210800000000000000
+      internalID: 1361202848725965143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_19
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 142
+        width: 150
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549218e157c802b60800000000000000
+      internalID: 7719324195963873605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_20
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 144
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304b5261f9d8c1840800000000000000
+      internalID: 5196183784489595907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robes_attack_weapon_wood_21
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 145
+        width: 158
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d522eb39a5febce0800000000000000
+      internalID: -1387401527980579376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      robes_attack_weapon_wood_0: -8333316404300130250
+      robes_attack_weapon_wood_1: -2697351208912169789
+      robes_attack_weapon_wood_10: 31510811476730465
+      robes_attack_weapon_wood_11: 3832118075750601268
+      robes_attack_weapon_wood_12: 9018539772111855102
+      robes_attack_weapon_wood_13: 4454678168949786426
+      robes_attack_weapon_wood_14: -9141233621923611915
+      robes_attack_weapon_wood_15: 8039440057988852328
+      robes_attack_weapon_wood_16: -6788616975234260126
+      robes_attack_weapon_wood_17: -4446870514677470015
+      robes_attack_weapon_wood_18: 1361202848725965143
+      robes_attack_weapon_wood_19: 7719324195963873605
+      robes_attack_weapon_wood_2: -204721529928058193
+      robes_attack_weapon_wood_20: 5196183784489595907
+      robes_attack_weapon_wood_21: -1387401527980579376
+      robes_attack_weapon_wood_3: -5963613181311426117
+      robes_attack_weapon_wood_4: 2306237761756378253
+      robes_attack_weapon_wood_5: 4817924884084857039
+      robes_attack_weapon_wood_6: 7416706856446183800
+      robes_attack_weapon_wood_7: 3629042749580673189
+      robes_attack_weapon_wood_8: 4616491728694926209
+      robes_attack_weapon_wood_9: 2049057953322076125
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

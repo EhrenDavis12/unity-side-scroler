@@ -1,0 +1,526 @@
+{
+ "dcap": 28,
+ "wcap": 18,
+ "glyphs": [
+  {
+   "name": "red_0_0",
+   "advance": 32.75,
+   "bearing_x": -0.5,
+   "bearing_top": 32.0,
+   "w": 33.5,
+   "h": 34.0
+  },
+  {
+   "name": "green_0_0",
+   "advance": 32.75,
+   "bearing_x": -0.5,
+   "bearing_top": 32.0,
+   "w": 33.5,
+   "h": 34.0
+  },
+  {
+   "name": "red_0_1",
+   "advance": 32.75,
+   "bearing_x": -0.5,
+   "bearing_top": 32.0,
+   "w": 33.0,
+   "h": 35.0
+  },
+  {
+   "name": "green_0_1",
+   "advance": 32.75,
+   "bearing_x": -0.5,
+   "bearing_top": 32.0,
+   "w": 33.0,
+   "h": 35.0
+  },
+  {
+   "name": "red_0_2",
+   "advance": 32.75,
+   "bearing_x": 0.5,
+   "bearing_top": 32.5,
+   "w": 33.0,
+   "h": 35.5
+  },
+  {
+   "name": "green_0_2",
+   "advance": 32.75,
+   "bearing_x": 0.5,
+   "bearing_top": 32.5,
+   "w": 33.0,
+   "h": 35.5
+  },
+  {
+   "name": "red_1_0",
+   "advance": 15.5,
+   "bearing_x": 0.0,
+   "bearing_top": 25.0,
+   "w": 15.5,
+   "h": 27.5
+  },
+  {
+   "name": "green_1_0",
+   "advance": 15.5,
+   "bearing_x": 0.0,
+   "bearing_top": 25.0,
+   "w": 15.5,
+   "h": 27.5
+  },
+  {
+   "name": "red_1_1",
+   "advance": 15.5,
+   "bearing_x": 0.5,
+   "bearing_top": 24.0,
+   "w": 16.0,
+   "h": 27.0
+  },
+  {
+   "name": "green_1_1",
+   "advance": 15.5,
+   "bearing_x": 0.5,
+   "bearing_top": 24.0,
+   "w": 16.0,
+   "h": 27.0
+  },
+  {
+   "name": "red_1_2",
+   "advance": 15.5,
+   "bearing_x": 0.5,
+   "bearing_top": 23.5,
+   "w": 16.0,
+   "h": 26.5
+  },
+  {
+   "name": "green_1_2",
+   "advance": 15.5,
+   "bearing_x": 0.5,
+   "bearing_top": 23.5,
+   "w": 16.0,
+   "h": 26.5
+  },
+  {
+   "name": "red_2_0",
+   "advance": 26.5,
+   "bearing_x": -1.0,
+   "bearing_top": 32.5,
+   "w": 27.5,
+   "h": 35.5
+  },
+  {
+   "name": "green_2_0",
+   "advance": 26.5,
+   "bearing_x": -1.0,
+   "bearing_top": 32.5,
+   "w": 27.5,
+   "h": 35.5
+  },
+  {
+   "name": "red_2_1",
+   "advance": 26.5,
+   "bearing_x": -1.0,
+   "bearing_top": 32.0,
+   "w": 27.5,
+   "h": 34.5
+  },
+  {
+   "name": "green_2_1",
+   "advance": 26.5,
+   "bearing_x": -1.0,
+   "bearing_top": 32.0,
+   "w": 27.5,
+   "h": 34.5
+  },
+  {
+   "name": "red_2_2",
+   "advance": 26.5,
+   "bearing_x": -2.0,
+   "bearing_top": 31.5,
+   "w": 28.0,
+   "h": 34.5
+  },
+  {
+   "name": "green_2_2",
+   "advance": 26.5,
+   "bearing_x": -2.0,
+   "bearing_top": 31.5,
+   "w": 28.0,
+   "h": 34.5
+  },
+  {
+   "name": "red_3_0",
+   "advance": 26.5,
+   "bearing_x": -0.5,
+   "bearing_top": 24.0,
+   "w": 28.0,
+   "h": 36.5
+  },
+  {
+   "name": "green_3_0",
+   "advance": 26.5,
+   "bearing_x": -0.5,
+   "bearing_top": 24.0,
+   "w": 28.0,
+   "h": 36.5
+  },
+  {
+   "name": "red_3_1",
+   "advance": 26.5,
+   "bearing_x": -1.0,
+   "bearing_top": 22.5,
+   "w": 27.5,
+   "h": 34.5
+  },
+  {
+   "name": "green_3_1",
+   "advance": 26.5,
+   "bearing_x": -1.0,
+   "bearing_top": 22.5,
+   "w": 27.5,
+   "h": 34.5
+  },
+  {
+   "name": "red_3_2",
+   "advance": 26.5,
+   "bearing_x": -2.0,
+   "bearing_top": 24.0,
+   "w": 29.0,
+   "h": 36.5
+  },
+  {
+   "name": "green_3_2",
+   "advance": 26.5,
+   "bearing_x": -2.0,
+   "bearing_top": 24.0,
+   "w": 29.0,
+   "h": 36.5
+  },
+  {
+   "name": "red_4_0",
+   "advance": 30.25,
+   "bearing_x": -1.0,
+   "bearing_top": 32.0,
+   "w": 31.5,
+   "h": 34.0
+  },
+  {
+   "name": "green_4_0",
+   "advance": 30.25,
+   "bearing_x": -1.0,
+   "bearing_top": 32.0,
+   "w": 31.5,
+   "h": 34.0
+  },
+  {
+   "name": "red_4_1",
+   "advance": 30.25,
+   "bearing_x": -0.5,
+   "bearing_top": 32.0,
+   "w": 31.0,
+   "h": 35.5
+  },
+  {
+   "name": "green_4_1",
+   "advance": 30.25,
+   "bearing_x": -0.5,
+   "bearing_top": 32.0,
+   "w": 31.0,
+   "h": 35.5
+  },
+  {
+   "name": "red_4_2",
+   "advance": 30.25,
+   "bearing_x": -1.0,
+   "bearing_top": 30.5,
+   "w": 31.5,
+   "h": 33.0
+  },
+  {
+   "name": "green_4_2",
+   "advance": 30.25,
+   "bearing_x": -1.0,
+   "bearing_top": 30.5,
+   "w": 31.5,
+   "h": 33.0
+  },
+  {
+   "name": "red_5_0",
+   "advance": 24.75,
+   "bearing_x": -0.5,
+   "bearing_top": 22.0,
+   "w": 25.5,
+   "h": 34.5
+  },
+  {
+   "name": "green_5_0",
+   "advance": 24.75,
+   "bearing_x": -0.5,
+   "bearing_top": 22.0,
+   "w": 25.5,
+   "h": 34.5
+  },
+  {
+   "name": "red_5_1",
+   "advance": 24.75,
+   "bearing_x": -1.5,
+   "bearing_top": 21.5,
+   "w": 26.5,
+   "h": 34.5
+  },
+  {
+   "name": "green_5_1",
+   "advance": 24.75,
+   "bearing_x": -1.5,
+   "bearing_top": 21.5,
+   "w": 26.5,
+   "h": 34.5
+  },
+  {
+   "name": "red_5_2",
+   "advance": 24.75,
+   "bearing_x": 0.5,
+   "bearing_top": 22.5,
+   "w": 25.5,
+   "h": 36.0
+  },
+  {
+   "name": "green_5_2",
+   "advance": 24.75,
+   "bearing_x": 0.5,
+   "bearing_top": 22.5,
+   "w": 25.5,
+   "h": 36.0
+  },
+  {
+   "name": "red_6_0",
+   "advance": 27.75,
+   "bearing_x": -0.5,
+   "bearing_top": 31.5,
+   "w": 28.5,
+   "h": 34.5
+  },
+  {
+   "name": "green_6_0",
+   "advance": 27.75,
+   "bearing_x": -0.5,
+   "bearing_top": 31.5,
+   "w": 28.5,
+   "h": 34.5
+  },
+  {
+   "name": "red_6_1",
+   "advance": 27.75,
+   "bearing_x": -0.5,
+   "bearing_top": 30.5,
+   "w": 29.0,
+   "h": 33.5
+  },
+  {
+   "name": "green_6_1",
+   "advance": 27.75,
+   "bearing_x": -0.5,
+   "bearing_top": 30.5,
+   "w": 29.0,
+   "h": 33.5
+  },
+  {
+   "name": "red_6_2",
+   "advance": 27.75,
+   "bearing_x": 0.0,
+   "bearing_top": 32.0,
+   "w": 29.0,
+   "h": 35.5
+  },
+  {
+   "name": "green_6_2",
+   "advance": 27.75,
+   "bearing_x": 0.0,
+   "bearing_top": 32.0,
+   "w": 29.0,
+   "h": 35.5
+  },
+  {
+   "name": "red_7_0",
+   "advance": 22.25,
+   "bearing_x": -0.5,
+   "bearing_top": 23.0,
+   "w": 24.5,
+   "h": 33.0
+  },
+  {
+   "name": "green_7_0",
+   "advance": 22.25,
+   "bearing_x": -0.5,
+   "bearing_top": 23.0,
+   "w": 24.5,
+   "h": 33.0
+  },
+  {
+   "name": "red_7_1",
+   "advance": 22.25,
+   "bearing_x": -2.5,
+   "bearing_top": 24.0,
+   "w": 25.5,
+   "h": 35.5
+  },
+  {
+   "name": "green_7_1",
+   "advance": 22.25,
+   "bearing_x": -2.5,
+   "bearing_top": 24.0,
+   "w": 25.5,
+   "h": 35.5
+  },
+  {
+   "name": "red_7_2",
+   "advance": 22.25,
+   "bearing_x": 0.0,
+   "bearing_top": 22.5,
+   "w": 25.0,
+   "h": 33.5
+  },
+  {
+   "name": "green_7_2",
+   "advance": 22.25,
+   "bearing_x": 0.0,
+   "bearing_top": 22.5,
+   "w": 25.0,
+   "h": 33.5
+  },
+  {
+   "name": "red_8_0",
+   "advance": 25.75,
+   "bearing_x": -0.5,
+   "bearing_top": 32.0,
+   "w": 26.0,
+   "h": 35.0
+  },
+  {
+   "name": "green_8_0",
+   "advance": 25.75,
+   "bearing_x": -0.5,
+   "bearing_top": 32.0,
+   "w": 26.0,
+   "h": 35.0
+  },
+  {
+   "name": "red_8_1",
+   "advance": 25.75,
+   "bearing_x": 0.5,
+   "bearing_top": 31.5,
+   "w": 25.5,
+   "h": 35.0
+  },
+  {
+   "name": "green_8_1",
+   "advance": 25.75,
+   "bearing_x": 0.5,
+   "bearing_top": 31.5,
+   "w": 25.5,
+   "h": 35.0
+  },
+  {
+   "name": "red_8_2",
+   "advance": 25.75,
+   "bearing_x": 0.0,
+   "bearing_top": 31.5,
+   "w": 27.0,
+   "h": 35.0
+  },
+  {
+   "name": "green_8_2",
+   "advance": 25.75,
+   "bearing_x": 0.0,
+   "bearing_top": 31.5,
+   "w": 27.0,
+   "h": 35.0
+  },
+  {
+   "name": "red_9_0",
+   "advance": 25.75,
+   "bearing_x": 0.0,
+   "bearing_top": 22.0,
+   "w": 27.0,
+   "h": 33.5
+  },
+  {
+   "name": "green_9_0",
+   "advance": 25.75,
+   "bearing_x": 0.0,
+   "bearing_top": 22.0,
+   "w": 27.0,
+   "h": 33.5
+  },
+  {
+   "name": "red_9_1",
+   "advance": 25.75,
+   "bearing_x": -1.0,
+   "bearing_top": 22.0,
+   "w": 27.5,
+   "h": 33.0
+  },
+  {
+   "name": "green_9_1",
+   "advance": 25.75,
+   "bearing_x": -1.0,
+   "bearing_top": 22.0,
+   "w": 27.5,
+   "h": 33.0
+  },
+  {
+   "name": "red_9_2",
+   "advance": 25.75,
+   "bearing_x": -2.0,
+   "bearing_top": 23.0,
+   "w": 28.0,
+   "h": 34.5
+  },
+  {
+   "name": "green_9_2",
+   "advance": 25.75,
+   "bearing_x": -2.0,
+   "bearing_top": 23.0,
+   "w": 28.0,
+   "h": 34.5
+  },
+  {
+   "name": "green_plus_0",
+   "advance": 21.0,
+   "bearing_x": 0.0,
+   "bearing_top": 21.0,
+   "w": 22.5,
+   "h": 21.0
+  },
+  {
+   "name": "green_plus_1",
+   "advance": 21.0,
+   "bearing_x": -0.5,
+   "bearing_top": 20.0,
+   "w": 22.5,
+   "h": 22.0
+  },
+  {
+   "name": "green_plus_2",
+   "advance": 21.0,
+   "bearing_x": -0.5,
+   "bearing_top": 20.0,
+   "w": 21.5,
+   "h": 21.0
+  },
+  {
+   "name": "word_miss",
+   "advance": 66.0,
+   "bearing_x": -1.5,
+   "bearing_top": 25.5,
+   "w": 66.0,
+   "h": 29.0
+  },
+  {
+   "name": "word_blocked",
+   "advance": 109.5,
+   "bearing_x": -1.0,
+   "bearing_top": 26.5,
+   "w": 109.5,
+   "h": 30.0
+  }
+ ]
+}

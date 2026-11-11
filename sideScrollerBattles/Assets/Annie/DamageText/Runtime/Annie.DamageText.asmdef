@@ -1,0 +1,10 @@
+{
+    "name": "Annie.DamageText",
+    "rootNamespace": "Annie.DamageText",
+    "references": [ "Annie.Shared", "Annie.KnifeFx", "Annie.BattleScene1Wind", "Annie.BattleScene1Full", "Unity.RenderPipelines.Universal.2D.Runtime" ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "autoReferenced": true
+}

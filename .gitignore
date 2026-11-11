@@ -68,3 +68,31 @@ crashlytics-build.properties
 
 # Agent tooling scratch (not project source)
 **/.claude/
+
+# Generated images, clips and model bulk stay local; nobody else needs them.
+*.png
+*.PNG
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.mov
+*.webm
+*.zip
+*.npy
+*.npz
+*.safetensors
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.pkl
+*.wav
+*.mp3
+*.ogg
+*.glb
+*.blend
+*.blend1
+.venv/
+venv/

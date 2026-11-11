@@ -1,0 +1,1601 @@
+fileFormatVersion: 2
+guid: 1e4dd1784d7924125890a64d1fba8b21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9066309033899033319
+    second: fire_burst_white_0
+  - first:
+      213: -2127192523653559551
+    second: fire_burst_white_1
+  - first:
+      213: 4142963889663827899
+    second: fire_burst_white_2
+  - first:
+      213: 5791215590381297638
+    second: fire_burst_white_3
+  - first:
+      213: 7592620066750925824
+    second: fire_burst_white_4
+  - first:
+      213: -3133927506074266330
+    second: fire_burst_white_5
+  - first:
+      213: 7803309750071930851
+    second: fire_burst_white_6
+  - first:
+      213: 8349111917439381615
+    second: fire_burst_white_7
+  - first:
+      213: 7364906266650691567
+    second: fire_burst_white_8
+  - first:
+      213: 5358989899861114196
+    second: fire_burst_white_9
+  - first:
+      213: 7155149863877790307
+    second: fire_burst_white_10
+  - first:
+      213: 279228583888835948
+    second: fire_burst_white_11
+  - first:
+      213: -9145540961290137796
+    second: fire_burst_white_12
+  - first:
+      213: 5007750745067295487
+    second: fire_burst_white_13
+  - first:
+      213: -4176877654079576023
+    second: fire_burst_white_14
+  - first:
+      213: 510146291464716376
+    second: fire_burst_white_15
+  - first:
+      213: 3337370288523940588
+    second: fire_burst_white_16
+  - first:
+      213: 2329892683733748203
+    second: fire_burst_white_17
+  - first:
+      213: -7794387333437261104
+    second: fire_burst_white_18
+  - first:
+      213: -5709116973998488964
+    second: fire_burst_white_19
+  - first:
+      213: 6946159545610074055
+    second: fire_burst_white_20
+  - first:
+      213: 3612193386961082333
+    second: fire_burst_white_21
+  - first:
+      213: -4192475163265700276
+    second: fire_burst_white_22
+  - first:
+      213: -5487156246403050843
+    second: fire_burst_white_23
+  - first:
+      213: -2928563892847684471
+    second: fire_burst_white_24
+  - first:
+      213: -2579887168697313165
+    second: fire_burst_white_25
+  - first:
+      213: 506956939336039640
+    second: fire_burst_white_26
+  - first:
+      213: 6729609599080712393
+    second: fire_burst_white_27
+  - first:
+      213: 1629980826127462914
+    second: fire_burst_white_28
+  - first:
+      213: -4938747100739811919
+    second: fire_burst_white_29
+  - first:
+      213: 7634892300828138509
+    second: fire_burst_white_30
+  - first:
+      213: 8401736110205328283
+    second: fire_burst_white_31
+  - first:
+      213: 3717545938867545605
+    second: fire_burst_white_32
+  - first:
+      213: 1307158586113978447
+    second: fire_burst_white_33
+  - first:
+      213: -2253950862397848360
+    second: fire_burst_white_34
+  - first:
+      213: -9053555218189010492
+    second: fire_burst_white_35
+  - first:
+      213: -3165187579509274290
+    second: fire_burst_white_36
+  - first:
+      213: 2264967846456532623
+    second: fire_burst_white_37
+  - first:
+      213: 1972142115387828937
+    second: fire_burst_white_38
+  - first:
+      213: -3454578986740563644
+    second: fire_burst_white_39
+  - first:
+      213: -538891776491599587
+    second: fire_burst_white_40
+  - first:
+      213: -8982619776492099309
+    second: fire_burst_white_41
+  - first:
+      213: 5072922259964248187
+    second: fire_burst_white_42
+  - first:
+      213: -3367988909952054702
+    second: fire_burst_white_43
+  - first:
+      213: 1972884786214787525
+    second: fire_burst_white_44
+  - first:
+      213: 3089848210592449649
+    second: fire_burst_white_45
+  - first:
+      213: -269114283445440993
+    second: fire_burst_white_46
+  - first:
+      213: 1749180450871250386
+    second: fire_burst_white_47
+  - first:
+      213: 2567175858944419505
+    second: fire_burst_white_48
+  - first:
+      213: -6855077907242674548
+    second: fire_burst_white_49
+  - first:
+      213: -2616420002865639778
+    second: fire_burst_white_50
+  - first:
+      213: -7743409176864701398
+    second: fire_burst_white_51
+  - first:
+      213: -1571397818394258445
+    second: fire_burst_white_52
+  - first:
+      213: -2291518829393399791
+    second: fire_burst_white_53
+  - first:
+      213: -566228533937421212
+    second: fire_burst_white_54
+  - first:
+      213: -2624577316170545940
+    second: fire_burst_white_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fire_burst_white_0
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 882
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2877de70002dd70800000000000000
+      internalID: 9066309033899033319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 855
+        width: 72
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b43ca8ba1ba72e0800000000000000
+      internalID: -2127192523653559551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_2
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 833
+        width: 104
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfdea015b3ce7930800000000000000
+      internalID: 4142963889663827899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_3
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 814
+        width: 132
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef916275e78e5050800000000000000
+      internalID: 5791215590381297638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 544
+        width: 153
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c013929b76e5960800000000000000
+      internalID: 7592620066750925824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_5
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 535
+        width: 168
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6251e98998d0284d0800000000000000
+      internalID: -3133927506074266330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_6
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 529
+        width: 176
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef216dbfdcea4c60800000000000000
+      internalID: 7803309750071930851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_7
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 528
+        width: 179
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6074fcad010ed370800000000000000
+      internalID: 8349111917439381615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 274
+        width: 180
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe743c38a37653660800000000000000
+      internalID: 7364906266650691567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 274
+        width: 183
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45db028bbe4fe5a40800000000000000
+      internalID: 5358989899861114196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_10
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 275
+        width: 183
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ace1f34e23c4360800000000000000
+      internalID: 7155149863877790307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_11
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 275
+        width: 117
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6554d9eae400e300800000000000000
+      internalID: 279228583888835948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_12
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 368
+        width: 86
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f448b63f2841180800000000000000
+      internalID: -9145540961290137796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_13
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 297
+        width: 41
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff21f6b35ca1f7540800000000000000
+      internalID: 5007750745067295487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_14
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 160
+        width: 50
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928e15657efb806c0800000000000000
+      internalID: -4176877654079576023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_15
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 110
+        width: 93
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850cc366957641700800000000000000
+      internalID: 510146291464716376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_16
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 169
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce299636898b05e20800000000000000
+      internalID: 3337370288523940588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 150
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be94bb23d01755020800000000000000
+      internalID: 2329892683733748203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_18
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 135
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dafaa44406c4d390800000000000000
+      internalID: -7794387333437261104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_19
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 178
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72caaf3c5425c0b0800000000000000
+      internalID: -5709116973998488964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_20
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 156
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7f64ded47b56060800000000000000
+      internalID: 6946159545610074055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_21
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 161
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd794d94fb6112230800000000000000
+      internalID: 3612193386961082333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_22
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 181
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e66eb3d0651d5c0800000000000000
+      internalID: -4192475163265700276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_23
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 158
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a294125774b9d3b0800000000000000
+      internalID: -5487156246403050843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_24
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 161
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98457c8d7a6ab57d0800000000000000
+      internalID: -2928563892847684471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_25
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 70
+        width: 99
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3785535f946623cd0800000000000000
+      internalID: -2579887168697313165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_26
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 145
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc3b8d76a2190700800000000000000
+      internalID: 506956939336039640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_27
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 129
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8c34e7640646d50800000000000000
+      internalID: 6729609599080712393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_28
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 146
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2027604eceade9610800000000000000
+      internalID: 1629980826127462914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_29
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 132
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5c9e0bdab067bb0800000000000000
+      internalID: -4938747100739811919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_30
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 150
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0cd931a81694f960800000000000000
+      internalID: 7634892300828138509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_31
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 141
+        width: 63
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b5c595a76f89470800000000000000
+      internalID: 8401736110205328283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_32
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 135
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5066562c550679330800000000000000
+      internalID: 3717545938867545605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_33
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 150
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40fc66fec5f32210800000000000000
+      internalID: 1307158586113978447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_34
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 144
+        width: 56
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d44791f1ab58b0e0800000000000000
+      internalID: -2253950862397848360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_35
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 69
+        width: 72
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9b5713f7f4b5280800000000000000
+      internalID: -9053555218189010492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_36
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 109
+        width: 71
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e490fd39aaef214d0800000000000000
+      internalID: -3165187579509274290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_37
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 69
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e19bb8148ce6f10800000000000000
+      internalID: 2264967846456532623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_38
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 107
+        width: 66
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca674a1ec47e5b10800000000000000
+      internalID: 1972142115387828937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_39
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 69
+        width: 59
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441ccc6f6bede00d0800000000000000
+      internalID: -3454578986740563644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_40
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 105
+        width: 62
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19c6d1d8c87588f0800000000000000
+      internalID: -538891776491599587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_41
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 60
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3192acdb7e2575380800000000000000
+      internalID: -8982619776492099309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_42
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 14
+        width: 38
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70475efae3a66640800000000000000
+      internalID: 5072922259964248187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_43
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 35
+        width: 36
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a4ad64eef7241d0800000000000000
+      internalID: -3367988909952054702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_44
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 54
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9da11a248116b10800000000000000
+      internalID: 1972884786214787525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_45
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 67
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1744d3aa39851ea20800000000000000
+      internalID: 3089848210592449649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_46
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 14
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e204b2cf9e34cf0800000000000000
+      internalID: -269114283445440993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_47
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 34
+        width: 29
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd0d3e3a56564810800000000000000
+      internalID: 1749180450871250386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_48
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 65
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6275c97d070a320800000000000000
+      internalID: 2567175858944419505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_49
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 14
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c861c2f86feddd0a0800000000000000
+      internalID: -6855077907242674548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_50
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 33
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e87f9aedb90bbd0800000000000000
+      internalID: -2616420002865639778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_51
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 64
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24ca764162e98490800000000000000
+      internalID: -7743409176864701398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_52
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 34
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f359c18206413ae0800000000000000
+      internalID: -1571397818394258445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_53
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 51
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11033e104c3e230e0800000000000000
+      internalID: -2291518829393399791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_54
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 48
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46448fcf52a5428f0800000000000000
+      internalID: -566228533937421212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_burst_white_55
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 14
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce44b1826d0a39bd0800000000000000
+      internalID: -2624577316170545940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fire_burst_white_0: 9066309033899033319
+      fire_burst_white_1: -2127192523653559551
+      fire_burst_white_10: 7155149863877790307
+      fire_burst_white_11: 279228583888835948
+      fire_burst_white_12: -9145540961290137796
+      fire_burst_white_13: 5007750745067295487
+      fire_burst_white_14: -4176877654079576023
+      fire_burst_white_15: 510146291464716376
+      fire_burst_white_16: 3337370288523940588
+      fire_burst_white_17: 2329892683733748203
+      fire_burst_white_18: -7794387333437261104
+      fire_burst_white_19: -5709116973998488964
+      fire_burst_white_2: 4142963889663827899
+      fire_burst_white_20: 6946159545610074055
+      fire_burst_white_21: 3612193386961082333
+      fire_burst_white_22: -4192475163265700276
+      fire_burst_white_23: -5487156246403050843
+      fire_burst_white_24: -2928563892847684471
+      fire_burst_white_25: -2579887168697313165
+      fire_burst_white_26: 506956939336039640
+      fire_burst_white_27: 6729609599080712393
+      fire_burst_white_28: 1629980826127462914
+      fire_burst_white_29: -4938747100739811919
+      fire_burst_white_3: 5791215590381297638
+      fire_burst_white_30: 7634892300828138509
+      fire_burst_white_31: 8401736110205328283
+      fire_burst_white_32: 3717545938867545605
+      fire_burst_white_33: 1307158586113978447
+      fire_burst_white_34: -2253950862397848360
+      fire_burst_white_35: -9053555218189010492
+      fire_burst_white_36: -3165187579509274290
+      fire_burst_white_37: 2264967846456532623
+      fire_burst_white_38: 1972142115387828937
+      fire_burst_white_39: -3454578986740563644
+      fire_burst_white_4: 7592620066750925824
+      fire_burst_white_40: -538891776491599587
+      fire_burst_white_41: -8982619776492099309
+      fire_burst_white_42: 5072922259964248187
+      fire_burst_white_43: -3367988909952054702
+      fire_burst_white_44: 1972884786214787525
+      fire_burst_white_45: 3089848210592449649
+      fire_burst_white_46: -269114283445440993
+      fire_burst_white_47: 1749180450871250386
+      fire_burst_white_48: 2567175858944419505
+      fire_burst_white_49: -6855077907242674548
+      fire_burst_white_5: -3133927506074266330
+      fire_burst_white_50: -2616420002865639778
+      fire_burst_white_51: -7743409176864701398
+      fire_burst_white_52: -1571397818394258445
+      fire_burst_white_53: -2291518829393399791
+      fire_burst_white_54: -566228533937421212
+      fire_burst_white_55: -2624577316170545940
+      fire_burst_white_6: 7803309750071930851
+      fire_burst_white_7: 8349111917439381615
+      fire_burst_white_8: 7364906266650691567
+      fire_burst_white_9: 5358989899861114196
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -3,8 +3,9 @@ using UnityEngine;
 
 /// <summary>
 /// One playable character: its id, display name, the Animator controller that plays its
-/// clips, a thumbnail (idle frame 0) for the carousel, and the ordered list of non-idle
-/// action names the Showcase screen turns into buttons.
+/// clips, a thumbnail (idle frame 0) for the carousel, the ordered list of non-idle action
+/// names the Showcase screen turns into buttons, and the ordered list of "fidget_" state
+/// names ShowcaseCharacter picks from at random while idle — never turned into a button.
 ///
 /// Built by <c>Characters/Import Sheets</c> (see Assets/Editor/CharacterImporter.cs) from
 /// Assets/Characters/characters.json — never hand-authored.
@@ -16,12 +17,14 @@ public class CharacterDefinition : ScriptableObject
     [SerializeField] private RuntimeAnimatorController controller;
     [SerializeField] private Sprite thumbnail;
     [SerializeField] private List<string> actionNames = new List<string>();
+    [SerializeField] private List<string> fidgetNames = new List<string>();
 
     public string Id => id;
     public string DisplayName => displayName;
     public RuntimeAnimatorController Controller => controller;
     public Sprite Thumbnail => thumbnail;
     public IReadOnlyList<string> ActionNames => actionNames;
+    public IReadOnlyList<string> FidgetNames => fidgetNames;
 
 #if UNITY_EDITOR
     public void EditorInit(
@@ -29,13 +32,15 @@ public class CharacterDefinition : ScriptableObject
         string displayName,
         RuntimeAnimatorController controller,
         Sprite thumbnail,
-        List<string> actionNames)
+        List<string> actionNames,
+        List<string> fidgetNames)
     {
         this.id = id;
         this.displayName = displayName;
         this.controller = controller;
         this.thumbnail = thumbnail;
         this.actionNames = actionNames;
+        this.fidgetNames = fidgetNames;
     }
 #endif
 }

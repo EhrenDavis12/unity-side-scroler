@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: 46569b4f0b8e548efbfb773297050bee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5073911446994057177
+    second: run_body_forest_0
+  - first:
+      213: 9111554068242956528
+    second: run_body_forest_1
+  - first:
+      213: 1233015374945303893
+    second: run_body_forest_2
+  - first:
+      213: 6698384042425264525
+    second: run_body_forest_3
+  - first:
+      213: -614564158340494847
+    second: run_body_forest_4
+  - first:
+      213: -5920148345086999527
+    second: run_body_forest_5
+  - first:
+      213: 3329416653781445837
+    second: run_body_forest_6
+  - first:
+      213: -3724116453583159633
+    second: run_body_forest_7
+  - first:
+      213: -4788510612836692543
+    second: run_body_forest_8
+  - first:
+      213: 1992563842830992405
+    second: run_body_forest_9
+  - first:
+      213: 5647696156649006504
+    second: run_body_forest_10
+  - first:
+      213: 2012952678860131376
+    second: run_body_forest_11
+  - first:
+      213: 8104019384831540243
+    second: run_body_forest_12
+  - first:
+      213: 8375376885031949599
+    second: run_body_forest_13
+  - first:
+      213: -7862611310704830510
+    second: run_body_forest_14
+  - first:
+      213: -502262609631637637
+    second: run_body_forest_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: run_body_forest_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1651
+        width: 339
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7288124fb68d599b0800000000000000
+      internalID: -5073911446994057177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_body_forest_1
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1634
+        width: 322
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f00365662eb27e70800000000000000
+      internalID: 9111554068242956528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_body_forest_2
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1625
+        width: 340
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55db53263fc8c1110800000000000000
+      internalID: 1233015374945303893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_body_forest_3
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1620
+        width: 339
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8927e90cc075fc50800000000000000
+      internalID: 6698384042425264525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_body_forest_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1108
+        width: 338
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a8d627721a877f0800000000000000
+      internalID: -614564158340494847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_body_forest_5
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1113
+        width: 337
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9140979427867dda0800000000000000
+      internalID: -5920148345086999527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_body_forest_6
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1131
+        width: 325
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcca9ed7ec6743e20800000000000000
+      internalID: 3329416653781445837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_body_forest_7
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1143
+        width: 341
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faefcf111d7415cc0800000000000000
+      internalID: -3724116453583159633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_body_forest_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 621
+        width: 338
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd4eaed7facb8db0800000000000000
+      internalID: -4788510612836692543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_body_forest_9
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 612
+        width: 334
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5148a3c024207ab10800000000000000
+      internalID: 1992563842830992405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_body_forest_10
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 601
+        width: 340
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a527605bb5a06e40800000000000000
+      internalID: 5647696156649006504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_body_forest_11
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 597
+        width: 340
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c012ddbc17feb10800000000000000
+      internalID: 2012952678860131376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_body_forest_12
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 82
+        width: 334
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c73cd81b2477070800000000000000
+      internalID: 8104019384831540243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_body_forest_13
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 85
+        width: 341
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15d85cf6e05b3470800000000000000
+      internalID: 8375376885031949599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_body_forest_14
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 91
+        width: 336
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7587abba462e290800000000000000
+      internalID: -7862611310704830510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_body_forest_15
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 113
+        width: 346
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f02f051da9709f0800000000000000
+      internalID: -502262609631637637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      run_body_forest_0: -5073911446994057177
+      run_body_forest_1: 9111554068242956528
+      run_body_forest_10: 5647696156649006504
+      run_body_forest_11: 2012952678860131376
+      run_body_forest_12: 8104019384831540243
+      run_body_forest_13: 8375376885031949599
+      run_body_forest_14: -7862611310704830510
+      run_body_forest_15: -502262609631637637
+      run_body_forest_2: 1233015374945303893
+      run_body_forest_3: 6698384042425264525
+      run_body_forest_4: -614564158340494847
+      run_body_forest_5: -5920148345086999527
+      run_body_forest_6: 3329416653781445837
+      run_body_forest_7: -3724116453583159633
+      run_body_forest_8: -4788510612836692543
+      run_body_forest_9: 1992563842830992405
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

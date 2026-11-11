@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -28,26 +29,49 @@ public class CharacterImportBehaviorTests
     [Test]
     public void FrameCountChangeInJsonReachesImportedSprites()
     {
-        const string texturePath = "Assets/Characters/archer/hurt.png";
-        const string clipPath = "Assets/Characters/archer/hurt.anim";
-        // Targets specifically archer's "hurt" animation's frameCount: non-greedy matching walks
-        // from the "archer" id to the first "hurt" object after it, then to the first
-        // "frameCount" inside that object — the only one "hurt" itself declares.
-        var archerHurtFrameCount = new Regex(
-            "(\"id\"\\s*:\\s*\"archer\"[\\s\\S]*?\"hurt\"\\s*:\\s*\\{[\\s\\S]*?\"frameCount\"\\s*:\\s*)\\d+");
+        const string texturePath = "Assets/Characters/knight/hurt.png";
+        const string clipPath = "Assets/Characters/knight/hurt.anim";
+        // Targets specifically knight's "hurt" animation's frameCount: non-greedy matching walks
+        // from the "knight" id to the first "hurt" object after it, then to the first
+        // "frameCount" inside that object — the only one "hurt" itself declares. The digits are
+        // captured so the original count can be read rather than hardcoded, since knight's own
+        // per-action frame counts (unlike archer's uniform 38) vary by action.
+        var knightHurtFrameCount = new Regex(
+            "(\"id\"\\s*:\\s*\"knight\"[\\s\\S]*?\"hurt\"\\s*:\\s*\\{[\\s\\S]*?\"frameCount\"\\s*:\\s*)(\\d+)");
 
         string originalJson = File.ReadAllText(CatalogJsonPath);
+        Match originalMatch = knightHurtFrameCount.Match(originalJson);
+        Assert.IsTrue(originalMatch.Success,
+            "Could not find knight's \"hurt\" frameCount in characters.json — its shape may have changed.");
+        int originalFrameCount = int.Parse(originalMatch.Groups[2].Value);
+        int reducedFrameCount = originalFrameCount - 1;
+
+        // Captured before any edit, so the names produced by the reduced grid can be checked
+        // against the names the untouched grid produces below.
+        List<string> originalNames = AssetDatabase.LoadAllAssetsAtPath(texturePath)
+            .OfType<Sprite>().Select(s => s.name).ToList();
+
         try
         {
-            string modifiedJson = archerHurtFrameCount.Replace(originalJson, "${1}37");
+            string modifiedJson = knightHurtFrameCount.Replace(originalJson, "${1}" + reducedFrameCount);
             Assert.AreNotEqual(originalJson, modifiedJson,
-                "Could not find archer's \"hurt\" frameCount in characters.json — its shape may have changed.");
+                "Could not find knight's \"hurt\" frameCount in characters.json — its shape may have changed.");
 
             File.WriteAllText(CatalogJsonPath, modifiedJson);
             AssetDatabase.ImportAsset(CatalogJsonPath, ImportAssetOptions.ForceUpdate);
             EditorApplication.ExecuteMenuItem("Characters/Import Sheets");
 
-            AssertSpritesAndClipKeys(texturePath, clipPath, 37);
+            AssertSpritesAndClipKeys(texturePath, clipPath, reducedFrameCount);
+
+            // Dropping the last frame in a row-major grid should drop only the
+            // highest-indexed sprite's name, not rename (and so not reassign the GUID of) any
+            // sprite that remains — the reduced set of names must still be a subset of the
+            // original's.
+            List<string> reducedNames = AssetDatabase.LoadAllAssetsAtPath(texturePath)
+                .OfType<Sprite>().Select(s => s.name).ToList();
+            Assert.IsTrue(reducedNames.All(originalNames.Contains),
+                $"{texturePath}'s sprite names after reducing frameCount to {reducedFrameCount} " +
+                "should be a subset of the original names, so the remaining sprites keep their GUIDs.");
         }
         finally
         {
@@ -56,11 +80,11 @@ public class CharacterImportBehaviorTests
             EditorApplication.ExecuteMenuItem("Characters/Import Sheets");
         }
 
-        // Outside the finally: only reached if the 37-frame assertions above passed, and
-        // confirms the round trip back to the original 38 frames also reimports correctly —
+        // Outside the finally: only reached if the reduced-frame assertions above passed, and
+        // confirms the round trip back to the original frame count also reimports correctly —
         // shrink-then-regrow assigns the recreated sprite a new GUID, so this checks counts,
         // never a byte-identical file.
-        AssertSpritesAndClipKeys(texturePath, clipPath, 38);
+        AssertSpritesAndClipKeys(texturePath, clipPath, originalFrameCount);
     }
 
     private static void AssertSpritesAndClipKeys(string texturePath, string clipPath, int expectedFrameCount)

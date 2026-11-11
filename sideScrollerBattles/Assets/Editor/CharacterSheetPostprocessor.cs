@@ -28,22 +28,41 @@ public class CharacterSheetPostprocessor : AssetPostprocessor
     private const string CharactersRoot = "Assets/Characters";
     private const string CatalogJsonPath = CharactersRoot + "/characters.json";
     private const int PixelsPerUnit = 256;
-    private const int MaxTextureSize = 2048;
+    // Sheets now carry a per-action frame count; idle is 75 frames in a 9x9 grid of 512px
+    // cells, 4608px wide, so the source sheet must not be downsampled on import. Source sheets
+    // never ship — only the atlas pages built from them do, and those stay capped at 4096.
+    private const int MaxTextureSize = 8192;
 
     private static readonly Regex SheetPathPattern = new Regex(@"^Assets/Characters/([^/]+)/([^/]+)\.png$");
+    private static readonly Regex VersionsFolderPattern = new Regex(@"^Assets/Characters/[^/]+_versions/");
 
     private void OnPreprocessTexture()
     {
+        // Every Assets/Characters/<character>_versions/ folder (one per character on the
+        // Animation Versions screen) holds that screen's comparison sheets — same
+        // "Assets/Characters/<id>/<action>.png" shape this regex would otherwise match, but
+        // sliced by AnimationVersionsTexturePostprocessor from that folder's own versions.json
+        // (frame counts vary per version, not per action). Path-based skip, not characters.json
+        // driven, since these sheets are never meant to appear there.
+        if (VersionsFolderPattern.IsMatch(assetPath)) return;
+
         if (!TryParseSheetPath(assetPath, out string id, out string action)) return;
 
         // Any sheet's slicing is driven by characters.json, not just its own PNG — so an edit
         // to the JSON alone must reimport every sheet it describes.
         context.DependsOnSourceAsset(CatalogJsonPath);
 
+        // Read the grid once and reuse it for both spritePixelsPerUnit and the slicing below,
+        // rather than reading characters.json twice for the same sheet.
+        bool hasGridEntry = TryReadFrameGrid(
+            id, action, out int frameWidth, out int frameHeight, out int columns, out int rows, out int frameCount);
+
         var importer = (TextureImporter)assetImporter;
         importer.textureType = TextureImporterType.Sprite;
         importer.spriteImportMode = SpriteImportMode.Multiple;
-        importer.spritePixelsPerUnit = PixelsPerUnit;
+        // One cell is always one world unit: PPU tracks this sheet's own frameWidth so a
+        // 512px-cell sheet doesn't render twice the size of a 256px one.
+        importer.spritePixelsPerUnit = hasGridEntry ? frameWidth : PixelsPerUnit;
         importer.filterMode = FilterMode.Bilinear;
         importer.mipmapEnabled = false;
         importer.alphaIsTransparency = true;
@@ -51,24 +70,34 @@ public class CharacterSheetPostprocessor : AssetPostprocessor
         // Source sheets never ship — only the atlas pages built from them do — so leave them
         // uncompressed rather than the "Compressed" Unity defaults to. Left compressed, the
         // Sprite Atlas packer warns per sprite that packing from a compressed source loses
-        // pixel detail; this is what actually produced the reported warnings, not the
-        // now-removed iOS platform override alone.
+        // pixel detail; this is what actually produced the reported warnings, not the iOS
+        // platform override alone. That override is a per-.meta setting, not something the
+        // default platform settings above touch, so it is cleared here on every import — every
+        // platform falls through to the default (uncompressed, MaxTextureSize) settings.
         importer.textureCompression = TextureImporterCompression.Uncompressed;
+        importer.ClearPlatformTextureSettings("iPhone");
+        importer.ClearPlatformTextureSettings("Android");
 
         var settings = new TextureImporterSettings();
         importer.ReadTextureSettings(settings);
-        settings.spriteMeshType = SpriteMeshType.FullRect;
+        // Tight packs each sprite's silhouette instead of its full 512px cell, roughly halving
+        // atlas pages.
+        settings.spriteMeshType = SpriteMeshType.Tight;
         importer.SetTextureSettings(settings);
 
-        ApplySlicing(importer, id, action);
+        ApplySlicing(importer, id, action, hasGridEntry, frameWidth, frameHeight, columns, rows, frameCount);
     }
 
-    private static void ApplySlicing(TextureImporter importer, string id, string action)
+    private static void ApplySlicing(
+        TextureImporter importer, string id, string action, bool hasGridEntry,
+        int frameWidth, int frameHeight, int columns, int rows, int frameCount)
     {
         ISpriteEditorDataProvider dataProvider = GetDataProvider(importer);
 
         importer.GetSourceTextureWidthAndHeight(out int textureWidth, out int textureHeight);
-        SpriteRect[] desired = BuildDesiredRects(id, action, textureWidth, textureHeight, dataProvider);
+        SpriteRect[] desired = BuildDesiredRects(
+            id, action, hasGridEntry, frameWidth, frameHeight, columns, rows, frameCount,
+            textureWidth, textureHeight, dataProvider);
         SpriteRect[] current = dataProvider.GetSpriteRects();
         if (RectsMatch(current, desired)) return; // already sliced — nothing to apply
 
@@ -110,9 +139,10 @@ public class CharacterSheetPostprocessor : AssetPostprocessor
     }
 
     private static SpriteRect[] BuildDesiredRects(
-        string id, string action, int textureWidth, int textureHeight, ISpriteEditorDataProvider dataProvider)
+        string id, string action, bool hasGridEntry, int frameWidth, int frameHeight, int columns, int rows, int frameCount,
+        int textureWidth, int textureHeight, ISpriteEditorDataProvider dataProvider)
     {
-        if (!TryReadFrameGrid(id, action, out int frameWidth, out int frameHeight, out int columns, out int rows, out int frameCount))
+        if (!hasGridEntry)
         {
             // Fallback: slice the full grid at the fixed 256px cell size, and say so.
             frameWidth = PixelsPerUnit;

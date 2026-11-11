@@ -223,10 +223,17 @@ public static class CharacterImporter
         }
 
         AnimatorController controller = BuildController(folder, id, builtKeys, clipsByKey);
-        List<string> actionNames = builtKeys.Where(k => k != "idle").ToList();
 
-        return CreateOrUpdateDefinition(folder, id, displayName, controller, idleFrame0, actionNames);
+        // "fidget_" keys are one-shots ShowcaseCharacter picks at random while idle, never a
+        // button the player presses — kept out of actionNames so BuildActionButtons never sees
+        // them, and reported separately via FidgetNames.
+        List<string> actionNames = builtKeys.Where(k => k != "idle" && !IsFidget(k)).ToList();
+        List<string> fidgetNames = builtKeys.Where(IsFidget).ToList();
+
+        return CreateOrUpdateDefinition(folder, id, displayName, controller, idleFrame0, actionNames, fidgetNames);
     }
+
+    private static bool IsFidget(string key) => key.StartsWith("fidget_");
 
     private static Sprite[] LoadOrderedSprites(string texturePath, string action, int frameCount)
     {
@@ -350,7 +357,8 @@ public static class CharacterImporter
         string displayName,
         AnimatorController controller,
         Sprite thumbnail,
-        List<string> actionNames)
+        List<string> actionNames,
+        List<string> fidgetNames)
     {
         string path = $"{folder}/{id}.asset";
         var definition = AssetDatabase.LoadAssetAtPath<CharacterDefinition>(path);
@@ -359,7 +367,7 @@ public static class CharacterImporter
             definition = ScriptableObject.CreateInstance<CharacterDefinition>();
             AssetDatabase.CreateAsset(definition, path);
         }
-        definition.EditorInit(id, displayName, controller, thumbnail, actionNames);
+        definition.EditorInit(id, displayName, controller, thumbnail, actionNames, fidgetNames);
         EditorUtility.SetDirty(definition);
         return definition;
     }

@@ -1,0 +1,1003 @@
+fileFormatVersion: 2
+guid: cbfe6a4c7d6b04025bd05433ec04efc4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8256472602901624492
+    second: L15_bushes_0
+  - first:
+      213: -3014963295190797005
+    second: L15_bushes_1
+  - first:
+      213: 7710178820324505186
+    second: L15_bushes_2
+  - first:
+      213: -9022601546957728935
+    second: L15_bushes_3
+  - first:
+      213: -1102080608266476254
+    second: L15_bushes_4
+  - first:
+      213: 3766422263563576250
+    second: L15_bushes_5
+  - first:
+      213: 7825549356262817542
+    second: L15_bushes_6
+  - first:
+      213: -6181503073318941961
+    second: L15_bushes_7
+  - first:
+      213: -6188485912133656694
+    second: L15_bushes_8
+  - first:
+      213: 8757831672267113847
+    second: L15_bushes_9
+  - first:
+      213: -8476670853358276488
+    second: L15_bushes_10
+  - first:
+      213: -6473752306645030292
+    second: L15_bushes_11
+  - first:
+      213: 1438432975398870981
+    second: L15_bushes_12
+  - first:
+      213: 8439177797776411355
+    second: L15_bushes_13
+  - first:
+      213: -3965264626224641403
+    second: L15_bushes_14
+  - first:
+      213: -3323667644713160538
+    second: L15_bushes_15
+  - first:
+      213: -6177485738610639782
+    second: L15_bushes_16
+  - first:
+      213: -420467374136432481
+    second: L15_bushes_17
+  - first:
+      213: 464932911154901120
+    second: L15_bushes_18
+  - first:
+      213: -7843024661787244320
+    second: L15_bushes_19
+  - first:
+      213: -9069579039747913726
+    second: L15_bushes_20
+  - first:
+      213: -3478299240029443360
+    second: L15_bushes_21
+  - first:
+      213: -5967898736337081936
+    second: L15_bushes_22
+  - first:
+      213: 5345118100886186491
+    second: L15_bushes_23
+  - first:
+      213: -4910681035053998510
+    second: L15_bushes_24
+  - first:
+      213: -6373740440163409492
+    second: L15_bushes_25
+  - first:
+      213: -7947048117740289856
+    second: L15_bushes_26
+  - first:
+      213: -5202749887769923805
+    second: L15_bushes_27
+  - first:
+      213: -7438701260220188228
+    second: L15_bushes_28
+  - first:
+      213: 3370589276254782564
+    second: L15_bushes_29
+  - first:
+      213: 4216637773233234352
+    second: L15_bushes_30
+  - first:
+      213: 8196254117431377996
+    second: L15_bushes_31
+  - first:
+      213: 4332353583963717434
+    second: L15_bushes_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: L15_bushes_0
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 519
+        width: 207
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca632b17612e49270800000000000000
+      internalID: 8256472602901624492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_1
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 519
+        width: 175
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335bf436bd2b826d0800000000000000
+      internalID: -3014963295190797005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_2
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 528
+        width: 99
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266be2c69ce000b60800000000000000
+      internalID: 7710178820324505186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_3
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 519
+        width: 179
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953d1b362b749c280800000000000000
+      internalID: -9022601546957728935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_4
+      rect:
+        serializedVersion: 2
+        x: 3197
+        y: 528
+        width: 221
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2252e6e968f94b0f0800000000000000
+      internalID: -1102080608266476254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_5
+      rect:
+        serializedVersion: 2
+        x: 3540
+        y: 365
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab364d5e715054430800000000000000
+      internalID: 3766422263563576250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_6
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 288
+        width: 199
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ff4509dafe99c60800000000000000
+      internalID: 7825549356262817542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_7
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 303
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fac6d0b4b3e63aa0800000000000000
+      internalID: -6181503073318941961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_8
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 325
+        width: 59
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f93c5d9d41e1aa0800000000000000
+      internalID: -6188485912133656694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_9
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 242
+        width: 252
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775852441811a8970800000000000000
+      internalID: 8757831672267113847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_10
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 260
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8703cab25c0dc5a80800000000000000
+      internalID: -8476670853358276488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_11
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 260
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6aae86939c9826a0800000000000000
+      internalID: -6473752306645030292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 260
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf9bd38b2756f310800000000000000
+      internalID: 1438432975398870981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_13
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 260
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda83d09e7bfd1570800000000000000
+      internalID: 8439177797776411355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_14
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 260
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a4571d4dc88f8c0800000000000000
+      internalID: -3965264626224641403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_15
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 260
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0b96df2e5ffd1d0800000000000000
+      internalID: -3323667644713160538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_16
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 260
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c32115379254aa0800000000000000
+      internalID: -6177485738610639782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_17
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 260
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98e4f4a6233a2af0800000000000000
+      internalID: -420467374136432481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_18
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 202
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080b6c5f406c37600800000000000000
+      internalID: 464932911154901120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_19
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 68
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e80b8dcf9af72390800000000000000
+      internalID: -7843024661787244320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_20
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 112
+        width: 69
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2084f718ae1622280800000000000000
+      internalID: -9069579039747913726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_21
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 12
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eaa88f15499abfc0800000000000000
+      internalID: -3478299240029443360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_22
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 43
+        width: 234
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b92025f7b3cd2da0800000000000000
+      internalID: -5967898736337081936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_23
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 31
+        width: 296
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9e4d5d79cad2a40800000000000000
+      internalID: 5345118100886186491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_24
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 68
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25edb54dd91c9dbb0800000000000000
+      internalID: -4910681035053998510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_25
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 68
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1a485d6dceb87a0800000000000000
+      internalID: -6373740440163409492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_26
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 68
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0472997d966b190800000000000000
+      internalID: -7947048117740289856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_27
+      rect:
+        serializedVersion: 2
+        x: 3093
+        y: 68
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f254cda8e1cc7b0800000000000000
+      internalID: -5202749887769923805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_28
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 68
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb93352ad9c64c890800000000000000
+      internalID: -7438701260220188228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_29
+      rect:
+        serializedVersion: 2
+        x: 3139
+        y: 68
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46448eea61db6ce20800000000000000
+      internalID: 3370589276254782564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_30
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 68
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1af0cc6b1848a30800000000000000
+      internalID: 4216637773233234352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_31
+      rect:
+        serializedVersion: 2
+        x: 3186
+        y: 68
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c408456b1b1feb170800000000000000
+      internalID: 8196254117431377996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L15_bushes_32
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 10
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f3c8d71ac9f1c30800000000000000
+      internalID: 4332353583963717434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      L15_bushes_0: 8256472602901624492
+      L15_bushes_1: -3014963295190797005
+      L15_bushes_10: -8476670853358276488
+      L15_bushes_11: -6473752306645030292
+      L15_bushes_12: 1438432975398870981
+      L15_bushes_13: 8439177797776411355
+      L15_bushes_14: -3965264626224641403
+      L15_bushes_15: -3323667644713160538
+      L15_bushes_16: -6177485738610639782
+      L15_bushes_17: -420467374136432481
+      L15_bushes_18: 464932911154901120
+      L15_bushes_19: -7843024661787244320
+      L15_bushes_2: 7710178820324505186
+      L15_bushes_20: -9069579039747913726
+      L15_bushes_21: -3478299240029443360
+      L15_bushes_22: -5967898736337081936
+      L15_bushes_23: 5345118100886186491
+      L15_bushes_24: -4910681035053998510
+      L15_bushes_25: -6373740440163409492
+      L15_bushes_26: -7947048117740289856
+      L15_bushes_27: -5202749887769923805
+      L15_bushes_28: -7438701260220188228
+      L15_bushes_29: 3370589276254782564
+      L15_bushes_3: -9022601546957728935
+      L15_bushes_30: 4216637773233234352
+      L15_bushes_31: 8196254117431377996
+      L15_bushes_32: 4332353583963717434
+      L15_bushes_4: -1102080608266476254
+      L15_bushes_5: 3766422263563576250
+      L15_bushes_6: 7825549356262817542
+      L15_bushes_7: -6181503073318941961
+      L15_bushes_8: -6188485912133656694
+      L15_bushes_9: 8757831672267113847
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

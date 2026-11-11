@@ -1,0 +1,248 @@
+{
+  "character": "archer",
+  "frameSets": [
+    {
+      "id": "robes",
+      "animations": [
+        {
+          "action": "idle",
+          "label": "Idle",
+          "columns": 8,
+          "rows": 8,
+          "frameCount": 64,
+          "fps": 16,
+          "loop": true,
+          "cellSize": 512
+        },
+        {
+          "action": "idle_headturn",
+          "label": "Idle + head turn",
+          "columns": 12,
+          "rows": 11,
+          "frameCount": 128,
+          "fps": 16,
+          "loop": false,
+          "cellSize": 512
+        },
+        {
+          "action": "idle_shift",
+          "label": "Idle + weight shift",
+          "columns": 12,
+          "rows": 11,
+          "frameCount": 128,
+          "fps": 16,
+          "loop": false,
+          "cellSize": 512
+        },
+        {
+          "action": "hit",
+          "label": "Hit",
+          "columns": 5,
+          "rows": 4,
+          "frameCount": 20,
+          "fps": 16,
+          "loop": false,
+          "cellSize": 512
+        },
+        {
+          "action": "defend",
+          "label": "Defend",
+          "columns": 6,
+          "rows": 5,
+          "frameCount": 30,
+          "fps": 16,
+          "loop": false,
+          "cellSize": 512
+        },
+        {
+          "action": "attack",
+          "label": "Attack",
+          "columns": 5,
+          "rows": 4,
+          "frameCount": 20,
+          "fps": 16,
+          "loop": false,
+          "cellSize": 512
+        },
+        {
+          "action": "run",
+          "label": "Run",
+          "columns": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": true,
+          "cellSize": 512
+        },
+        {
+          "action": "run_start",
+          "label": "Run start",
+          "columns": 5,
+          "rows": 2,
+          "frameCount": 10,
+          "fps": 16,
+          "loop": false,
+          "cellSize": 512
+        },
+        {
+          "action": "run_stop",
+          "label": "Run stop",
+          "columns": 8,
+          "rows": 3,
+          "frameCount": 24,
+          "fps": 16,
+          "loop": false,
+          "cellSize": 512
+        },
+        {
+          "action": "death",
+          "label": "Death",
+          "columns": 8,
+          "rows": 5,
+          "frameCount": 40,
+          "fps": 16,
+          "loop": false,
+          "cellSize": 512,
+          "holdLast": true
+        }
+      ]
+    },
+    {
+      "id": "heavenly",
+      "animations": [
+        {
+          "action": "idle",
+          "label": "Idle",
+          "columns": 8,
+          "rows": 8,
+          "frameCount": 64,
+          "fps": 16,
+          "loop": true,
+          "cellSize": 512
+        },
+        {
+          "action": "idle_headturn",
+          "label": "Idle + head turn",
+          "columns": 12,
+          "rows": 11,
+          "frameCount": 128,
+          "fps": 16,
+          "loop": false,
+          "cellSize": 512
+        },
+        {
+          "action": "idle_shift",
+          "label": "Idle + weight shift",
+          "columns": 12,
+          "rows": 11,
+          "frameCount": 128,
+          "fps": 16,
+          "loop": false,
+          "cellSize": 512
+        },
+        {
+          "action": "hit",
+          "label": "Hit",
+          "columns": 5,
+          "rows": 4,
+          "frameCount": 20,
+          "fps": 16,
+          "loop": false,
+          "cellSize": 512
+        },
+        {
+          "action": "defend",
+          "label": "Defend",
+          "columns": 6,
+          "rows": 5,
+          "frameCount": 30,
+          "fps": 16,
+          "loop": false,
+          "cellSize": 512
+        },
+        {
+          "action": "attack",
+          "label": "Attack",
+          "columns": 7,
+          "rows": 7,
+          "frameCount": 43,
+          "fps": 16,
+          "loop": false,
+          "cellSize": 512
+        },
+        {
+          "action": "run",
+          "label": "Run",
+          "columns": 4,
+          "rows": 4,
+          "frameCount": 16,
+          "fps": 16,
+          "loop": true,
+          "cellSize": 512
+        },
+        {
+          "action": "run_start",
+          "label": "Run start",
+          "columns": 5,
+          "rows": 2,
+          "frameCount": 10,
+          "fps": 16,
+          "loop": false,
+          "cellSize": 512
+        },
+        {
+          "action": "run_stop",
+          "label": "Run stop",
+          "columns": 8,
+          "rows": 3,
+          "frameCount": 24,
+          "fps": 16,
+          "loop": false,
+          "cellSize": 512
+        },
+        {
+          "action": "death",
+          "label": "Death",
+          "columns": 8,
+          "rows": 5,
+          "frameCount": 40,
+          "fps": 16,
+          "loop": false,
+          "cellSize": 512,
+          "holdLast": true
+        }
+      ]
+    }
+  ],
+  "bodies": [
+    {
+      "id": "forest",
+      "label": "Forest Robes",
+      "frameSet": "robes"
+    },
+    {
+      "id": "fire",
+      "label": "Fire Robes",
+      "frameSet": "robes"
+    },
+    {
+      "id": "heavenly",
+      "label": "Heavenly Armor",
+      "frameSet": "heavenly"
+    }
+  ],
+  "weapons": [
+    {
+      "id": "wood",
+      "label": "Wood Bow"
+    },
+    {
+      "id": "fire",
+      "label": "Fire Bow"
+    },
+    {
+      "id": "heavenly",
+      "label": "Heavenly Bow"
+    }
+  ]
+}

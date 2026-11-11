@@ -1,0 +1,130 @@
+{
+  "versions": [
+    {
+      "character": "archer",
+      "action": "idle_rotation",
+      "version": 1,
+      "description": "Loops PROD idle v2; cuts into idleV2+HeadTurn or idleV2+WeightShift \u2014 copies of the idle with a motion on top, so the cut lands on idle frames.",
+      "status": "prod candidate",
+      "isRotation": true,
+      "rotationIdleVersion": 2,
+      "rotationFidgetActions": [
+        "idle_headturn",
+        "idle_shift"
+      ],
+      "rotationFidgetVersions": [
+        1,
+        1
+      ]
+    },
+    {
+      "character": "archer",
+      "action": "idle",
+      "version": 1,
+      "description": "LOCAL models (Wan 2.2 5B). Calm 'lone sentinel' wording, loop closed in the sheet.",
+      "file": "idle_v1.png",
+      "columns": 10,
+      "rows": 9,
+      "frameCount": 90,
+      "fps": 24,
+      "loop": true
+    },
+    {
+      "character": "archer",
+      "action": "fidget_glance",
+      "version": 1,
+      "description": "LOCAL. Looks around; cut where it is closest to rest, then blended into the exact start frame.",
+      "file": "fidget_glance_v1.png",
+      "columns": 11,
+      "rows": 11,
+      "frameCount": 116,
+      "fps": 24,
+      "loop": false
+    },
+    {
+      "character": "archer",
+      "action": "fidget_regrip",
+      "version": 1,
+      "description": "LOCAL. Loosens and re-grips the bow; blended back into the exact start frame.",
+      "file": "fidget_regrip_v1.png",
+      "columns": 12,
+      "rows": 11,
+      "frameCount": 131,
+      "fps": 24,
+      "loop": false
+    },
+    {
+      "character": "archer",
+      "action": "fidget_glance",
+      "version": 2,
+      "description": "LOCAL keyframes: 4 Qwen-edited keys + Wan 2.2 14B in-betweens, breathing.\nHead swap for the over-shoulder key. M1 Max: 2h08 build + ~1.5h keys.",
+      "file": "fidget_glance_v2.png",
+      "columns": 13,
+      "rows": 13,
+      "frameCount": 161,
+      "fps": 24,
+      "loop": false
+    },
+    {
+      "character": "archer",
+      "action": "fidget_glance",
+      "version": 3,
+      "description": "LOCAL v3: whole-body key (no graft), pose guard, breathing in-betweens, mouth patched shut.\nWan 2.2 14B 2x33 frames, return = out-bound reversed. Grey plate, no upscale. M1 Max ~1h.",
+      "file": "fidget_glance_v3.png",
+      "columns": 9,
+      "rows": 8,
+      "frameCount": 65,
+      "fps": 24,
+      "loop": false
+    },
+    {
+      "character": "archer",
+      "action": "fidget_glance",
+      "version": 4,
+      "description": "LOCAL v4: one turn out, two breaths held at the glance, one turn back. Whole-body key, pose guard.\nWan 2.2 14B 2 segments + reverses, mouth patched shut, grey plate, no upscale. M1 Max ~1.5h.",
+      "file": "fidget_glance_v4.png",
+      "columns": 12,
+      "rows": 11,
+      "frameCount": 129,
+      "fps": 24,
+      "loop": false
+    },
+    {
+      "character": "archer",
+      "action": "idle",
+      "version": 2,
+      "description": "PROD IDLE (2026-10-04). Breathing only: one slow breath K0 -> K0, Wan 2.2 14B 65 frames, face locked to K0,\nloop seam crossfaded, grey plate, flood matte, no upscale, 16 fps. The base every extra motion is layered on.",
+      "file": "idle_v2.png",
+      "columns": 8,
+      "rows": 8,
+      "frameCount": 64,
+      "fps": 16,
+      "loop": true,
+      "status": "prod"
+    },
+    {
+      "character": "archer",
+      "action": "idle_headturn",
+      "version": 1,
+      "description": "idleV2 + HeadTurn: head rendered as a 480x384 close-up (4x the face pixels) from idle frame 16 to the glance key,\nFILM 4x + constant-speed retime, pasted onto a copy of PROD idle v2 (frames 16-112). Starts and ends on idle frames. 16 fps.",
+      "file": "idle_headturn_v1.png",
+      "columns": 12,
+      "rows": 11,
+      "frameCount": 128,
+      "fps": 16,
+      "loop": false
+    },
+    {
+      "character": "archer",
+      "action": "idle_shift",
+      "version": 1,
+      "description": "idleV2 + WeightShift (key D): rendered FROM idle frame 16 (exact joins, no crossfade), frames 17-79. Retimed on the hips'\nreal travel (eased, wobble skipped, FILM-bridged), face locked, enclosed-plate cleanup. Starts and ends on idle frames. 16 fps.",
+      "file": "idle_shift_v1.png",
+      "columns": 12,
+      "rows": 11,
+      "frameCount": 128,
+      "fps": 16,
+      "loop": false
+    }
+  ]
+}

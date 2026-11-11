@@ -1,0 +1,587 @@
+fileFormatVersion: 2
+guid: 11741bf3c2b75498b85e4b1184b45a22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3546575281110312031
+    second: dust_puff_white_0
+  - first:
+      213: -1625213199177411051
+    second: dust_puff_white_1
+  - first:
+      213: 6159451059339287558
+    second: dust_puff_white_2
+  - first:
+      213: -2202598460344316977
+    second: dust_puff_white_3
+  - first:
+      213: -3642920536938545541
+    second: dust_puff_white_4
+  - first:
+      213: -1737990019169804015
+    second: dust_puff_white_5
+  - first:
+      213: -8004117337955516178
+    second: dust_puff_white_6
+  - first:
+      213: 7663487361149086786
+    second: dust_puff_white_7
+  - first:
+      213: -7999661076029548126
+    second: dust_puff_white_8
+  - first:
+      213: 952980147137868769
+    second: dust_puff_white_9
+  - first:
+      213: 8308222206465819656
+    second: dust_puff_white_10
+  - first:
+      213: -1361632474643958325
+    second: dust_puff_white_11
+  - first:
+      213: 7450049719313775960
+    second: dust_puff_white_12
+  - first:
+      213: -3220061977712042826
+    second: dust_puff_white_13
+  - first:
+      213: 7220139831711211314
+    second: dust_puff_white_14
+  - first:
+      213: -1388614527385041420
+    second: dust_puff_white_15
+  - first:
+      213: -1729590590738711950
+    second: dust_puff_white_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dust_puff_white_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 433
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab1d38829808cec0800000000000000
+      internalID: -3546575281110312031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust_puff_white_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 430
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51611c2c4351279e0800000000000000
+      internalID: -1625213199177411051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust_puff_white_2
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 428
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c5253ba14ca7550800000000000000
+      internalID: 6159451059339287558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust_puff_white_3
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 426
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbca54ce5cce61e0800000000000000
+      internalID: -2202598460344316977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust_puff_white_4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 297
+        width: 67
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e7dca921fb17dc0800000000000000
+      internalID: -3642920536938545541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust_puff_white_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 296
+        width: 72
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111a53c294b61e7e0800000000000000
+      internalID: -1737990019169804015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust_puff_white_6
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 294
+        width: 75
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0cd9250b9abe090800000000000000
+      internalID: -8004117337955516178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust_puff_white_7
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 293
+        width: 80
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cacfde62d2a5a60800000000000000
+      internalID: 7663487361149086786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust_puff_white_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 163
+        width: 84
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a95db7a2ae7bf090800000000000000
+      internalID: -7999661076029548126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust_puff_white_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 162
+        width: 87
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3f62c056aa93d00800000000000000
+      internalID: 952980147137868769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust_puff_white_10
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 161
+        width: 91
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8044863f31cbc4370800000000000000
+      internalID: 8308222206465819656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust_puff_white_11
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 160
+        width: 95
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5f5328a728a1de0800000000000000
+      internalID: -1361632474643958325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust_puff_white_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 31
+        width: 98
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d32b66fb4e36760800000000000000
+      internalID: 7450049719313775960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust_puff_white_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 87
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc5bbf11ba0053d0800000000000000
+      internalID: -3220061977712042826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust_puff_white_14
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 29
+        width: 95
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f9bc94ce6133460800000000000000
+      internalID: 7220139831711211314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust_puff_white_15
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 28
+        width: 94
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5844dc176aabce0800000000000000
+      internalID: -1388614527385041420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dust_puff_white_16
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 27
+        width: 92
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a392085824ff7e0800000000000000
+      internalID: -1729590590738711950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dust_puff_white_0: -3546575281110312031
+      dust_puff_white_1: -1625213199177411051
+      dust_puff_white_10: 8308222206465819656
+      dust_puff_white_11: -1361632474643958325
+      dust_puff_white_12: 7450049719313775960
+      dust_puff_white_13: -3220061977712042826
+      dust_puff_white_14: 7220139831711211314
+      dust_puff_white_15: -1388614527385041420
+      dust_puff_white_16: -1729590590738711950
+      dust_puff_white_2: 6159451059339287558
+      dust_puff_white_3: -2202598460344316977
+      dust_puff_white_4: -3642920536938545541
+      dust_puff_white_5: -1737990019169804015
+      dust_puff_white_6: -8004117337955516178
+      dust_puff_white_7: 7663487361149086786
+      dust_puff_white_8: -7999661076029548126
+      dust_puff_white_9: 952980147137868769
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

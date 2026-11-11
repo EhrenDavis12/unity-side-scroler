@@ -1,0 +1,1052 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d96e5a9f5c5d4ff0b0ce1957a0d6406, type: 3}
+  m_Name: LoadoutsCatalog
+  m_EditorClassIdentifier: Game.Runtime::LoadoutsCatalog
+  sets:
+  - character: archer
+    bodies:
+    - id: forest
+      label: Forest Robes
+      frameSet: robes
+    - id: fire
+      label: Fire Robes
+      frameSet: robes
+    - id: heavenly
+      label: Heavenly Armor
+      frameSet: heavenly
+    weapons:
+    - id: wood
+      label: Wood Bow
+    - id: fire
+      label: Fire Bow
+    - id: heavenly
+      label: Heavenly Bow
+    frameSets:
+    - id: robes
+      animations:
+      - action: idle
+        label: Idle
+        frameCount: 64
+        fps: 16
+        loop: 1
+        bodySheets:
+        - Assets/Characters/archer_loadouts/idle_body_forest.png
+        - Assets/Characters/archer_loadouts/idle_body_fire.png
+        - 
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/robes_idle_weapon_wood.png
+        - Assets/Characters/archer_loadouts/robes_idle_weapon_fire.png
+        - Assets/Characters/archer_loadouts/robes_idle_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+      - action: idle_headturn
+        label: Idle + head turn
+        frameCount: 128
+        fps: 16
+        loop: 0
+        bodySheets:
+        - Assets/Characters/archer_loadouts/idle_headturn_body_forest.png
+        - Assets/Characters/archer_loadouts/idle_headturn_body_fire.png
+        - 
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/robes_idle_headturn_weapon_wood.png
+        - Assets/Characters/archer_loadouts/robes_idle_headturn_weapon_fire.png
+        - Assets/Characters/archer_loadouts/robes_idle_headturn_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+      - action: idle_shift
+        label: Idle + weight shift
+        frameCount: 128
+        fps: 16
+        loop: 0
+        bodySheets:
+        - Assets/Characters/archer_loadouts/idle_shift_body_forest.png
+        - Assets/Characters/archer_loadouts/idle_shift_body_fire.png
+        - 
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/robes_idle_shift_weapon_wood.png
+        - Assets/Characters/archer_loadouts/robes_idle_shift_weapon_fire.png
+        - Assets/Characters/archer_loadouts/robes_idle_shift_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+      - action: hit
+        label: Hit
+        frameCount: 20
+        fps: 16
+        loop: 0
+        bodySheets:
+        - Assets/Characters/archer_loadouts/hit_body_forest.png
+        - Assets/Characters/archer_loadouts/hit_body_fire.png
+        - 
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/robes_hit_weapon_wood.png
+        - Assets/Characters/archer_loadouts/robes_hit_weapon_fire.png
+        - Assets/Characters/archer_loadouts/robes_hit_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+      - action: defend
+        label: Defend
+        frameCount: 30
+        fps: 16
+        loop: 0
+        bodySheets:
+        - Assets/Characters/archer_loadouts/defend_body_forest.png
+        - Assets/Characters/archer_loadouts/defend_body_fire.png
+        - 
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/robes_defend_weapon_wood.png
+        - Assets/Characters/archer_loadouts/robes_defend_weapon_fire.png
+        - Assets/Characters/archer_loadouts/robes_defend_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+      - action: attack
+        label: Attack
+        frameCount: 20
+        fps: 16
+        loop: 0
+        bodySheets:
+        - Assets/Characters/archer_loadouts/attack_body_forest.png
+        - Assets/Characters/archer_loadouts/attack_body_fire.png
+        - 
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/robes_attack_weapon_wood.png
+        - Assets/Characters/archer_loadouts/robes_attack_weapon_fire.png
+        - Assets/Characters/archer_loadouts/robes_attack_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+      - action: run
+        label: Run
+        frameCount: 16
+        fps: 16
+        loop: 1
+        bodySheets:
+        - Assets/Characters/archer_loadouts/run_body_forest.png
+        - Assets/Characters/archer_loadouts/run_body_fire.png
+        - 
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/robes_run_weapon_wood.png
+        - Assets/Characters/archer_loadouts/robes_run_weapon_fire.png
+        - Assets/Characters/archer_loadouts/robes_run_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+      - action: run_start
+        label: Run start
+        frameCount: 10
+        fps: 16
+        loop: 0
+        bodySheets:
+        - Assets/Characters/archer_loadouts/run_start_body_forest.png
+        - Assets/Characters/archer_loadouts/run_start_body_fire.png
+        - 
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/robes_run_start_weapon_wood.png
+        - Assets/Characters/archer_loadouts/robes_run_start_weapon_fire.png
+        - Assets/Characters/archer_loadouts/robes_run_start_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+      - action: run_stop
+        label: Run stop
+        frameCount: 24
+        fps: 16
+        loop: 0
+        bodySheets:
+        - Assets/Characters/archer_loadouts/run_stop_body_forest.png
+        - Assets/Characters/archer_loadouts/run_stop_body_fire.png
+        - 
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/robes_run_stop_weapon_wood.png
+        - Assets/Characters/archer_loadouts/robes_run_stop_weapon_fire.png
+        - Assets/Characters/archer_loadouts/robes_run_stop_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+      - action: death
+        label: Death
+        frameCount: 40
+        fps: 16
+        loop: 0
+        bodySheets:
+        - Assets/Characters/archer_loadouts/death_body_forest.png
+        - Assets/Characters/archer_loadouts/death_body_fire.png
+        - 
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/robes_death_weapon_wood.png
+        - Assets/Characters/archer_loadouts/robes_death_weapon_fire.png
+        - Assets/Characters/archer_loadouts/robes_death_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+    - id: heavenly
+      animations:
+      - action: idle
+        label: Idle
+        frameCount: 64
+        fps: 16
+        loop: 1
+        bodySheets:
+        - 
+        - 
+        - Assets/Characters/archer_loadouts/idle_body_heavenly.png
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/heavenly_idle_weapon_wood.png
+        - Assets/Characters/archer_loadouts/heavenly_idle_weapon_fire.png
+        - Assets/Characters/archer_loadouts/heavenly_idle_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+      - action: idle_headturn
+        label: Idle + head turn
+        frameCount: 128
+        fps: 16
+        loop: 0
+        bodySheets:
+        - 
+        - 
+        - Assets/Characters/archer_loadouts/idle_headturn_body_heavenly.png
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/heavenly_idle_headturn_weapon_wood.png
+        - Assets/Characters/archer_loadouts/heavenly_idle_headturn_weapon_fire.png
+        - Assets/Characters/archer_loadouts/heavenly_idle_headturn_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+      - action: idle_shift
+        label: Idle + weight shift
+        frameCount: 128
+        fps: 16
+        loop: 0
+        bodySheets:
+        - 
+        - 
+        - Assets/Characters/archer_loadouts/idle_shift_body_heavenly.png
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/heavenly_idle_shift_weapon_wood.png
+        - Assets/Characters/archer_loadouts/heavenly_idle_shift_weapon_fire.png
+        - Assets/Characters/archer_loadouts/heavenly_idle_shift_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+      - action: hit
+        label: Hit
+        frameCount: 20
+        fps: 16
+        loop: 0
+        bodySheets:
+        - 
+        - 
+        - Assets/Characters/archer_loadouts/hit_body_heavenly.png
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/heavenly_hit_weapon_wood.png
+        - Assets/Characters/archer_loadouts/heavenly_hit_weapon_fire.png
+        - Assets/Characters/archer_loadouts/heavenly_hit_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+      - action: defend
+        label: Defend
+        frameCount: 30
+        fps: 16
+        loop: 0
+        bodySheets:
+        - 
+        - 
+        - Assets/Characters/archer_loadouts/defend_body_heavenly.png
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/heavenly_defend_weapon_wood.png
+        - Assets/Characters/archer_loadouts/heavenly_defend_weapon_fire.png
+        - Assets/Characters/archer_loadouts/heavenly_defend_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+      - action: attack
+        label: Attack
+        frameCount: 43
+        fps: 16
+        loop: 0
+        bodySheets:
+        - 
+        - 
+        - Assets/Characters/archer_loadouts/attack_body_heavenly.png
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/heavenly_attack_weapon_wood.png
+        - Assets/Characters/archer_loadouts/heavenly_attack_weapon_fire.png
+        - Assets/Characters/archer_loadouts/heavenly_attack_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+      - action: run
+        label: Run
+        frameCount: 16
+        fps: 16
+        loop: 1
+        bodySheets:
+        - 
+        - 
+        - Assets/Characters/archer_loadouts/run_body_heavenly.png
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/heavenly_run_weapon_wood.png
+        - Assets/Characters/archer_loadouts/heavenly_run_weapon_fire.png
+        - Assets/Characters/archer_loadouts/heavenly_run_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+      - action: run_start
+        label: Run start
+        frameCount: 10
+        fps: 16
+        loop: 0
+        bodySheets:
+        - 
+        - 
+        - Assets/Characters/archer_loadouts/run_start_body_heavenly.png
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/heavenly_run_start_weapon_wood.png
+        - Assets/Characters/archer_loadouts/heavenly_run_start_weapon_fire.png
+        - Assets/Characters/archer_loadouts/heavenly_run_start_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+      - action: run_stop
+        label: Run stop
+        frameCount: 24
+        fps: 16
+        loop: 0
+        bodySheets:
+        - 
+        - 
+        - Assets/Characters/archer_loadouts/run_stop_body_heavenly.png
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/heavenly_run_stop_weapon_wood.png
+        - Assets/Characters/archer_loadouts/heavenly_run_stop_weapon_fire.png
+        - Assets/Characters/archer_loadouts/heavenly_run_stop_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+      - action: death
+        label: Death
+        frameCount: 40
+        fps: 16
+        loop: 0
+        bodySheets:
+        - 
+        - 
+        - Assets/Characters/archer_loadouts/death_body_heavenly.png
+        weaponSheets:
+        - Assets/Characters/archer_loadouts/heavenly_death_weapon_wood.png
+        - Assets/Characters/archer_loadouts/heavenly_death_weapon_fire.png
+        - Assets/Characters/archer_loadouts/heavenly_death_weapon_heavenly.png
+        bodyExtents:
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        weaponExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+        - serializedVersion: 2
+          x: -0.5
+          y: 0
+          width: 1
+          height: 1
+  - character: knight
+    bodies:
+    - id: knight
+      label: Knight
+      frameSet: versions
+    weapons: []
+    frameSets:
+    - id: versions
+      animations:
+      - action: idle
+        label: Idle
+        frameCount: 139
+        fps: 32
+        loop: 1
+        bodySheets:
+        - Assets/Characters/knight_versions/idle_v9.png
+        weaponSheets: []
+        bodyExtents:
+        - serializedVersion: 2
+          x: -0.45117188
+          y: 0.109375
+          width: 0.8222656
+          height: 0.890625
+        weaponExtents: []
+      - action: fidget_blink
+        label: Fidget blink
+        frameCount: 41
+        fps: 24
+        loop: 0
+        bodySheets:
+        - Assets/Characters/knight_versions/fidget_blink_v1.png
+        weaponSheets: []
+        bodyExtents:
+        - serializedVersion: 2
+          x: -0.44335938
+          y: 0.109375
+          width: 0.8125
+          height: 0.8808594
+        weaponExtents: []
+      - action: fidget_glance
+        label: Fidget glance
+        frameCount: 92
+        fps: 24
+        loop: 0
+        bodySheets:
+        - Assets/Characters/knight_versions/fidget_glance_v2.png
+        weaponSheets: []
+        bodyExtents:
+        - serializedVersion: 2
+          x: -0.44335938
+          y: 0.109375
+          width: 0.8125
+          height: 0.890625
+        weaponExtents: []
+      - action: fidget_regrip
+        label: Fidget regrip
+        frameCount: 70
+        fps: 24
+        loop: 0
+        bodySheets:
+        - Assets/Characters/knight_versions/fidget_regrip_v2.png
+        weaponSheets: []
+        bodyExtents:
+        - serializedVersion: 2
+          x: -0.453125
+          y: 0.109375
+          width: 0.8222656
+          height: 0.8808594
+        weaponExtents: []
+      - action: attack
+        label: Attack
+        frameCount: 92
+        fps: 24
+        loop: 0
+        bodySheets:
+        - Assets/Characters/knight_versions/attack_v3.png
+        weaponSheets: []
+        bodyExtents:
+        - serializedVersion: 2
+          x: -0.5
+          y: 0.109375
+          width: 0.9375
+          height: 0.8808594
+        weaponExtents: []
+      - action: defend
+        label: Defend
+        frameCount: 72
+        fps: 16
+        loop: 0
+        bodySheets:
+        - Assets/Characters/knight_versions/defend_v1.png
+        weaponSheets: []
+        bodyExtents:
+        - serializedVersion: 2
+          x: -0.36914062
+          y: 0.083984375
+          width: 0.7519531
+          height: 0.8613281
+        weaponExtents: []
+      - action: hurt
+        label: Hurt
+        frameCount: 32
+        fps: 16
+        loop: 0
+        bodySheets:
+        - Assets/Characters/knight_versions/hurt_v1.png
+        weaponSheets: []
+        bodyExtents:
+        - serializedVersion: 2
+          x: -0.4140625
+          y: 0.09765625
+          width: 0.8105469
+          height: 0.84375
+        weaponExtents: []

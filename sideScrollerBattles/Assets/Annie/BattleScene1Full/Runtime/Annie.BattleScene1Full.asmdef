@@ -1,0 +1,10 @@
+{
+    "name": "Annie.BattleScene1Full",
+    "rootNamespace": "Annie.BattleScene1Full",
+    "references": [ "Annie.Shared", "Annie.BattleScene1Wind", "Unity.RenderPipelines.Universal.2D.Runtime" ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "autoReferenced": true
+}

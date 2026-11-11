@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: a7dbcaf0e0eed437f92fa3ba7a738bb0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6426963197941828152
+    second: attack_body_forest_0
+  - first:
+      213: 6115789882018636225
+    second: attack_body_forest_1
+  - first:
+      213: 9217994975714912819
+    second: attack_body_forest_2
+  - first:
+      213: 129808802862987235
+    second: attack_body_forest_3
+  - first:
+      213: -4107329825477198471
+    second: attack_body_forest_4
+  - first:
+      213: 5791267043522066847
+    second: attack_body_forest_5
+  - first:
+      213: -5958035592496532056
+    second: attack_body_forest_6
+  - first:
+      213: -8762131790795851011
+    second: attack_body_forest_7
+  - first:
+      213: 6620885395905289525
+    second: attack_body_forest_8
+  - first:
+      213: -5793964162640714331
+    second: attack_body_forest_9
+  - first:
+      213: -7606315883581987123
+    second: attack_body_forest_10
+  - first:
+      213: 7441004335398892341
+    second: attack_body_forest_11
+  - first:
+      213: -7506518886636643784
+    second: attack_body_forest_12
+  - first:
+      213: -932396045193028989
+    second: attack_body_forest_13
+  - first:
+      213: -7787714624937873415
+    second: attack_body_forest_14
+  - first:
+      213: 354706769040447361
+    second: attack_body_forest_15
+  - first:
+      213: 766066894481476517
+    second: attack_body_forest_16
+  - first:
+      213: 7402859594957948856
+    second: attack_body_forest_17
+  - first:
+      213: -3084516652282403207
+    second: attack_body_forest_18
+  - first:
+      213: -9102270295755629518
+    second: attack_body_forest_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attack_body_forest_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1616
+        width: 312
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ac4dd1af8213950800000000000000
+      internalID: 6426963197941828152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_1
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1616
+        width: 312
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c126aeae76afd450800000000000000
+      internalID: 6115789882018636225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_2
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1616
+        width: 342
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33aa2d46795ecef70800000000000000
+      internalID: 9217994975714912819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_3
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1616
+        width: 332
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7fd5f1b6c2dc100800000000000000
+      internalID: 129808802862987235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_4
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 1616
+        width: 322
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d70190945dff6c0800000000000000
+      internalID: -4107329825477198471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1104
+        width: 322
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f993f8051b6be5050800000000000000
+      internalID: 5791267043522066847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_6
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1104
+        width: 324
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a53c16123ec05da0800000000000000
+      internalID: -5958035592496532056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_7
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1104
+        width: 324
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfab47e5f87a66680800000000000000
+      internalID: -8762131790795851011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_8
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1104
+        width: 315
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d9189403c12eb50800000000000000
+      internalID: 6620885395905289525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_9
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 1104
+        width: 308
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5e474ba44b79fa0800000000000000
+      internalID: -5793964162640714331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 592
+        width: 295
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc62fadf000f07690800000000000000
+      internalID: -7606315883581987123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_11
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 592
+        width: 279
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533b797d402c34760800000000000000
+      internalID: 7441004335398892341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_12
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 592
+        width: 279
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a134608dc73d790800000000000000
+      internalID: -7506518886636643784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_13
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 592
+        width: 286
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a5a48acb67f03f0800000000000000
+      internalID: -932396045193028989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_14
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 592
+        width: 288
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffa6784fca7ce390800000000000000
+      internalID: -7787714624937873415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_15
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 80
+        width: 290
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18715185deb2ce400800000000000000
+      internalID: 354706769040447361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_16
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 80
+        width: 288
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab41cf18cd91aa00800000000000000
+      internalID: 766066894481476517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_17
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 80
+        width: 287
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b78f8f549d3cb660800000000000000
+      internalID: 7402859594957948856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_18
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 80
+        width: 287
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9762eec72789135d0800000000000000
+      internalID: -3084516652282403207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_body_forest_19
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 80
+        width: 288
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c55e3546d3ea180800000000000000
+      internalID: -9102270295755629518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      attack_body_forest_0: 6426963197941828152
+      attack_body_forest_1: 6115789882018636225
+      attack_body_forest_10: -7606315883581987123
+      attack_body_forest_11: 7441004335398892341
+      attack_body_forest_12: -7506518886636643784
+      attack_body_forest_13: -932396045193028989
+      attack_body_forest_14: -7787714624937873415
+      attack_body_forest_15: 354706769040447361
+      attack_body_forest_16: 766066894481476517
+      attack_body_forest_17: 7402859594957948856
+      attack_body_forest_18: -3084516652282403207
+      attack_body_forest_19: -9102270295755629518
+      attack_body_forest_2: 9217994975714912819
+      attack_body_forest_3: 129808802862987235
+      attack_body_forest_4: -4107329825477198471
+      attack_body_forest_5: 5791267043522066847
+      attack_body_forest_6: -5958035592496532056
+      attack_body_forest_7: -8762131790795851011
+      attack_body_forest_8: 6620885395905289525
+      attack_body_forest_9: -5793964162640714331
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

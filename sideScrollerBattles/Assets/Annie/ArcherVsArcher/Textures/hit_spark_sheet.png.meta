@@ -1,0 +1,639 @@
+fileFormatVersion: 2
+guid: 62ceb769c273e4f96bdd3fae48099a06
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5916201799520992271
+    second: hit_spark_sheet_0
+  - first:
+      213: -1421027090562608993
+    second: hit_spark_sheet_1
+  - first:
+      213: 8699384018361891275
+    second: hit_spark_sheet_2
+  - first:
+      213: -5981569304145757331
+    second: hit_spark_sheet_3
+  - first:
+      213: -2734624584733398298
+    second: hit_spark_sheet_4
+  - first:
+      213: 1234978348962014797
+    second: hit_spark_sheet_5
+  - first:
+      213: 3693909325225861024
+    second: hit_spark_sheet_6
+  - first:
+      213: 7205381089948689720
+    second: hit_spark_sheet_7
+  - first:
+      213: 7095227645702079711
+    second: hit_spark_sheet_8
+  - first:
+      213: 2731031779465103957
+    second: hit_spark_sheet_9
+  - first:
+      213: 2862676308025556039
+    second: hit_spark_sheet_10
+  - first:
+      213: 5036597563661474371
+    second: hit_spark_sheet_11
+  - first:
+      213: 2455282339846634034
+    second: hit_spark_sheet_12
+  - first:
+      213: 1370280321119134234
+    second: hit_spark_sheet_13
+  - first:
+      213: -1698177879102516156
+    second: hit_spark_sheet_14
+  - first:
+      213: -2986760703923628370
+    second: hit_spark_sheet_15
+  - first:
+      213: 520239225831526680
+    second: hit_spark_sheet_16
+  - first:
+      213: 8661965715114661122
+    second: hit_spark_sheet_17
+  - first:
+      213: -8444942857908828287
+    second: hit_spark_sheet_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hit_spark_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 118
+        width: 292
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f346080fcd65eda0800000000000000
+      internalID: -5916201799520992271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_spark_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 315
+        width: 58
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f901fcad36f774ce0800000000000000
+      internalID: -1421027090562608993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_spark_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 372
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9bb236cab6ab870800000000000000
+      internalID: 8699384018361891275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_spark_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 137
+        width: 251
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bf20bd8623dfca0800000000000000
+      internalID: -5981569304145757331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_spark_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 296
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea6ae8cd69ac0ad0800000000000000
+      internalID: -2734624584733398298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_spark_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 333
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46ed23e346832110800000000000000
+      internalID: 1234978348962014797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_spark_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2914
+        y: 342
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af179ac5f6634330800000000000000
+      internalID: 3693909325225861024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_spark_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 215
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83565b1fce7aef360800000000000000
+      internalID: 7205381089948689720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_spark_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 260
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd48a9e93ff477260800000000000000
+      internalID: 7095227645702079711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_spark_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 280
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a025d0fe296e520800000000000000
+      internalID: 2731031779465103957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_spark_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 285
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c3ace5fe44ab720800000000000000
+      internalID: 2862676308025556039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_spark_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 170
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ad3a29cc695e540800000000000000
+      internalID: 5036597563661474371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_spark_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 199
+        width: 69
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a39d9874ae21220800000000000000
+      internalID: 2455282339846634034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_spark_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 197
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12a30721b6340310800000000000000
+      internalID: 1370280321119134234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_spark_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 196
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4441bae573cde68e0800000000000000
+      internalID: -1698177879102516156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_spark_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 131
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6598dd6f4ec86d0800000000000000
+      internalID: -2986760703923628370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_spark_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 152
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81199edc1d2483700800000000000000
+      internalID: 520239225831526680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_spark_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 147
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2059502cceb753870800000000000000
+      internalID: 8661965715114661122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit_spark_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 105
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1874fd5c6398dca80800000000000000
+      internalID: -8444942857908828287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hit_spark_sheet_0: -5916201799520992271
+      hit_spark_sheet_1: -1421027090562608993
+      hit_spark_sheet_10: 2862676308025556039
+      hit_spark_sheet_11: 5036597563661474371
+      hit_spark_sheet_12: 2455282339846634034
+      hit_spark_sheet_13: 1370280321119134234
+      hit_spark_sheet_14: -1698177879102516156
+      hit_spark_sheet_15: -2986760703923628370
+      hit_spark_sheet_16: 520239225831526680
+      hit_spark_sheet_17: 8661965715114661122
+      hit_spark_sheet_18: -8444942857908828287
+      hit_spark_sheet_2: 8699384018361891275
+      hit_spark_sheet_3: -5981569304145757331
+      hit_spark_sheet_4: -2734624584733398298
+      hit_spark_sheet_5: 1234978348962014797
+      hit_spark_sheet_6: 3693909325225861024
+      hit_spark_sheet_7: 7205381089948689720
+      hit_spark_sheet_8: 7095227645702079711
+      hit_spark_sheet_9: 2731031779465103957
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,7 +9,7 @@ using UnityEngine;
 [RequireComponent(typeof(Camera))]
 public class ShowcaseCameraFit : MonoBehaviour
 {
-    private const float CellSize = 1f; // one 256px cell at 256 pixels-per-unit
+    private const float CellSize = 1f; // one cell at its own frameWidth pixels-per-unit
 
     private Camera _camera;
     private int _lastWidth;

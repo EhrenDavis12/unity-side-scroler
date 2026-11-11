@@ -1,0 +1,13 @@
+{
+    "name": "Annie.StarSageSpell",
+    "rootNamespace": "Annie.StarSageSpell",
+    "references": [
+        "Annie.Shared",
+        "Unity.RenderPipelines.Universal.2D.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "autoReferenced": true
+}
